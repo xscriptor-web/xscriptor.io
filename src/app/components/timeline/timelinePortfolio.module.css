@@ -1,0 +1,5 @@
+.ulStyles {
+  list-style-type: disc;
+  padding-left: 1.25rem; /* pl-5 */
+  margin-top: 0.25rem; /* mt-1 */
+}

@@ -1,0 +1,2147 @@
+{
+  "locale": {
+    "en": "English",
+    "es": "Español",
+    "de": "Deutsch",
+    "it": "Italiano",
+    "fr": "Français"
+  },
+  "Navbar": {
+    "home": "Go home",
+    "resources": "Go resources",
+    "repos": "Go repos page",
+    "x": "Go to x page",
+    "portfolio": "Go portfolio",
+    "contact": "Go contact page",
+    "xscriptor": "Go xscriptor main page",
+    "web": "Go web",
+    "themeToggle": "Toggle theme"
+  },
+  "Footer": {
+    "text": "Xscriptor/Dev"
+  },
+  "XwaProjects": {
+    "pageTitle": "XW",
+    "pageTitleEm": "Web Analysis",
+    "pageSub": "The methods of discovery",
+    "samuraiTitle": "SAMURAI",
+    "samuraiSub": "Automated Vulnerability Discovery & Reconnaissance Engine",
+    "samuraiDesc": "A full-stack cybersecurity analysis platform combining Angular 21 on the frontend with a FastAPI backend and real-time WebSocket push — purpose-built for running concurrent nmap, SQLMap, Nuclei, and Playwright scan pipelines against target infrastructure.",
+    "samuraiHomeTitle": "XW Web Analysis",
+    "samuraiHomeSub": "a complete suite for web analysis",
+    "shinobiTitle": "SHINOBI",
+    "shinobiSub": "Silent Web Scraper — Anti-Blocking Download System",
+    "shinobiDesc": "A stealth web scraper with a single web interface. Downloads entire sites — HTML, CSS, JS, images, PDFs — while evading detection through multiple anti-blocking layers: user-agent rotation, header randomization, request delay with jitter, exponential backoff, and proxy support.",
+    "launch": "Launch project",
+    "mysteryTitle": "???",
+    "mysterySub": "What's next?"
+  },
+  "WebLab": {
+    "xwaTitle": "XW Web Analysis",
+    "xwaDesc": "XW Web Analysis — a cluster of tools for deep web analysis, security auditing, and infrastructure reconnaissance.",
+    "xcomponentsTitle": "XComponents",
+    "xcomponentsDesc": "Reusable React/Next.js UI component library with interactive demos.",
+    "portfoliosTitle": "Portfolios"
+  },
+  "SimpleHome": {
+    "title": "XSCRIPTOR/DEV",
+    "home": "home",
+    "homeDesc": "X Scriptor — Developer & Writer",
+    "portfolio": "portfolio",
+    "portfolioDesc": "Projects, timeline & selected works",
+    "resources": "resources",
+    "resourcesDesc": "Dev themes, tools & configurations",
+    "terminal": "terminal themes",
+    "terminalDesc": "Color schemes for your terminal",
+    "vscode": "vscode themes",
+    "vscodeDesc": "Themes for VS Code & forks",
+    "obsidian": "obsidian themes",
+    "obsidianDesc": "Elegant theme for writers",
+    "jetbrains": "jetbrains themes",
+    "jetbrainsDesc": "Theme pack for JetBrains IDEs",
+    "xfetch": "xfetch",
+    "xfetchDesc": "System info fetcher in Rust",
+    "ai": "AI tools & prompts",
+    "aiDesc": "Prompts & agent configs",
+    "colors": "color palettes",
+    "colorsDesc": "Xscriptor color tokens",
+    "opencode": "opencode CLI",
+    "opencodeDesc": "CLI agent for engineering",
+    "more": "more...",
+    "web": "web",
+    "webDesc": "XWA, SAMURAI & XComponents",
+    "xwa": "  XWA platform",
+    "samurai": "    SAMURAI",
+    "shinobi": "    SHINOBI",
+    "xcomponents": "  XComponents library",
+    "contact": "contact",
+    "contactDesc": "Telegram, GitHub, email & more",
+    "linkXscriptor": "xscriptor.com",
+    "linkArt": "art.xscriptor.com",
+    "linkGithub": "github.com/xscriptor",
+    "linkXfetch": "xfetch (Rust)",
+    "linkXPM": "XPM / XPKG",
+    "linkTerminal": "terminal schemes",
+    "moreExternal": "",
+    "classicMode": "[ classic mode ]"
+  },
+  "HomePage": {
+    "heroTitle1": "Discover the",
+    "heroTitle1Em": "depth",
+    "heroTitle2": "and",
+    "heroTitle2Em": "finesse",
+    "heroTitle3": "of our work",
+    "heroDescription": "Developer and writer, currently exploring areas such as design, cryptography, and security within computing. The focus lies on clean architecture, UI/UX consistency, and interactive design.",
+    "typewriterWords": [
+      "Art",
+      "Literature",
+      "DevSecOps"
+    ],
+    "heroSubDescription": "Responsive web applications are the main craft, with occasional collaborations on software development. Component-based architecture, performance, and scalable code across different languages are always prioritized, while adapting to the needs of each project. The previews below highlight work with TypeScript, JavaScript, CSS3, Tailwind, PHP, static exports, and hands-on API integration.",
+    "selectedWorks": "Other projects",
+    "galleryText1": "Exploring innovative concepts and pushing the boundaries of visual storytelling. Each project represents a unique journey through forms and expressions.",
+    "galleryLinksBefore": "Around ",
+    "galleryLinksAfter": " development:",
+    "galleryAndMore": "and more... through non personal projects.",
+    "galleryXDistro": "X · The definitive spin of arch linux growing as a distro.",
+    "galleryCodeXThemes": "Code X Themes · accessibility starts from the code.",
+    "galleryXWA": "XWA · Our own system to analyze and solve specific needs",
+    "galleryXWAFor": "for any kind of project.",
+    "galleryXPM": "XPM · The future package manager of X and",
+    "galleryXPKG": "XPKG · The definitive packaging tool for developers in X.",
+    "galleryXfetch": "Xfetch · The modern alternative to fastfetch.",
+    "galleryXJetBrains": "X JetBrains · A collection of themes for JetBrains IDEs.",
+    "galleryXHyprland": "X Hyprland · Perfect desktop development environment for productivity on your own system.",
+    "galleryXTerminal": "X Terminal Schemes · Schemes to increase productivity on your environment.",
+    "galleryJoinTeam": "Do you want to join team X or need help with some development?",
+    "galleryContactMe": "Contact me",
+    "literaryAndArtistic": "Projects",
+    "skillsTitle": "Social",
+    "tagline": "Building the web one pixel at a time, from anywhere.",
+    "cta": "Pushing boundaries through design, code, and collaboration.",
+    "ctaButton": "Let's talk",
+    "skillConstellationView": "X-constellation_view: interactive",
+    "prototypesVideoTitle": "Prototypes",
+    "interfacesGalleryTitle": "Interfaces and components",
+    "protoDesc1": "Conservative web development · identity preservation · writer",
+    "protoDesc2": "Turbo deployment · open source application · digital tools · XFtech",
+    "protoDesc3": "Modern web development · identity expression · Writer's Portfolio"
+  },
+  "ContactPage": {
+    "title": "Contact",
+    "telegram": "Telegram",
+    "instagramDev": "Instagram (X-Dev)",
+    "whatsapp": "WhatsApp",
+    "instagramXscriptor": "Instagram (Xscriptor)",
+    "github": "GitHub",
+    "email": "Email",
+    "metadata": {
+      "title": "Contact - xscriptor",
+      "description": "Here you will find the means to contact with me."
+    },
+    "pgpTitle": "PGP Public Key",
+    "copyKey": "Copy key",
+    "copiedKey": "Copied ✓",
+    "scanToVerify": "Scan to verify",
+    "loading": "Loading…"
+  },
+  "ContactForm": {
+    "nameLabel": "Name*://",
+    "namePlaceholder": "Your name here",
+    "emailLabel": "Email*://",
+    "emailPlaceholder": "email",
+    "numberLabel": "Number://",
+    "numberPlaceholder": "phone (optional)",
+    "messageLabel": "Message*://",
+    "messagePlaceholder": "your message",
+    "send": "Send",
+    "subject": "New contact message"
+  },
+  "ResourcesPage": {
+    "title1": "Development",
+    "title1Em": "lab",
+    "subtitle1": "Engineering",
+    "subtitle1Em": "Innovative Solutions",
+    "subtitle2": "&",
+    "subtitle2Em": "Open Source Architectures",
+    "footer": "More resources for developers and writers available at",
+    "footerLink": "github.com/xscriptor",
+    "ariaLabel": "Open {name} repository",
+    "searchPlaceholder": "Search...",
+    "filterAll": "All",
+    "filterInternal": "Internal",
+    "filterExternal": "External",
+    "filterThemes": "Themes",
+    "filterApps": "Apps",
+    "noResults": "No resources match",
+    "explore": "Explore",
+    "categoryThemes": "themes",
+    "categoryApplications": "applications",
+    "repo": {
+      "ai": "Artificial intelligence tools, prompts, skills, and model configurations for the Xscriptor ecosystem.",
+      "colors": "All Xscriptor color palettes in one place — themes for terminals, editors, and IDEs.",
+      "web": "Web projects and UI components — Samurai security platform, Shinobi scraper, and the Xcomponents library.",
+      "fresh": "A collection of custom color themes for Fresh, the terminal text editor",
+      "helix": "Xscriptor Themes for helix",
+      "hyprland": "A clean, performance-oriented Hyprland configuration featuring a [X] aesthetic, optimized for productivity and seamless workflow on X and Arch Linux",
+      "jetbrains": "Essential settings and customizations to improve accessibility and personalization of JetBrains IDEs using the Xscriptor ecosystem (themes, snippets...)",
+      "obsidian": "An elegant Obsidian theme for coders and writers with beautiful EB Garamond typography and flexible customization.",
+      "opencode": "An interactive CLI agent that helps with software engineering tasks directly from your terminal.",
+      "terminal": "Official Xscriptor Terminal themes",
+      "vscode": "A complete suite of customizations for VSCode & Forks, including themes, code snippets, and UI mods.",
+      "x": "Scripts for x, including the main x.sh entrypoint and modular add-ons. The base script installs the x wrapper, applies required system configuration after installation.",
+      "xclock": "A terminal-based clock application written in Rust, inspired by ttyclock. It features a digital clock with ASCII art, countdown timers, and various customization options.",
+      "xfetch": "A fast, lightweight, and highly customizable system information fetcher for the terminal, built in Rust. Display your system info with style and flexibility.",
+      "xtop": "Xtop, a modern, cross-platform TUI system monitor written in Rust. Inspired by btop, it leverages ratatui and sysinfo to provide real-time monitoring.",
+      "xglass": "A glassmorphism VS Code theme with translucent backgrounds and vibrant accents.",
+      "oxt": "Extended tooling and utilities for the Xscriptor development ecosystem."
+    },
+    "footerCopyright": "Xscriptor/Dev"
+  },
+  "DevxSkillPage": {
+    "borderActiveNote": "Applied to focused inputs, selected items, and active navigation states. The primary hue blends into the border to signal interactivity without overwhelming the interface design.",
+    "borderDashedNote": "Reserved for drop zones, placeholder areas, and informational callouts. The dashed stroke visually distinguishes supplementary content from primary surfaces.",
+    "borderStandardNote": "Used for default card borders, field outlines, and surface edges. The reduced opacity keeps the border present but unobtrusive, allowing content to remain the focal point of every component.",
+    "bordersDesc": "Three border variants used across the system: standard for cards and controls, primary-tinted for active states, and dashed for hint containers.",
+    "bordersTitle": "Border Styles",
+    "buttonDesc": "Three button tiers: primary filled for main actions, secondary outlined for alternatives, and ghost for subtle inline controls.",
+    "buttonMeta": "Three button tiers provide a clear visual hierarchy across the interface. The <strong>primary</strong> button uses <code>var(--primary)</code> as its solid fill and stands out as the main call to action on any surface. <strong>Secondary</strong> buttons use a subtle border and transparent background, ideal for alternative actions that should remain visible but not compete with the primary action. <strong>Ghost</strong> buttons carry no surface or border at all — they are used for tertiary controls that must exist in the layout but should not draw the user's focus away from primary and secondary actions. A disabled variant demonstrates the reduced-opacity fallback applied when actions are unavailable.",
+    "buttonTitle": "Button Patterns",
+    "colorDesc": "The six color tokens applied as surface fills, demonstrating their visual weight and hierarchy across both light and dark modes.",
+    "colorTitle": "Color Token Application",
+    "colorTokenMeta": "Each token maps to a semantic CSS custom property consumed across every component in the system. Buttons inherit <code>--primary</code> for their fill color, cards blend <code>--card-bg</code> with the base background via color-mix, and text nodes reference <code>--foreground</code> or <code>--text-muted</code> depending on their hierarchy level. When the theme toggles, every token updates in unison — no manual overrides or per-component adjustments are needed. This centralized approach guarantees visual consistency across the entire interface regardless of page depth or component type.",
+    "compositionDesc": "Each section follows a three-part structure: identity, main content surface, and supporting utility or call to action.",
+    "compositionMeta": "Each section block follows a three-layer rhythm: identity context at the top (badge, icon, or label), the main content surface in the middle (text, controls, or interactive elements), and a supporting utility layer at the bottom (metadata, secondary actions, or CTAs). This predictable vertical structure helps users scan and navigate content quickly across every page in the system, reducing cognitive load through consistent spatial hierarchy.",
+    "compositionTitle": "Section Composition",
+    "darkPaletteDesc": "Dark mode swatches with the same token structure. The background deepens while accent colors remain consistent across both modes.",
+    "darkPaletteMeta": "Dark mode swatches shift to a near-black background (#0a0a0a) with a soft off-white foreground (#ededed) that reduces eye strain in low-light environments. The gold primary (#fbbf24) provides warm, accessible accents across buttons, links, and active indicators. Zinc muted text (#9ca3af) provides consistent secondary contrast. Border (#27272a) deepens to a cool charcoal that maintains visual separation without introducing glare. Card background (#18181b) sits slightly above the page surface, creating a subtle elevation effect for layered containers.",
+    "darkPaletteTitle": "Dark Palette",
+    "fixedDarkDesc": "Button appearance under a fixed dark palette (#0a0a0a background, #fbbf24 primary, #9ca3af muted), independent of the global theme.",
+    "fixedLightDesc": "Button appearance under a fixed light palette (#ffffff background, #4328a8 primary, #6b7280 muted), independent of the global theme.",
+    "fontFamilyDesc": "The system uses a primary monospace stack for code and data, with the interface font inherited from the project theme for headings and body text.",
+    "fontFamilyMeta": "Three font families serve distinct roles. Serif provides a traditional, authoritative voice for headings and long-form content. Sans-serif handles the bulk of UI text with clean readability at small sizes. Mono ensures precise alignment for code and configuration blocks where character-level spacing and legibility are critical for accuracy.",
+    "fontFamilyTitle": "Font Families",
+    "fontSampleMono": "const theme = { palette: { primary: \"#6C63FF\", muted: \"#8E8E9A\", border: \"#D4D4DC\", cardBg: \"#F0F0F5\" } }; const tokens = createThemeTokens(theme); export default tokens;",
+    "fontSampleSans": "The quick brown fox jumps over the lazy dog near the bank of the river. A serene landscape unfolds with every passing moment, inviting the reader to linger just a little longer on the page and absorb the carefully crafted words that follow across the columns below.",
+    "fontSampleSerif": "The quick brown fox jumps over the lazy dog near the bank of the river. A serene landscape unfolds with every passing moment, inviting the reader to linger just a little longer on the page and absorb the carefully crafted words that follow across the columns below.",
+    "heroDesc": "A technical UI system for developer resource pages — minimal, content-led, and built around a consistent token architecture.",
+    "heroSub": "A comprehensive showcase of every design token, surface pattern, typographic scale, spacing rhythm, and interactive component that powers the DevX experience across light and dark themes. Each example renders live from the underlying CSS custom properties — no hardcoded values, no mockups.",
+    "heroTitle": "DevX Design System",
+    "lhNormal": "The standard reading rhythm for body text, balancing readability with information density across paragraphs and descriptions. This is the default applied to all prose content, card descriptions, documentation text blocks, and UI copy throughout the entire design system.",
+    "lhRelaxed": "A spacious line height used for introductory content and extended descriptions, giving each line room to breathe for longer reading sessions. Best suited for hero subtitles, feature overviews, and any block of text where comprehension and reading comfort are the highest priority.",
+    "lhTight": "A compact line height ideal for headings where vertical economy matters and every word carries weight across narrow layouts. Commonly used for page titles, section headings, and callout headers that need to stay visually dense without wasting vertical space between lines of text.",
+    "lightPaletteDesc": "Light mode swatches sourced from the documented theme tokens, including the six CSS custom properties and the X theme brand accent colors used in navbar icons and interactive states.",
+    "lightPaletteMeta": "Light mode swatches sourced from the project theme tokens defined in globals.css. The background (#ffffff) is a clean white for optimal readability. Foreground (#171717) is a deep near-black for primary text. The violet primary (#4328a8) provides accessible accents across buttons, links, and active indicators. Stone (#6b7280) handles muted secondary text, while border (#e5e7eb) separates content layers with a subtle line. Card backgrounds (#f9fafb) sit slightly above the page surface.",
+    "lightPaletteTitle": "Light Palette",
+    "lineHeightDesc": "Three line heights create the reading rhythm: tight for headings, normal for body copy, and relaxed for introductory passages.",
+    "lineHeightTitle": "Line Height Contrast",
+    "outro": "The DevX system proves that restraint in tokens, spacing, and typography creates interfaces that are both visually cohesive and easy to extend.",
+    "outroSub": "Every token, swatch, surface pattern, and typographic scale documented on this page is live — pulled directly from the same CSS custom properties that drive every component in the DevX design system. Change a variable value at the root level and every consumer across the entire interface updates in unison. No recompilation, no rebuild, no extra deploy. That is the power of a token-driven system built on CSS custom properties. The patterns shown here form the foundation for every resource page, skill showcase, and interactive component across the platform.",
+    "paletteCompare": "When comparing light and dark palettes, the most significant shift occurs in the <strong>background</strong> (from #ffffff to #0a0a0a) and <strong>primary</strong> (from #4328a8 to #fbbf24) tokens. The light-mode violet primary (#4328a8) shifts to a warm gold (#fbbf24) in dark mode to maintain WCAG AA contrast ratios against the dark surface. The <strong>card-bg</strong> token in dark mode (#18181b) is slightly lighter than the page background, creating a subtle elevation effect that helps layered surfaces feel physically stacked.",
+    "radiusDesc": "Four radius levels define the surface language: square for technical elements, soft for cards, rounded for media, and full pill for badges.",
+    "radiusTitle": "Border Radius",
+    "spacingDesc": "A disciplined spacing scale that creates hierarchy through contrast before introducing borders or dividers.",
+    "spacingMeta": "The spacing scale progresses from tight (0.25rem) through standard (0.75rem) and section (1.25rem) to major (3.5rem). Each step is tuned for a specific purpose: tight for inline gaps between closely related elements, standard for card padding and inner gutters, section for separating distinct page segments, and major for hero margins, modal padding, and full-width banner spacing. This logarithmic progression ensures visual rhythm is maintained at every layout level without arbitrary values.",
+    "spacingTitle": "Spacing Rhythm",
+    "surfaceDesc": "Two surface recipes cover every container in the system: a standard bordered surface for controls and cards, and a darker code block surface for technical content.",
+    "surfaceMeta": "Two surface variants cover the majority of UI containers. The standard surface uses a subtle border and near-transparent card background blend for general-purpose cards and panels. The code block surface uses a darker tint that signals a technical context, helping developers quickly identify areas of the interface that contain runnable or configurable content.",
+    "surfaceTitle": "Surface Patterns",
+    "svgDesc": "Inline SVG examples demonstrating how theme-aware strokes, fills, and gradients adapt automatically between light and dark modes using CSS custom properties and color-mix.",
+    "svgNote1": "All SVG primitives inherit <code>var(--primary)</code> as their stroke color, ensuring they adapt automatically between light and dark themes without additional media queries or per-theme redefinitions. Opacity, gradients, and color-mix are used to create visual hierarchy among overlapping elements within the same graphic.",
+    "svgNote2": "Common use cases include: animated loading indicators, decorative section dividers, icon placeholders during prototyping, data visualisation stubs for proof-of-concept dashboards, and transition elements that respond to theme state changes in real time.",
+    "svgNote3": "Because SVGs reference CSS custom properties directly, switching between light and dark mode requires zero JavaScript intervention — the browser repaints strokes and fills automatically when the property values update at the root level.",
+    "svgNote4": "For gradient fills, the <code>&lt;linearGradient&gt;</code> element references <code>var(--primary)</code> via <code>color-mix</code> at varying opacities. This technique allows gradients to remain theme-aware without requiring duplicate gradient definitions for light and dark mode.",
+    "svgTitle": "SVG Graphics",
+    "tokensDesc": "Every surface, text role, and interactive state derives from a fixed set of CSS custom properties. This guarantees visual consistency across all DevX pages regardless of content.",
+    "tokensTitle": "Theme Token Contract",
+    "typeSampleCaption": "Photo credit: Unsplash / Design Studio — typically used for image captions, timestamps, and helper text beneath form fields where the information supports but does not compete with primary content.",
+    "typeSampleCode": "npx opencode install devx --theme=dark --output=json",
+    "typeSampleH3": "The quick brown fox jumps over the lazy dog near the riverbank under a pale moon.",
+    "typeSampleLabel": "ACTIVE SESSION — uppercase labels used for section headings, sidebar categories, and form field labels that require clear hierarchical distinction.",
+    "typeSampleOverline": "Section Overline — micro text appearing above headings as a contextual cue for grouping related content.",
+    "typographyDesc": "A compact, purposeful type system where hierarchy is expressed through weight and spacing rather than decorative flourishes.",
+    "typographyTitle": "Typography Scale"
+  },
+  "SamuraiSkillPage": {
+    "apiDesc": "REST and WebSocket endpoints exposed by the FastAPI backend for scan management, live updates, and data export.",
+    "apiNoteRest": "REST endpoints use standard HTTP methods (POST to create, GET to retrieve, DELETE to remove) and follow resource-oriented URL conventions. All endpoints require JWT authentication and return consistent JSON responses with appropriate HTTP status codes. Rate limiting is applied at the IP level with a default of 100 requests per minute per client.",
+    "apiNoteWs": "WebSocket endpoints provide real-time bidirectional communication using the WSS protocol. The <code>/ws/scan/{id}/live</code> endpoint streams scan progress events as they happen, with a heartbeat ping every 15 seconds to maintain the connection. The <code>/ws/dashboard/stats</code> endpoint pushes aggregate statistics to all connected dashboard clients at 5-second intervals.",
+    "apiTitle": "API Endpoints",
+    "archDesc": "A three-layer pipeline connecting the Angular frontend to FastAPI backend and WebSocket-driven scan engines.",
+    "archMeta": "The pipeline flows unidirectionally: Angular 21 issues scan requests over HTTP/2 REST to FastAPI. FastAPI validates the payload, creates a scan record in PostgreSQL, and dispatches the scan job to Celery workers over Redis. Workers execute the appropriate engine (nmap, SQLMap, Nuclei, or Playwright) via subprocess and stream progress events back through a Redis pub/sub channel. FastAPI aggregates these events and pushes them to the Angular client over a persistent WebSocket connection. Result: every port discovered, every injection tested, and every vulnerability found appears in the UI within milliseconds of detection.",
+    "archTitle": "System Architecture",
+    "borderCardNoteActive": "Applied to focused form inputs, selected scan rows in the results table, active navigation items, and any interactive element in its engaged state. The primary colour bleeds into the border at 40% to signal interactivity while maintaining enough border-token presence to avoid colour pollution across the interface.",
+    "borderCardNoteDefault": "Used for all standard cards, panel containers, and section wrappers throughout the platform. The border is subtle — 66% opacity of the border token — keeping the container boundary visible without competing with content. This is the baseline border applied to scan result cards, configuration panels, and dashboard widgets.",
+    "borderCardNoteDestructive": "Reserved for error states, destructive action confirmations, critical severity finding highlights, and scan failure banners. The full-saturation red border (#FF2222) immediately draws the operator's attention to the affected element. Used sparingly to preserve the signal value of red across the interface.",
+    "borderCardNoteExport": "Exclusive to export action buttons and premium feature indicators. The gold border (#FFD700) distinguishes export controls from standard interface elements, signalling that these actions produce downloadable artefacts. The gold accent is carried through to the exported document headers, creating visual continuity between the platform and its outputs.",
+    "bordersDesc": "Four border variants used across the platform: standard for cards, active focus for inputs, destructive red for dangerous actions, and export gold for download controls.",
+    "bordersTitle": "Border Styles",
+    "buttonDesc": "Four button tiers mapped to the SAMURAI action hierarchy: primary scan, secondary export, destructive delete, and ghost cancel.",
+    "buttonTierUsageCancel": "The lowest-emphasis button pattern — used for cancel actions, dismiss buttons, and any tertiary control that should exist in the layout without competing for the operator's attention.",
+    "buttonTierUsageDelete": "Used for destructive actions — deleting scans, removing findings, clearing history. The red border mirrors the destructive border token and requires a confirmation dialog before execution.",
+    "buttonTierUsageExport": "Applied to all export buttons across the platform — CSV, JSON, PDF, and BIN. The gold border distinguishes export actions from scanning controls and signals that the output is a downloadable artefact.",
+    "buttonTierUsagePrimary": "Used exclusively for the Run Scan action — the primary call to action on the scan configuration panel. The solid primary red ensures the action is immediately visible against any background surface.",
+    "buttonTitle": "Button Patterns",
+    "colorDesc": "The documented SAMURAI colour tokens mapped to their UI roles. All values reference the fixed design-tokens.md palette, independent of the global application theme.",
+    "colorTitle": "Color Token Application",
+    "colorTokenMeta": "<strong>--black (#000000)</strong> serves as the primary background for OLED displays, the terminal area, and the hero section — providing the deepest possible blacks for maximum contrast. <strong>--surface (#111111)</strong> sits one step above for elevated surfaces: card backgrounds, sidebar panels, and finding cards, creating subtle layering. <strong>--text-primary (#E8E8E8)</strong> carries all body text, section headings, finding descriptions, and table cell content in dark mode. <strong>--text-secondary (#999999)</strong> handles labels, captions, metadata, timestamps, placeholder text, and helper content.",
+    "colorTokenMeta2": "<strong>--border-visible (#333333)</strong> draws intentional borders: card outlines, table separators, input borders, and divider lines that must be seen. <strong>--border (#222222)</strong> defines subtle dividers used decoratively — wireframe lines, section boundaries — where the border is present but should not compete with content. <strong>--accent / --error (#D71921)</strong> colours scan button fills, severity critical indicators, alert banners, and destructive actions in the signature SAMURAI red. <strong>--success (#4A9E5C)</strong> marks completed scans, passed checks, low severity indicators, and confirmation badges with a restrained green.",
+    "cvssDesc": "Severity distribution metrics mapped across the 0-10 CVSS scale, showing the proportion of critical, high, medium, low, and info findings.",
+    "cvssMeta": "The CVSS distribution shows a right-skewed profile typical of automated scanning results: the majority of findings cluster in the medium-to-low range (4.0-6.9 and 0.1-3.9), with critical (9.0-10.0) and high (7.0-8.9) findings representing a smaller but more actionable subset. Info-level findings (0.0) provide contextual data without security impact. The distribution chart updates in real time as scans complete, giving operators an immediate visual summary of the current risk posture across all active and completed scans.",
+    "cvssTitle": "CVSS Score Distribution",
+    "darkPaletteDesc": "Dark mode swatches using the documented SAMURAI OLED black surface and high-contrast text tokens.",
+    "darkPaletteMeta": "Dark mode transforms the palette for low-light security operations — pen-testing sessions, war rooms, and overnight automated scan reviews. The background deepens to near-black (#0A0A14) to eliminate glare while the foreground holds at a comfortable off-white (#E8E8F0). The security red primary is intensified to (#FF3355) for improved contrast against the dark canvas, ensuring critical-severity findings remain unmistakable. The card background (#12121E) sits one step above the page surface to create a layered elevation effect that helps distinguish content containers from the page backdrop.",
+    "darkPaletteTitle": "Dark Palette",
+    "engineDesc": "Four integrated scan engines with their respective capabilities, protocol coverage, and performance characteristics.",
+    "engineMeta": "Nmap 7.95 handles port discovery and service fingerprinting across all 65,535 TCP and UDP ports, completing a full subnet scan in under 4 minutes. SQLMap 1.8 performs automated database injection testing, supporting time-based, boolean-based, error-based, and out-of-band techniques across all major database engines. Nuclei 3.2 runs template-based vulnerability scanning against a growing library of 10,000+ community-contributed templates covering CVEs, misconfigurations, and exposed services. Playwright automates browser-based security testing: DOM injection, clickjacking, form auto-fill testing, and client-side security header validation.",
+    "engineTitle": "Scan Engine Comparison",
+    "exportDesc": "Gold-accented export buttons (CSV, JSON, PDF, BIN) following the system's FF D700 convention for download actions.",
+    "exportMeta": "All export formats support both single-finding and bulk (selected or all) export. Exports are generated server-side by FastAPI using background tasks and delivered via signed download URLs valid for 24 hours. CSV and JSON are generated synchronously for small payloads, while PDF and BIN exports are queued through Celery for larger scans exceeding 1,000 findings. The gold hover state on export buttons (#FFD700) provides a consistent visual cue that these actions produce downloadable outputs.",
+    "exportTitle": "Export Actions",
+    "findingBreakdown": "The finding card above demonstrates the complete vulnerability entry format. Each finding contains: a <strong>severity</strong> header coloured by level (HIGH shown above maps to #FF8800), a <strong>type</strong> label identifying the vulnerability class (SQL Injection, XSS, LFI, RCE, etc.), a <strong>CVSS score</strong> with vector string available on the detail view, the affected <strong>URL</strong> with the vulnerable parameter highlighted, the proof-of-concept <strong>payload</strong> that triggered the detection, the vulnerable <strong>parameter</strong> name and HTTP method, and action buttons to export the single finding or navigate to its full detail page.",
+    "findingBreakdown2": "In the full scan results table, findings are grouped by severity with critical and high findings expanded by default. Each row can be expanded inline to reveal the full payload, request/response pair, and remediation recommendation. Findings can be bulk-selected for batch export, or individually dismissed as false positives with an auditor comment.",
+    "findingDesc": "A compact vulnerability card showing severity, type, CVSS score, affected URL, payload evidence, and action buttons for export or detail view.",
+    "findingTitle": "Finding Card",
+    "heroDesc": "A cybersecurity analysis platform with a monochromatic design ethos. Angular 21 frontend, FastAPI backend, WebSocket-first scanning architecture.",
+    "heroTitle": "SAMURAI",
+    "lhMeta": "Compact (1.2) provides tight vertical rhythm for section headers, metric values, and stat displays where every line carries weight. Data (1.4) balances readability with density for table cells, finding descriptions, and scan results where information-dense layouts require efficient use of vertical space. Code (1.6) provides comfortable spacing for terminal output, payload previews, and configuration blocks where character-level legibility is critical. Label (1.0) collapses spacing for badges, tags, severity markers, and status pills — small-format elements where visual grouping matters more than line-level readability.",
+    "lightPaletteDesc": "Light mode swatches using the documented SAMURAI surface and text tokens for elevated-background readability.",
+    "lightPaletteMeta": "Light mode swatches are designed for extended security audit sessions. The near-white background (#FAFAFA) reduces eye strain during long reviews while the deep navy foreground (#1A1A2E) provides maximum contrast for reading dense technical finding descriptions. The primary security red (#CC2233) is used sparingly — only for severity-critical elements, scan alert banners, and destructive action buttons — ensuring that red always commands attention when it appears.",
+    "lightPaletteTitle": "Light Palette",
+    "lineHeightDesc": "Four line heights tuned to different content roles: compact for headers, data for tables, code for terminal output, and label for badges and severity markers.",
+    "lineHeightTitle": "Line Height Rhythms",
+    "outro": "Samurai's design language proves that security tools can be both information-dense and visually restrained — where every pixel earns its place.",
+    "outroSub": "Samurai's monochromatic design language proves that security tools can be both information-dense and visually restrained. By limiting the palette to five neutral tones and reserving colour exclusively for severity signalling, the platform achieves a clarity that helps operators focus on what matters: finding and fixing vulnerabilities. The codebase is open source and available for audit, contribution, and custom deployment.",
+    "paletteCompare": "Key differences between light and dark palettes centre on three tokens: <strong>background</strong> shifts from #FAFAFA to #0A0A14 (a delta of 240 points on the luminance scale), <strong>primary</strong> shifts from #CC2233 to #FF3355 (lightened to pop against dark), and <strong>card-bg</strong> inverts its relationship to the background — in light mode the card is darker than the page, in dark mode the card is lighter, creating a consistent elevation metaphor where cards always appear to sit above the page surface regardless of theme.",
+    "perfDesc": "Key performance metrics measured across different scan sizes and engine configurations.",
+    "perfMeta": "Performance benchmarks are measured across three scan profiles: Quick Scan (nmap only, top 100 ports, single target) completes in 12-18 seconds with approximately 2 MB of memory usage per target. Standard Scan (all engines, top 1000 ports, /24 subnet) completes in 45-90 seconds with approximately 50-120 findings generated and 4 concurrent workers consuming ~120 MB. Full Audit (all engines, all ports, /16 subnet with 16 workers) scales linearly with target count and typically completes in 8-15 minutes with 500+ findings and ~500 MB total memory consumption across the worker pool.",
+    "perfTitle": "Performance Benchmarks",
+    "radiusDesc": "Two radius levels define the surface language: sharp (0) for data-dense elements and subtle (2px) for interactive controls and cards.",
+    "radiusMeta": "Sharp corners (0) are reserved for data-dense elements: data tables, terminal output, code blocks, scan result grids, and finding lists where maximum content density is required. Soft corners (4px) are applied to scan cards, config panels, form inputs, sidebars, and metric tiles, providing a gentle friendliness that invites interaction. Rounded corners (8px) frame modal dialogs, dropdown menus, floating panels, and tooltip containers where the content benefits from a softer boundary. Pill rounding (999px) is exclusive to status badges, severity dots, toggle handles, avatar indicators, and count bubbles — elements that represent atomic units of identity or state.",
+    "radiusTitle": "Border Radius",
+    "schemaDesc": "Three tables with cascade delete relationships connecting scans to discovered links and findings.",
+    "schemaMeta": "The database schema follows a strict cascade-delete relationship: when a scan is deleted, all its discovered links are removed, which in turn removes all associated findings. This ensures referential integrity without orphaned records. The <code>profile</code> field in the scans table stores the scan configuration as a JSONB object — containing the selected engines, port ranges, template paths, and browser scripts — enabling full audit traceability of every scan execution. Foreign key constraints are enforced at the database level with ON DELETE CASCADE clauses, and all timestamp fields use TIMESTAMPTZ for timezone-aware storage across distributed worker deployments.",
+    "schemaTitle": "Database Schema",
+    "severityDesc": "Five severity levels with distinct colors and proportional weight — from critical (red, full width) to info (blue, narrow).",
+    "severityMeta": "Severity is determined by a weighted algorithm combining CVSS 3.1 base score, exploitability metrics (attack vector, complexity, privileges required, user interaction), and contextual impact (confidentiality, integrity, availability). The final severity label maps directly to the colour coding shown above. Each severity level has a distinct hex code that is used consistently across the entire platform — from the scan results table to the export reports and the real-time dashboard widgets.",
+    "severityTitle": "Severity Indicators",
+    "spacingDesc": "A disciplined 8px-based spacing scale from 2px to 96px, with semantic meaning assigned to each level: tight for belonging, medium for grouping, wide for separation, and vast for context changes.",
+    "spacingMeta": "The spacing scale follows an 8px-based system with four named levels. XS (4px, 0.25rem) handles inline gaps between badges and icon spacing — the smallest meaningful distance. SM (8px, 0.5rem) governs button groups and field-label adjacency where elements share a close relationship. MD (16px, 1rem) is the workhorse: card padding, grid gutters between sections, and the standard interior spacing of most components. LG (32px, 2rem) creates deliberate separation: section margins, hero padding, and modal interiors where content needs room to breathe. Each level is exactly double the previous one, creating a consistent geometric progression that feels natural across the interface.",
+    "spacingTitle": "Spacing Scale",
+    "statusDesc": "Text-based status indicators using the system's monospace font. No icons, no decorative elements — pure typographic signal.",
+    "statusMeta": "Status badges use dark-coloured backgrounds with bright text for WCAG AA compliance at small sizes (11px). The monospaced letter-spacing of 0.08em improves readability at badge scale. Each status maps to a colour that carries semantic meaning: green for success, blue for in-progress, red for failure, amber for queued. These same colours are reflected in the status bar of the live scan dashboard and the notification system.",
+    "statusTitle": "Status Badges",
+    "svgDesc": "Text-first SVG graphics that follow the SAMURAI design system: monochromatic base, dot-grid texture, Space Mono typography, and accent colours used sparingly for data content only.",
+    "svgTitle": "SVG Graphics — Monochromatic Data Display",
+    "terminalDesc": "A faithful simulation of terminal-based scanning output. Green prompts, blue port numbers, grey system messages, and a blinking cursor.",
+    "terminalMeta": "The terminal emulator displays live nmap scan output streamed over WebSocket. Ports are coloured blue, open states are green, and system messages are dimmed grey to create a clear visual hierarchy that mirrors the familiar terminal experience. The blinking cursor (animated via CSS @keyframes blink) signals that the scan is actively progressing. When the scan completes, the cursor stops and the final line displays \"Scan complete — 4 ports open, 3 services identified, 1 vulnerability detected.\" This component is used across the platform: in the live scan view, in the audit log replay, and in the embedded documentation terminal demos.",
+    "terminalTitle": "Terminal Output",
+    "typeDescDoto": "Doto is the platform display face — used exclusively for hero titles, section headers in the scan dashboard, and large-format metric readouts. Its monospaced DNA gives it a technical, authoritative feel that aligns with the security domain, while the heavy weight (900) ensures maximum impact at any viewport size.",
+    "typeDescSpaceGrotesk": "Space Grotesk serves as the primary body face across all resource pages, finding descriptions, documentation panels, and dashboard commentary. Its wide glyph aperture improves readability at small sizes, and the moderate x-height ensures clear distinction between similarly shaped characters — critical when reading IP addresses, domain names, and technical instructions.",
+    "typeDescSpaceMono": "Space Mono is the data face — used for all code blocks, terminal output, API request previews, payload representations, configuration snippets, and raw finding data. Monospaced alignment ensures that tabular data (port numbers, CVSS scores, IP octets) remains vertically aligned and scannable at a glance.",
+    "typographyDesc": "Two typefaces define the SAMURAI voice: Space Grotesk for body text and UI labels, Space Mono for data, code, and terminal output. Doto is reserved exclusively for hero moments.",
+    "typographyTitle": "Typography — Space Grotesk & Space Mono",
+    "vulnDesc": "Common vulnerability types detected by the platform, each mapped to a severity level and colour.",
+    "vulnMeta": "The platform currently identifies 28 distinct vulnerability types across 9 categories: Injection (SQL, NoSQL, Command, LDAP), XSS (Reflected, Stored, DOM-based, Blind), Server-Side (SSRF, Path Traversal, File Inclusion, Deserialization), Authentication (Brute Force, Session Fixation, Weak Password Policy, CSRF), Configuration (Default Credentials, Open Buckets, Misconfigured Headers, Directory Listing), Information Disclosure (Version Banner, Error Details, Stack Traces, Debug Endpoints), Cryptographic (Weak Cipher, Expired Certificate, Mixed Content), and Network (Open Port, DNS Zone Transfer).",
+    "vulnTitle": "Vulnerability Type Tags",
+    "weightDesc": "Four weights create the typographic hierarchy: light (300) for secondary data, regular (400) for body, medium (500) for emphasis, and bold (700) for headings and metrics.",
+    "weightMeta": "The font weight spectrum provides four distinct levels: <strong>Light (300)</strong> for data-dense table cells and secondary metrics where high weight would create visual noise; <strong>Regular (400)</strong> for body copy, descriptions, and paragraph content throughout the platform; <strong>Medium (500)</strong> for subheadings, navigation items, and emphasised metadata labels; and <strong>Bold (700)</strong> for section titles, severity labels, stat values, and any text requiring maximum hierarchical prominence. The weights are applied consistently across Space Grotesk (body) and Space Mono (data) faces, while Doto display text exclusively uses weight 900 for its distinctive heavy appearance.",
+    "weightTitle": "Font Weight Spectrum"
+  },
+  "SamuraiPage": {
+    "heroTitle": "Samurai",
+    "heroSub": "Automated Vulnerability Discovery &amp; Reconnaissance Engine",
+    "heroDesc": "A full-stack cybersecurity analysis platform combining Angular 21 on the frontend with a FastAPI backend and real-time WebSocket push — purpose-built for running concurrent nmap, SQLMap, Nuclei, and Playwright scan pipelines against target infrastructure. Available as both a web application and a standalone terminal TUI written in Rust.",
+    "overviewTitle": "Overview",
+    "overviewDesc": "Samurai is a cybersecurity analysis platform with two interfaces sharing the same database engine. It provides port scanning, web reconnaissance, DAST vulnerability crawling, and encrypted database exports — all accessible through a modern web UI or a lightweight terminal application.",
+    "webLabel": "Web Interface",
+    "webTitle": "Samurai Web",
+    "webMeta": "Angular 21 + FastAPI / Python",
+    "webDesc": "Full SPA with standalone components, WebSocket real-time console streaming, and a responsive SCSS-based UI. Runs via Docker Compose with PostgreSQL and Redis.",
+    "tuiLabel": "Terminal Interface",
+    "tuiTitle": "Samurai TUI",
+    "tuiMeta": "Rust",
+    "tuiDesc": "Standalone terminal application with SQLite or PostgreSQL backend. Uses the Nothing Design system for a clean, minimal TUI experience. No Docker required for basic usage.",
+    "capTitle": "Capabilities",
+    "capDesc": "Samurai packs four scanning engines into a unified pipeline, each feeding findings into a shared database for cross-referenced analysis.",
+    "capPortName": "Port Scanning",
+    "capPortDesc": "Nmap with configurable profiles (quick, balanced, deep, UDP). Streams real-time results via WebSocket with progress indicators per engine.",
+    "capReconName": "Web Reconnaissance",
+    "capReconDesc": "DNS enumeration, subdomain discovery, API probing, security headers audit, and technology fingerprinting for every resolved target.",
+    "capCrawlName": "DAST Crawling",
+    "capCrawlDesc": "Automated page discovery, HTTP header analysis, link extraction, and headless browser (Playwright) JavaScript-heavy page reconnaissance.",
+    "capSqlName": "SQL Injection Detection",
+    "capSqlDesc": "SQLMap subprocess integration for automated SQL injection vulnerability checks across discovered endpoints with payload execution.",
+    "capTemplateName": "Template Scanning",
+    "capTemplateDesc": "Nuclei template-based vulnerability scanning with 3.2 engine, covering CVEs, misconfigurations, and exposure checks.",
+    "capExportName": "Export &amp; Archive",
+    "capExportDesc": "Full analytics dump as JSON (raw) or AES-256-GCM encrypted binary. PDF reports with executive summary and severity breakdown.",
+    "screenshotsTitle": "Screenshots",
+    "screenshotsDesc": "Preview of the Samurai web interface in action — scanning, findings, and analysis dashboard.",
+    "archTitle": "Architecture",
+    "archDesc": "Three-layer architecture with WebSocket duplex communication for real-time console streaming.",
+    "quickstartTitle": "Quick Start",
+    "quickstartDesc": "Get Samurai running locally in minutes.",
+    "quickstartWeb": "Web Version (Docker Compose)",
+    "quickstartTui": "Terminal Version (Standalone)",
+    "linksTitle": "Links &amp; Resources",
+    "linksDesc": "Explore the source code, documentation, and development roadmap."
+  },
+  "XscriptorSkillPage": {
+    "blogDesc": "Long-form content with a clean, distraction-free reading experience. Dates, categories, excerpts, and reading time are surfaced without noise.",
+    "blogSectionMeta": "Blog posts follow a clean, distraction-free pattern. Each card surfaces four elements in careful hierarchy: the publication date and category as a muted header row, the title in a bold serif face that invites reading, a generous excerpt that captures the essay's voice without spoiling its arc, and a subtle \"Continue reading\" link in the primary accent colour. The simplicity of the card — a single column with generous padding and a delicate border — ensures that content remains the protagonist. No social buttons, no comment counts, no sidebar distractions. Just the writer's voice and the reader's attention, meeting across the page.",
+    "blogTitle": "Blog & Essays",
+    "bookDesc": "Books are presented as physical objects with cover art, metadata, and language availability. Poetry paginates via the XBookReader component.",
+    "bookMeta": "The book card component presents literary works as physical objects, evoking the tactility of printed books through visual design. Each card pairs a stylised cover — with its dark gradient, gold lettering, and 2:3 aspect ratio — with a metadata panel containing the title, subtitle, description, and key attributes: available languages, poem count, and publication year. Language badges appear as coloured indicators in the cover corner, and the card adapts between a stacked column layout on narrow screens and a side-by-side cover-and-info arrangement on wider viewports. The card links to the full XBookReader experience, where poems paginate like printed pages with support for bilingual side-by-side display.",
+    "bookTitle": "Book & Poetry Display",
+    "borderMeta": "Borders in the literary design system are not structural — they are rhetorical. The delicate border (standard opacity) is the default comma of the layout, a brief pause between elements. The accent border (primary-tinted) functions as an emphatic semicolon, joining related elements with a hint of thematic colour. The dashed border is the parenthetical aside, indicating content that is present but provisional — annotations, drafts, editorial notes. The double border, reserved for epigraphs and pull quotes, is the colon, announcing that what follows is borrowed speech deserving of special framing. Each border style is tuned through opacity and composition to speak at the appropriate volume within the page's typographic voice.",
+    "buttonTierAttrGhost": "No border, minimal presence — tertiary utility action",
+    "buttonTierAttrPrimary": "Solid sienna fill, highest emphasis — the main call to action",
+    "buttonTierAttrSecondary": "Bordered, medium emphasis — alternative navigation",
+    "buttonTierAttrShare": "Primary-bordered, accent action — secondary emphasis with colour",
+    "buttonTierUsageGhost": "The lowest-emphasis pattern, used for bookmarking, saving, and utility actions that should be available but never prominent. The muted colour helps these controls recede into the background until needed.",
+    "buttonTierUsagePrimary": "Used for the primary action on any content card: reading a post, opening a book, viewing a poem. The solid sienna fill ensures the action is immediately visible. The serif typeface maintains literary character even in the button.",
+    "buttonTierUsageSecondary": "Applied to secondary navigation actions — exploring related content, browsing categories, viewing collections. The bordered treatment signals an available action without competing with primary calls to action.",
+    "buttonTierUsageShare": "Used for share actions and external links. The primary-tinted border signals that this action points beyond the current page, distinguished from the neutral secondary button by a touch of accent colour.",
+    "colorTokenMeta": "When the theme toggles between light and dark, every token updates in unison — no manual overrides, no per-component adjustments. The background shifts from paper to night, ink from brown-black to ivory, sienna to amber. The metaphor holds because the mapping is conceptual, not arbitrary: each CSS variable represents a <em>literary material</em>, not a specific colour value. The component layer never knows or cares what specific hex value a token resolves to; it simply uses <code>var(--paper)</code> or <code>var(--ink)</code> and trusts the theme to supply the appropriate colour. This separation of meaning from value is what makes the system both flexible and coherent.",
+    "contentTypeMeta": "Blog posts use a single-column reading layout with generous measure (60-70 characters per line), serif body text, and minimal chrome — the writer's voice fills the space. Books are presented as visual objects first (cover art, metadata panels) and reading experiences second (the XBookReader component handles multi-page navigation with page-turn transitions). Poetry receives special typographic treatment: italicised verse faces, 2.0 line-height, stanza-aware pagination that never orphans a stanza across a page break. The art gallery breaks from the typographic focus entirely, letting visual works occupy the full width of the grid with minimal textual interference. Each content type has its own dedicated routes, index pages, and detail templates, but all share the same design token system — ensuring visual coherence across the entire platform regardless of genre.",
+    "darkPaletteMeta": "Dark mode transforms the page into a nocturnal reading room using the project dark tokens. The background (#0a0a0a) is a deep near-black. Ivory text (#ededed) carries the soft glow of content against the dark backdrop. Gold (#fbbf24) provides warm accents for links and active states. Zinc (#9ca3af) provides muted text that remains legible. Umber borders (#27272a) create subtle elevation through cool-toned layering. The X theme accent colors — pink (#fc618d), mint (#7bd88f), and gold (#fce566) — bring the brand signature into dark mode with the same vibrancy as in light mode.",
+    "fixedDarkDesc": "Button appearance under a fixed dark palette (#0a0a0a background, #ededed text, #fbbf24 primary).",
+    "fixedDarkTitle": "Fixed Dark Mode",
+    "fixedLightDesc": "Button appearance under a fixed light palette (#ffffff background, #171717 text, #4328a8 primary).",
+    "fixedLightTitle": "Fixed Light Mode",
+    "fontFamilyMeta": "EB Garamond, Georgia, and Baskerville represent three generations of serif type: Garamond's Renaissance humanism, Georgia's sturdy screen-optimised clarity, and Baskerville's sharp transitional contrast. The serif stack prefers EB Garamond when available (its delicate hairlines and warm character weights are ideal for literary prose), falls back to Georgia for its excellent screen rendering at small sizes, and lands on Times New Roman as the universal serif safety net. Sans-serif handles the interface layer — navigation, buttons, metadata — where clean geometric forms aid quick scanning. Monospace is reserved for the few places where character-by-character alignment matters: code snippets, technical metadata, and the occasional type specimen.",
+    "galleryDesc": "A visual grid for showcasing paintings, photography, and mixed-media works. Supports both masonry and structured layouts.",
+    "galleryMeta": "The gallery uses a CSS masonry-style grid where the first item spans two rows, creating a dynamic anchor for the layout. Each placeholder carries a monogram letter (A through E) at low opacity, suggesting the position of artworks without requiring actual image assets. The grid is responsive, collapsing from four columns on wider screens to two on narrow ones, with the featured item maintaining its prominence through the grid-row: span 2 property. In production, these placeholders are replaced by actual paintings, photography, or mixed-media works, each with a lightbox preview accessible on click. The gallery component supports exhibition metadata — medium, dimensions, year, series — overlaying this information on hover or via a discreet caption bar beneath each work.",
+    "galleryTitle": "Artistic Gallery",
+    "heroDesc": "A literary portfolio and digital publishing platform. Elegant typography, multilingual content, and a component ecosystem built for writers.",
+    "heroSub": "A Literary Portfolio &amp; Digital Publishing Platform",
+    "heroTitle": "Xscriptor",
+    "i18nArchMeta": "The trilingual architecture serves three distinct readerships. English (1200+ messages, 100% coverage) is the primary authoring language — all prose, essays, and poetry are composed first in English. Spanish is the native literary language with a rich tradition of magical realism and lyrical prose that permeates the Spanish corpus. German serves as the secondary translation language, where philosophical precision and compound-word poetry are explored in the German editions. The i18n system detects the user's preferred language via URL path prefix and persists the selection across sessions, allowing readers to switch between languages at any point without losing their place. All three locales maintain 100% translation coverage for every user-facing string in the platform.",
+    "i18nDemoMeta": "The same literary sentence rendered in English, Spanish, and German. Each language brings its own rhythm and texture to the prose: the English version's Anglo-Saxon concision, the Spanish's melodic vowel sequences and rolling r's, the German's compound structures and terminal verb placements. The i18n system, built on a custom provider with zero external dependencies, preserves these linguistic character differences across the entire platform. Every route, every component, every piece of user-facing text flows through the same locale-aware pipeline. Switching languages updates not just the content but the typographic mood — serif weights adjust subtly between locales, and line-height values calibrate to each language's average character width.",
+    "i18nDesc": "Every piece of content exists in Spanish, English, and German. A custom I18nProvider handles locale switching without external dependencies.",
+    "i18nTitle": "Trilingual Architecture",
+    "lhMeta": "Poetry at 2.0 gives each line room to breathe, honouring the line break as a unit of meaning. Prose at 1.8 supports extended reading sessions with comfortable leading that guides the eye from line to line without fatigue. Compact at 1.4 packs more text into cards and previews while remaining legible. Titles at 1.1 bring headings close enough to read as unified statements, the tight verticality suggesting solidity and authority.",
+    "lightPaletteMeta": "The light palette is drawn from the project theme tokens defined in globals.css. The page surface (#ffffff) is a clean white for optimal readability. Ink (#171717) is a deep near-black for primary text. Violet (#4328a8) provides accessible accent colours for links and active states. Stone (#6b7280) carries secondary text in a restrained tone. Borders (#e5e7eb) separate sections with a subtle line. The X theme accent colors — pink (#fc618d), mint (#7bd88f), and lilac (#948ae3) — bring the brand identity into the literary space, used sparingly for highlights and supporting elements.",
+    "outro": "Xscriptor demonstrates that a literary platform can feel both timeless and modern when typography, content architecture, and visual restraint work in harmony.",
+    "outroSub": "Xscriptor demonstrates that a literary platform can feel both timeless and modern when typography, content architecture, and visual restraint work in harmony. The design system, built entirely on CSS custom properties, enables seamless theme switching without JavaScript. Every component, from the book card to the art gallery, draws from the same set of tokens — ensuring that whether the reader is browsing poetry in Spanish or essays in German, the experience remains coherent and beautiful.",
+    "paletteCompare": "The most significant shift between light and dark palettes occurs in the <strong>background</strong> (from #ffffff to #0a0a0a) and <strong>primary</strong> (from #4328a8 to #fbbf24) tokens. The light-mode violet primary (#4328a8) shifts to a warm gold (#fbbf24) in dark mode to maintain WCAG AA contrast ratios against the dark surface. The X theme accent colours remain identical in both palettes, providing a consistent brand signature across themes.",
+    "radiusMeta": "Sharp corners (0) are reserved for literary material — verse containers, code excerpts, epigraph blocks — where the absence of rounding suggests the authority of printed matter. Soft corners (4px) are applied to cards, buttons, and input fields, providing a gentle friendliness that invites interaction without compromising formality. Rounded corners (8px) frame media embeds and images, echoing the physical border of framed artwork. Full rounding (999px) is exclusive to avatars, language badges, and tag pills, where the circular form signals a self-contained unit of identity or classification. Each radius value is chosen to match the rhetorical weight of the content it contains.",
+    "spacingMeta": "Verse (0.25rem) is the smallest unit — the gap between a badge and its adjacent element, the space between a line number and its verse. Stanza (0.75rem) governs the padding inside cards and the gap between related buttons. Chapter (1.5rem) is the primary section rhythm — the margin between major content blocks, the padding of the hero, the gutters of the grid. Section (3rem) creates the major divisions of the page: the distance between one part and the next, the breathing room before the outro, the white space that tells the reader \"this is a new beginning.\" Together, these four levels form a geometric progression that feels natural to the reading eye — each step approximately doubling the previous one.",
+    "svgBookLabel": "An open book in codex form, with facing pages and lines of text suggested by horizontal strokes at varying opacities. The spine forms a clean centre line. Used as a decorative element on book-related sections of the platform.",
+    "svgConstellationLabel": "A constellation of stars connected by faint lines, evoking the night sky as a metaphor for literature — scattered points of meaning that form patterns when connected by the reader's eye. Used on poetry and philosophy sections.",
+    "svgDividerLabel": "A decorative typographic divider featuring a centred diamond motif flanked by ruled lines with small dots above and below. Used to separate major sections of the page, recalling the ornamental printers' marks of hand-set type.",
+    "svgNoteAria": "Each illustration carries an <code>aria-label</code> for accessibility and a textual label in italic serif type beneath the graphic, maintaining the literary character of the platform even in its ornamental details. The SVG viewBox coordinates are standardised to 200-unit widths for consistent scaling across the grid.",
+    "svgNoteTheme": "All SVG graphics inherit their stroke colour from <code>var(--primary)</code> and their fill from <code>color-mix(in srgb, var(--primary) X%, transparent)</code>, ensuring seamless adaptation between light and dark themes without additional media queries. Opacity variations create depth within each illustration, and the geometric simplicity ensures they render crisply at any scale — from decorative inline elements to full-width section dividers.",
+    "svgQuillLabel": "A quill pen with a feathered shaft, the nib dipped in invisible ink. The two lateral strokes suggest the feather's barbs while the central line forms the quill's barrel. Used as a decorative element on author pages and writing-related sections.",
+    "tokenBackground": "Paper — the page surface, the ground on which all content rests. Light: warm off-white. Dark: deep brown-black.",
+    "tokenBorder": "Parchment / Umber — the boundary between elements, like the deckle edge of handmade paper. Used for separators and outlines.",
+    "tokenCardBg": "Vellum / Obsidian — a secondary surface, slightly distinct from the main page. Used for cards, panels, and elevated containers.",
+    "tokenForeground": "Ink — primary readable text, the writer's voice made visible. Light: brown-black. Dark: warm ivory.",
+    "tokenMuted": "Sepia / Taupe — faded ink, annotations in the margin, the ghost of editorial presence. Used for secondary copy and metadata.",
+    "tokenPrimary": "Sienna / Amber — the accent colour, like a ribbon marker or a rubricated initial. Used for links, active states, and emphasis.",
+    "typographyDesc": "A serif-first type system rooted in EB Garamond and Georgia. From chapter headings to verse lines, every size is tuned for extended reading.",
+    "typographyMeta": "The typographic scale spans six distinct levels. Chapter headings (h1) at clamp(1.5rem, 3vw, 2.2rem) announce major divisions with gravity and weight. Section headings (h2) follow at a slightly smaller size, preserving hierarchy without competition. Subsection heads (h3) are italicised to signal their subordinate role. Body paragraphs set at 0.95rem with generous line-height sustain comfortable reading across long essays. Verse lines at 0.85rem with italic styling and 2.0 line-height echo the breath of poetry. Captions at 0.72rem in muted tone provide context without intrusion. Every size is clamped between minimum and preferred values to maintain proportion across viewports.",
+    "typographyTitle": "Literary Typography",
+    "weightDesc": "Four weights create the typographic voice: light for epigraphs, regular for body, medium for emphasis and bold for titles and headings.",
+    "weightMeta": "Light (300) carries the delicate touch of marginalia and epigraphs, barely pressing into the page. Regular (400) is the workhorse of body text, unseen and unobtrusive, letting the reader forget they are reading type at all. Medium (500) adds a subtle heft for subheadings and emphasised passages, a slight elevation of voice. Bold (700) commands attention for chapter titles, pull-quote attributions, and navigational landmarks, anchoring the reader in the textual architecture.",
+    "weightTitle": "Font Weight Spectrum"
+  },
+  "AiPage": {
+    "title": "resources/",
+    "titleEm": "ai",
+    "description": "A curated collection of AI agent configurations, reusable skill definitions, and system prompts designed to integrate with the Xscriptor ecosystem and OpenCode workflows.",
+    "tabNavLabel": "AI sections",
+    "tabs": {
+      "agents": "Agents",
+      "skills": "Skills",
+      "prompts": "Prompts"
+    },
+    "agents": {
+      "guideTitle": "How to use",
+      "desc": "A collection of 160 AI agent profiles organized across 34 specialization categories. Each agent is a standalone system prompt with configured permissions, ready to be loaded into OpenCode or any compatible AI interface.",
+      "items": [
+        {
+          "title": "Code Reviewer",
+          "desc": "An agent specialized in pull request review, code quality analysis, and suggesting improvements with contextual awareness."
+        },
+        {
+          "title": "Architect Agent",
+          "desc": "Analyzes project structure, proposes architectural changes, and generates migration plans for large-scale refactors."
+        },
+        {
+          "title": "Bug Hunter",
+          "desc": "Focused on debugging workflows: reproduces issues, traces call stacks, and suggests fixes with test coverage."
+        },
+        {
+          "title": "Documentation Agent",
+          "desc": "Generates, updates, and maintains project documentation. Reads the codebase and produces API references and guides."
+        }
+      ],
+      "code": "# Install all 160 agents\nnpx @xscriptor/ai-agents\n\n# Specific groups\nnpx @xscriptor/ai-agents --groups general,web-security,languages\n\n# To Claude Code\nnpx @xscriptor/ai-agents --anthropic\n\n# To project\nnpx @xscriptor/ai-agents --project",
+      "footer": "{count} agents across {categories} categories",
+      "repoLink": "View full collection on GitHub",
+      "groups": {
+        "mega": {
+          "guide": "Mega Agents master multiple domains simultaneously. They orchestrate complex cross-domain workflows that span frontend, backend, security, cloud, and data engineering. Use a Mega Agent when your task requires coordinated expertise across multiple specializations.",
+          "example": "@full-stack-architect Design a complete authentication system with frontend UI, backend API, database schema, and security review",
+          "names": [
+            "Full Stack Architect",
+            "Security Generalist",
+            "Cloud Native Expert",
+            "Data & ML Lead"
+          ],
+          "agents": [
+            "Masters frontend, backend, and system architecture — designs end-to-end solutions across the full stack",
+            "Masters web security, pentesting, and red/blue team operations — coordinates comprehensive security programs",
+            "Masters cloud infrastructure, DevOps, and SRE — designs resilient cloud-native platforms",
+            "Masters data engineering, ML, and MLOps — builds end-to-end data pipelines and ML systems"
+          ],
+          "useCases": [
+            "Orchestrate a complete feature rollout from database schema to frontend UI with coordinated code reviews across the full stack",
+            "Design and implement a security-first architecture that integrates authentication, authorization, encryption, and audit logging across all layers",
+            "Build a cloud-native platform with Kubernetes, CI/CD pipelines, observability, and disaster recovery — all in a single coordinated workflow",
+            "Lead a data transformation initiative covering pipeline architecture, ML model development, deployment automation, and production monitoring"
+          ]
+        },
+        "general": {
+          "guide": "These agents handle everyday development tasks. Use a Code Reviewer to catch issues before merging, or a Test Writer to ensure coverage. For best results, provide specific file paths and include context about your project setup.",
+          "example": "@code-reviewer Review the changes in src/auth/login.ts for security issues",
+          "names": [
+            "Code Reviewer",
+            "Security Auditor",
+            "Docs Writer",
+            "API Docs",
+            "Refactor Agent",
+            "DB Migrator",
+            "Test Writer",
+            "Dependency Auditor",
+            "Performance Analyzer",
+            "PR Manager",
+            "Release Manager",
+            "Agent Creator"
+          ],
+          "agents": [
+            "Reviews code quality, best practices, and potential issues",
+            "Security vulnerability analysis with CVE lookup",
+            "Creates and maintains project documentation",
+            "Generates API documentation in OpenAPI/Swagger format",
+            "Code refactoring with behavior preservation",
+            "Database migrations with reversible up/down patterns",
+            "Unit, integration, and E2E test creation",
+            "Dependency health: CVEs, licenses, maintenance",
+            "Performance bottleneck detection and optimization",
+            "Pull request creation and changelog generation",
+            "Release planning, versioning, and changelog management",
+            "Creates new agent definitions from templates with configured permissions and instructions"
+          ],
+          "useCases": [
+            "Review a pull request for code quality, security vulnerabilities, and adherence to project conventions before merging",
+            "Generate comprehensive API documentation from JSDoc/TSDoc annotations for a new REST microservice",
+            "Audit all project dependencies for known CVEs, license compliance, and outdated packages before a release",
+            "Refactor a legacy module into modern patterns while preserving exact behavior and test coverage"
+          ]
+        },
+        "web-security": {
+          "guide": "These agents focus on web application and API security. Use a Web Security Auditor for comprehensive OWASP Top 10 assessments, or a WAF Specialist for production firewall configuration. Provide target URLs, API endpoints, and authentication details for best results.",
+          "example": "@web-security-auditor Audit the authentication flow in the staging environment for OWASP Top 10 vulnerabilities",
+          "names": [
+            "Web Security Auditor",
+            "API Security Specialist",
+            "Auth Security Specialist",
+            "AppSec Engineer",
+            "Secure Coding",
+            "WAF Specialist",
+            "CDN Edge Security"
+          ],
+          "agents": [
+            "Full OWASP Top 10 audit across web application stack",
+            "API-layer security: REST, GraphQL, gRPC endpoint protection",
+            "Authentication, authorization, OAuth2, JWT, session management",
+            "Secure SDLC: threat modeling, SAST/DAST, cloud security",
+            "OWASP ASVS, injection prevention, crypto misuse, XSS/SQLI prevention, CWE Top 25",
+            "Web application firewall configuration, rule tuning, bypass testing and custom rule writing",
+            "CDN, edge computing, and platform security including Cloudflare Workers and edge WAF"
+          ],
+          "useCases": [
+            "Run a full OWASP Top 10 security audit on a web application before launching to production",
+            "Review API endpoint security for authentication, rate limiting, input validation, and proper error handling",
+            "Conduct a threat modeling session for a new microservice architecture identifying trust boundaries and attack vectors",
+            "Audit authentication flows for OAuth2, JWT handling, session management, and MFA implementation"
+          ]
+        },
+        "web-architecture": {
+          "guide": "These agents help design and document system architectures. Use a Software Architect for high-level design decisions, or a Scalability Specialist when your system needs to handle growth. Provide current architecture diagrams and requirements for best results.",
+          "example": "@software-architect Design the migration plan from monolith to microservices with C4 diagrams and ADRs",
+          "names": [
+            "Software Architect",
+            "System Designer",
+            "Scalability Specialist",
+            "Reliability Specialist",
+            "Zero Trust Architect"
+          ],
+          "agents": [
+            "Architecture styles, patterns, C4 documentation, ADRs",
+            "Distributed system design, scalability, database selection",
+            "Performance optimization, load testing, database scaling",
+            "SLO/SLI, circuit breakers, disaster recovery, incident management",
+            "BeyondCorp, ZTNA, mTLS, OPA/Cedar policies, microsegmentation, JIT access"
+          ],
+          "useCases": [
+            "Design a microservices architecture with clear service boundaries, communication patterns, and data ownership",
+            "Create C4 architecture diagrams and ADRs for a new platform initiative to align the engineering team",
+            "Evaluate scalability options for a service experiencing rapid growth, including read replicas, caching, and sharding",
+            "Design a disaster recovery strategy with RTO/RPO targets, circuit breakers, and multi-region failover"
+          ]
+        },
+        "web-frontend": {
+          "guide": "These agents specialize in frontend technologies. Use a React Specialist for component architecture, or an Accessibility Specialist to ensure WCAG compliance. Share your component tree and design system tokens for most relevant guidance.",
+          "example": "@react-specialist Optimize the component re-rendering in the dashboard with React.memo and useMemo",
+          "names": [
+            "React Specialist",
+            "Vue Specialist",
+            "CSS/UI Specialist",
+            "Frontend Performance",
+            "Accessibility Specialist",
+            "Next.js Developer",
+            "Angular Developer"
+          ],
+          "agents": [
+            "React ecosystem: hooks, state, performance, Server Components",
+            "Vue 3 ecosystem: Composition API, Pinia, Nuxt, Vite",
+            "Modern CSS, design systems, theming, layout, animations",
+            "Core Web Vitals, bundle optimization, runtime performance",
+            "WCAG 2.2, ARIA, semantic HTML, screen reader, keyboard navigation",
+            "Next.js App Router, Server Actions, streaming, auth, deployment",
+            "Angular standalone components, signals, state management, testing"
+          ],
+          "useCases": [
+            "Optimize Core Web Vitals for a Next.js application targeting 90+ Lighthouse scores across all pages",
+            "Audit and remediate accessibility issues to meet WCAG 2.2 AA compliance before a public launch",
+            "Design a component library with design tokens, theme support, and comprehensive Storybook documentation",
+            "Performance-optimize a React application with code splitting, lazy loading, and bundle analysis"
+          ]
+        },
+        "web-backend": {
+          "guide": "These agents handle server-side development. Use an API Designer for endpoint contract design, or a Database Specialist for query optimization. Share your schema, API contracts, and performance requirements for best results.",
+          "example": "@api-designer Design a RESTful API for the billing service following OpenAPI 3.1 standards",
+          "names": [
+            "API Designer",
+            "Database Specialist",
+            "Microservices Architect",
+            "DevOps Specialist",
+            "Message Queue Specialist",
+            "Caching Specialist",
+            "Database Security"
+          ],
+          "agents": [
+            "REST, GraphQL, gRPC API design with OpenAPI 3.1",
+            "Schema design, query optimization, indexing, migrations",
+            "Service boundaries, communication patterns, distributed data",
+            "CI/CD, Docker, Kubernetes, Terraform, cloud infrastructure",
+            "Kafka, RabbitMQ, event-driven patterns, outbox, DLQ",
+            "Redis, CDN, HTTP caching, multi-level cache strategies",
+            "PostgreSQL/MySQL/MongoDB hardening, TDE, audit, RBAC, RLS, injection prevention"
+          ],
+          "useCases": [
+            "Design a RESTful API with OpenAPI 3.1 specification, request validation, and versioning strategy",
+            "Troubleshoot and optimize slow database queries using EXPLAIN ANALYZE, indexing strategies, and query restructuring",
+            "Design an event-driven architecture with Kafka for order processing, including exactly-once semantics and dead-letter queues",
+            "Implement a multi-level caching strategy with Redis, CDN, and HTTP cache headers for a high-traffic API"
+          ]
+        },
+        "languages": {
+          "guide": "These agents specialize in specific programming languages. Use a Python Developer for data processing scripts, or a Rust Developer for systems-level work. Mention your target runtime, framework, and any constraints for tailored advice.",
+          "example": "@python-developer Create an async web scraper with error handling and rate limiting using aiohttp",
+          "names": [
+            "Python Developer",
+            "TypeScript Developer",
+            "Go Developer",
+            "Java Developer",
+            "Kotlin Developer",
+            "Rust Developer"
+          ],
+          "agents": [
+            "Python: async, web frameworks, testing, packaging, data",
+            "TypeScript/JS: type system, runtimes, tooling, async, web",
+            "Go: concurrency, net/http, CLI, profiling, deployment",
+            "Java 21+: Spring Boot, JPA, JVM tuning, virtual threads",
+            "Kotlin: coroutines, Ktor, Exposed, multiplatform, Flow",
+            "Rust: systems, async, Axum, unsafe, FFI, serde"
+          ],
+          "useCases": [
+            "Audit a Python codebase for type safety gaps, async performance issues, and packaging best practices",
+            "Review a Rust systems project for memory safety, proper error handling, and FFI boundary correctness",
+            "Profile and optimize a Go HTTP service for latency, memory allocation, and goroutine management",
+            "Design a Java microservice with Spring Boot 3+, virtual threads, and record-based DTOs"
+          ]
+        },
+        "mobile": {
+          "guide": "These agents help build mobile applications. Use an iOS Developer for Swift/SwiftUI projects, or a Flutter Developer for cross-platform needs. Share your platform requirements, UI mockups, and state management approach for best guidance.",
+          "example": "@ios-developer Implement a Core Data-backed todo list with SwiftUI and Swift concurrency",
+          "names": [
+            "iOS Developer",
+            "Android Developer",
+            "React Native Developer",
+            "Flutter Developer",
+            "Mobile App Secure Coding",
+            "Mobile Malware Analysis"
+          ],
+          "agents": [
+            "Swift, SwiftUI, Swift concurrency, Core Data, testing",
+            "Jetpack Compose, ViewModel, Room, Hilt, testing",
+            "Expo, Expo Router, NativeWind, FlashList, EAS",
+            "Riverpod, GoRouter, drift, BLoC, testing",
+            "OWASP Mobile Top 10, secure storage, certificate pinning, code obfuscation",
+            "Android/iOS malware analysis, dynamic instrumentation, traffic interception, reverse engineering"
+          ],
+          "useCases": [
+            "Audit an iOS SwiftUI app for concurrency issues, memory leaks, and Swift 6 migration readiness",
+            "Design an Android Jetpack Compose UI with proper state hoisting, ViewModel scoping, and navigation",
+            "Set up a React Native project with Expo, shared navigation, and cross-platform theming",
+            "Review a Flutter app for widget rebuild optimization, state management patterns, and platform channel performance"
+          ]
+        },
+        "data-ml": {
+          "guide": "These agents work with data pipelines and machine learning. Use a Data Engineer for ETL pipelines, or an ML Engineer for model training. Describe your data sources, volume, and expected outcomes for tailored recommendations.",
+          "example": "@data-engineer Design a real-time data pipeline using Kafka, Spark, and dbt for analytics",
+          "names": [
+            "Data Engineer",
+            "ML Engineer",
+            "MLOps Specialist",
+            "Data Scientist"
+          ],
+          "agents": [
+            "Pipelines, ETL/ELT, Kafka, Spark, Airflow, dbt",
+            "PyTorch, XGBoost, training, evaluation, deployment",
+            "Model serving, feature stores, drift monitoring, CI/CD for ML",
+            "Statistical analysis, EDA, feature engineering, visualization"
+          ],
+          "useCases": [
+            "Design a data pipeline architecture with Kafka, Spark, and dbt for real-time and batch processing",
+            "Review an ML training pipeline for data leakage, proper train/test splitting, and evaluation methodology",
+            "Set up MLOps infrastructure with model registry, feature store, and automated retraining triggers",
+            "Perform exploratory data analysis on a new dataset to identify patterns, anomalies, and feature engineering opportunities"
+          ]
+        },
+        "cloud": {
+          "guide": "These agents handle cloud infrastructure and operations. Use a Kubernetes Specialist for cluster management, or a Cloud Architect for multi-cloud strategy. Share your current infrastructure, workload requirements, and budget constraints.",
+          "example": "@kubernetes-specialist Design a production-grade EKS cluster with autoscaling, HPA, and VPA",
+          "names": [
+            "Kubernetes Specialist",
+            "SRE Specialist",
+            "GitOps Specialist",
+            "Service Mesh Specialist",
+            "Cloud Architect",
+            "Serverless Security",
+            "Multi-Cloud Networking"
+          ],
+          "agents": [
+            "Cluster design, workloads, security, autoscaling, GitOps",
+            "SLO/SLI, error budgets, incident response, capacity planning",
+            "ArgoCD, Flux, Kustomize, Helm, secrets management",
+            "Istio, Linkerd, Cilium, mTLS, traffic management",
+            "AWS, GCP, Azure comparison, multi-cloud strategy",
+            "Lambda/Cloud Functions security, event injection, IAM least privilege, dependency scanning",
+            "Cross-cloud networking, transit gateways, hybrid connectivity, cloud-agnostic service mesh"
+          ],
+          "useCases": [
+            "Design a Kubernetes cluster architecture with node pools, pod autoscaling, and network policies",
+            "Review a cloud infrastructure for security best practices: IAM roles, encryption, VPC design, and compliance",
+            "Set up GitOps workflows with ArgoCD for multi-environment Kubernetes deployments",
+            "Design a service mesh with Istio for mTLS, traffic splitting, and observability across microservices"
+          ]
+        },
+        "testing": {
+          "guide": "These agents automate and improve testing. Use an E2E Testing Specialist for Playwright/Cypress tests, or a Fuzz Testing agent for security-oriented random testing. Share your testing framework and target components for best results.",
+          "example": "@e2e-testing Write Playwright tests for the user registration flow covering validation, success, and error states",
+          "names": [
+            "E2E Testing Specialist",
+            "Visual Testing Specialist",
+            "Performance Testing Specialist",
+            "Chaos Engineering Specialist",
+            "Fuzz Testing"
+          ],
+          "agents": [
+            "Playwright, Cypress, page objects, CI integration",
+            "Chromatic, Percy, snapshot diff, component states",
+            "k6, Locust, Gatling, load/spike/soak tests",
+            "Chaos Mesh, Litmus, Gremlin, blast radius control",
+            "Coverage-guided fuzzing, AFL++, libFuzzer, crash triage, corpus optimization"
+          ],
+          "useCases": [
+            "Design an E2E testing strategy with Playwright covering critical user journeys and edge cases",
+            "Set up visual regression testing with Chromatic for a component library across all supported themes",
+            "Create a load testing suite with k6 simulating realistic traffic patterns for a production API",
+            "Design chaos engineering experiments to validate system resilience and blast radius controls"
+          ]
+        },
+        "graphql": {
+          "guide": "This agent specializes in GraphQL API design. Use the GraphQL Specialist for schema design, resolver optimization, and data loading strategies. Share your data sources and query patterns for best results.",
+          "example": "@graphql-specialist Design a GraphQL schema for a multi-tenant SaaS platform with DataLoader batching",
+          "names": [
+            "GraphQL Specialist"
+          ],
+          "agents": [
+            "Schema design, resolvers, DataLoader, caching, Relay"
+          ],
+          "useCases": [
+            "Design a GraphQL schema with appropriate queries, mutations, subscriptions, and resolver patterns",
+            "Optimize a GraphQL API for N+1 queries using DataLoader batching and caching strategies",
+            "Implement GraphQL federation for a multi-service architecture with Apollo Federation"
+          ]
+        },
+        "embedded": {
+          "guide": "These agents work with embedded systems and IoT. Use a C/C++ Developer for firmware, or an IoT Security specialist for OT assessments. Share your target hardware, RTOS, and security requirements.",
+          "example": "@c-cpp-developer Write a memory-safe driver for the I2C temperature sensor on an ARM Cortex-M4",
+          "names": [
+            "C/C++ Developer",
+            "Embedded Rust Developer",
+            "IoT / OT Security"
+          ],
+          "agents": [
+            "Systems programming, CMake, embedded, RTOS",
+            "no_std, Zephyr, probe-rs, PAC/HAL, Renode",
+            "ICS assessment, Modbus/DNP3/BACnet, Purdue model, firmware RE, MQTT security"
+          ],
+          "useCases": [
+            "Review C/C++ firmware for memory safety, buffer overflow prevention, and RTOS task prioritization",
+            "Design an embedded Rust application with no_std, peripheral access crates, and interrupt handling",
+            "Assess an IoT system for OT security vulnerabilities including firmware extraction and insecure protocols"
+          ]
+        },
+        "game-dev": {
+          "guide": "These agents help build games. Use a Unity Developer for C# game development, or an Unreal Developer for AAA-quality experiences. Share your engine version, target platforms, and performance requirements.",
+          "example": "@unity-developer Create a player movement system with state machine and animation blending in Unity",
+          "names": [
+            "Unity Developer",
+            "Unreal Developer"
+          ],
+          "agents": [
+            "Unity, C#, URP/HDRP, Addressables, DOTS",
+            "UE5, C++, Blueprint, GAS, Nanite, Lumen"
+          ],
+          "useCases": [
+            "Review Unity project architecture for performance bottlenecks, draw calls, and memory management",
+            "Design Unreal Engine gameplay systems with Blueprint/Actor component patterns and GAS integration"
+          ]
+        },
+        "security-recon": {
+          "guide": "These agents perform reconnaissance for security assessments. Use Attack Surface Recon for asset discovery, or OSINT & Threat Research for intelligence gathering. Provide target scope and rules of engagement.",
+          "example": "@attack-surface-recon Enumerate all subdomains, cloud assets, and exposed services for example.com",
+          "names": [
+            "Attack Surface Recon",
+            "Wireless Security",
+            "OSINT & Threat Research"
+          ],
+          "agents": [
+            "OSINT, subdomain enumeration, cloud asset discovery, passive/active recon",
+            "Wi-Fi (WPA2/3, WPS, PMKID, evil twin), Bluetooth, RFID, SDR",
+            "Social media OSINT, dark web, data leaks, domain/infrastructure intel, threat actor profiling"
+          ],
+          "useCases": [
+            "Map the attack surface of a target organization through subdomain enumeration, port scanning, and technology fingerprinting",
+            "Assess wireless network security including WPA3 configuration audit and rogue access point detection",
+            "Gather OSINT on a threat actor through social media, data leaks, and infrastructure correlation"
+          ]
+        },
+        "web-pentest": {
+          "guide": "These agents perform web application penetration testing. Use a Web Vulnerability Hunter for OWASP Top 10 testing, or an API Pentester for API-specific assessments. Define scope, provide auth tokens, and follow responsible disclosure.",
+          "example": "@web-vulnerability-hunter Perform a comprehensive SQL injection and XSS assessment on the login endpoint",
+          "names": [
+            "Web Vulnerability Hunter",
+            "API Pentester",
+            "Auth Bypass Specialist",
+            "Server-Side Exploitation",
+            "Cloud Security Assessment",
+            "WAF Bypass Specialist",
+            "Browser Security",
+            "Container Security",
+            "Cloud Posture",
+            "Bug Bounty Hunter",
+            "Supply Chain Security",
+            "DevSecOps Pipeline",
+            "Pentest Automation"
+          ],
+          "agents": [
+            "SQLi, XSS, SSRF, IDOR, business logic, file upload exploitation",
+            "REST, GraphQL, gRPC security testing, JWT attacks, introspection abuse",
+            "Authentication/authorization bypass, OAuth abuse, session attacks",
+            "SSTI, deserialization, command injection, XXE, race conditions",
+            "AWS/GCP/Azure misconfiguration, container escape, IAM abuse",
+            "Filter evasion for SQLi, XSS, SSRF, LFI across major WAFs",
+            "Chromium/Firefox arch, SOP, CSP bypass, postMessage, DOM clobbering, XS-Leaks, extension security",
+            "Docker/K8s security, admission controllers, image scanning, runtime security (Falco)",
+            "AWS/GCP/Azure CSPM, IAM analysis, IaC scanning (Checkov, tfsec), compliance",
+            "Recon methodology, subdomain enum, URL discovery, nuclei, Burp Suite, report writing",
+            "SBOM (SPDX/CycloneDX), Sigstore/cosign, SLSA, dependency confusion, SCA scanning",
+            "SAST/DAST/SCA in CI/CD, security gates, secret scanning, container signing",
+            "Recon pipelines, web fuzzing, async python framework, report generation, wrappers"
+          ],
+          "useCases": [
+            "Conduct a deep-dive penetration test of a web application covering SQLi, XSS, SSRF, and business logic flaws",
+            "Audit a REST/GraphQL API for injection vulnerabilities, broken authentication, and excessive data exposure",
+            "Test cloud infrastructure for misconfigurations including S3 bucket permissions, IAM policy abuse, and container escapes",
+            "Perform a bug bounty-style recon on a target including subdomain enumeration, URL discovery, and nuclei scanning"
+          ]
+        },
+        "mobile-pentest": {
+          "guide": "These agents test mobile application security. Use a Mobile App Pentester for comprehensive mobile assessments. Provide the APK/IPA, target API endpoints, and authentication details.",
+          "example": "@mobile-app-pentester Perform a static and dynamic analysis of the Android APK for OWASP Mobile Top 10",
+          "names": [
+            "Mobile App Pentester",
+            "iOS Security Researcher",
+            "Android Security Researcher"
+          ],
+          "agents": [
+            "iOS/Android static/dynamic analysis, API testing, data storage flaws",
+            "Entitlements, TCC bypasses, XPC exploitation, Mach port abuse",
+            "Root detection bypass, keystore analysis, IPC abuse, modding"
+          ],
+          "useCases": [
+            "Perform static and dynamic analysis of an iOS application for insecure data storage and transport security",
+            "Audit an Android application for root detection bypass, keystore vulnerabilities, and IPC abuse",
+            "Test a mobile app's API communication for authentication bypass, session handling, and data leakage"
+          ]
+        },
+        "desktop-exploitation": {
+          "guide": "These agents focus on desktop platform exploitation and defense. Use a Windows Exploit Developer for kernel research, or a Reverse Engineering agent for binary analysis. Always follow responsible disclosure and legal authorization.",
+          "example": "@windows-exploit-dev Analyze the stack buffer overflow in the HTTP parser and develop a ROP chain",
+          "names": [
+            "Windows Exploit Development",
+            "Linux Privilege Escalation",
+            "macOS Security Research",
+            "Binary Exploitation",
+            "Python Application Security",
+            "Desktop Threat Hunting",
+            "Reverse Engineering",
+            "Active Directory Security",
+            "Exploit Development"
+          ],
+          "agents": [
+            "Stack/heap overflow, kernel exploitation, token stealing, SEH/ROP",
+            "SUID, capabilities, kernel exploits, container escape, cron abuse",
+            "SIP/TCC bypass, XPC services, code signing, Mach ports, entitlement abuse",
+            "Reverse engineering, fuzzing, UAF, type confusion (C/C++/Rust, all platforms)",
+            "Pickle RCE, sandbox escape, Electron/Node.js, desktop scripting vulns",
+            "Cross-platform desktop bug hunting, IPC abuse, privilege escalation research",
+            "Binary RE (PE/ELF/Mach-O), Ghidra, IDA, Frida, angr, anti-analysis bypass, patching",
+            "BloodHound, kerberos attacks, ACL abuse, DCSync, NTLM relay, AD hardening",
+            "Fuzzing (AFL++, libFuzzer), ROP/ret2libc, heap exploitation, kernel exploit, shellcode"
+          ],
+          "useCases": [
+            "Analyze a Windows binary for exploitable vulnerabilities including stack overflow and SEH abuse",
+            "Assess a Linux system for privilege escalation vectors: SUID misconfigurations, kernel exploits, and container escapes",
+            "Audit a macOS application for TCC bypass, XPC service exploitation, and code signing weaknesses",
+            "Reverse engineer a malware sample to identify C2 infrastructure, persistence mechanisms, and data exfiltration techniques"
+          ]
+        },
+        "red-team": {
+          "guide": "These agents simulate real-world adversaries. Use an Adversary Simulation agent for full engagement operations, or a Social Engineering agent for phishing assessments. Always operate with explicit written authorization and defined rules of engagement.",
+          "example": "@adversary-simulation Plan a full red team engagement with initial access, C2, lateral movement, and exfiltration scenarios",
+          "names": [
+            "Adversary Simulation",
+            "Social Engineering",
+            "Malware Analysis",
+            "Physical Security Assessment",
+            "Phishing Assessment",
+            "C2 Framework"
+          ],
+          "agents": [
+            "Full engagement ops: initial access, C2, lateral movement, evasion, persistence",
+            "Phishing, vishing, physical tailgating, OSINT targeting, credential harvesting",
+            "Static/dynamic binary analysis, PE/ELF/Mach-O, anti-debug bypass, YARA",
+            "RFID cloning, lock bypassing, facility entry, badge system testing",
+            "GoPhish campaigns, DMARC/SPF/DKIM, SMTP warmup, template design, evasion techniques",
+            "Sliver/Mythic/Cobalt Strike setup, redirectors, domain fronting, Malleable C2 profiles, DNS C2"
+          ],
+          "useCases": [
+            "Plan and execute a full-scope adversary simulation emulating a specific threat group's TTPs",
+            "Conduct a phishing assessment with GoPhish including DMARC configuration, template design, and reporting",
+            "Set up a C2 infrastructure with Sliver including redirectors, domain fronting, and Malleable C2 profiles"
+          ]
+        },
+        "blue-team": {
+          "guide": "These agents defend and monitor. Use a Threat Hunting agent for proactive detection, or an Incident Response agent for active breaches. Provide logs, IoCs, and network topology for most relevant guidance.",
+          "example": "@threat-hunting Search for anomalous lateral movement patterns across Windows event logs and network flows",
+          "names": [
+            "Threat Hunting",
+            "Incident Response",
+            "Forensic Analysis",
+            "Detection Engineering",
+            "Threat Intelligence",
+            "Vulnerability Management",
+            "Digital Forensics",
+            "SOC Automation"
+          ],
+          "agents": [
+            "Hypothesis-driven hunts across endpoints, network, cloud (Windows/Linux/macOS)",
+            "NIST 800-61 methodology, containment, eradication, IR report generation",
+            "Memory/disk/mobile/cloud forensics, timeline analysis, anti-forensics detection",
+            "Sigma, KQL, YARA, Splunk rules, behavioral detection, Atomic Red Team",
+            "MITRE ATT&CK mapping, IoC management, YARA, MISP/OpenCTI, TTP tracking, threat reports",
+            "Nessus/OpenVAS, CVSS/EPSS prioritization, patching SLAs, metrics, verification",
+            "Memory (Volatility), disk (Sleuth Kit), file carving, timeline analysis, cloud forensics",
+            "SOAR playbooks, SIEM tuning (ELK/Splunk), alert triage, case management, Python engine"
+          ],
+          "useCases": [
+            "Conduct a hypothesis-driven threat hunt across endpoints and network logs for signs of lateral movement",
+            "Respond to a security incident following NIST 800-61 methodology from triage through lessons learned",
+            "Develop Sigma detection rules for a new malware family and test with Atomic Red Team",
+            "Perform memory forensics on a compromised system using Volatility to identify rootkit persistence"
+          ]
+        },
+        "purple-team": {
+          "guide": "These agents bridge red and blue teams. Use Purple Team for collaborative exercises, or Purple Team Automation for continuous detection validation. Define your detection roadmap and attack scenarios for best results.",
+          "example": "@purple-team-automation Schedule an automated attack simulation with Atomic Red Team and validate Sigma rule detections",
+          "names": [
+            "Purple Team",
+            "Purple Team Automation"
+          ],
+          "agents": [
+            "Atomic Red Team, adversary emulation, detection gap analysis, Sigma rule writing, Caldera/Infection Monkey",
+            "Automated purple team exercises, detection validation, attack simulation scheduling, metrics tracking"
+          ],
+          "useCases": [
+            "Run Atomic Red Team tests to validate detection coverage and identify gaps in SIEM alerting",
+            "Conduct an adversary emulation exercise with Caldera to test both prevention and detection capabilities"
+          ]
+        },
+        "ai-ml-security": {
+          "guide": "This agent specializes in AI and ML system security. Use it for LLM application security assessments, prompt injection testing, and secure RAG architecture review. Share your model architecture and deployment context.",
+          "example": "@ai-ml-security Audit the RAG pipeline for prompt injection vulnerabilities and data leakage risks",
+          "names": [
+            "AI / ML Security"
+          ],
+          "agents": [
+            "OWASP Top 10 for LLMs, prompt injection defense, adversarial ML, model extraction, secure RAG"
+          ],
+          "useCases": [
+            "Audit an LLM-powered application for prompt injection, data leakage, and jailbreak vulnerabilities",
+            "Review an ML pipeline for adversarial attack vectors including model extraction, evasion, and poisoning",
+            "Design a secure RAG architecture with proper isolation, access controls, and output sanitization"
+          ]
+        },
+        "content": {
+          "guide": "These agents create and refine content. Use a Technical Writer for documentation, a Content Editor for quality review, or a Markdown Architect for documentation pipelines. Provide your content brief, style guide, and target audience.",
+          "example": "@technical-writer Create a getting-started guide for the REST API with code examples and error handling patterns",
+          "names": [
+            "Technical Writer",
+            "Content Editor",
+            "Content Reviser",
+            "Translator",
+            "Markdown Architect",
+            "Markdown HTML",
+            "Markdown Editor"
+          ],
+          "agents": [
+            "Technical writing, style enforcement, code examples, tutorials",
+            "6-pass editorial review: structure, clarity, grammar, consistency, inclusivity, accuracy",
+            "3-level revision: light (grammar), medium (structure), heavy (restructure)",
+            "Technical translation: format preservation, locale-specific style, terminology management",
+            "Document architecture, cross-reference management, metadata schemas, automated generation pipelines",
+            "Markdown-to-HTML rendering, custom remark/rehype plugins, static site generation",
+            "Markdown editing workflows, linting, formatting, table of contents, link validation"
+          ],
+          "useCases": [
+            "Write and structure comprehensive technical documentation for a new API with examples and tutorials",
+            "Perform a six-pass editorial review of a technical guide covering accuracy, clarity, and inclusive language",
+            "Translate technical documentation from English to Spanish maintaining technical accuracy and locale-specific conventions"
+          ]
+        },
+        "observability": {
+          "guide": "These agents help monitor and observe systems. Use an Observability Specialist for metrics and tracing, or a Log Management Architect for log pipeline design. Share your stack, data sources, and SLOs for best results.",
+          "example": "@opentelemetry-specialist Instrument the Go microservice with OpenTelemetry traces, metrics, and logs export",
+          "names": [
+            "Observability Specialist",
+            "OpenTelemetry Specialist",
+            "Log Management Architect"
+          ],
+          "agents": [
+            "OpenTelemetry, PromQL, dashboards, alerting, tracing",
+            "OpenTelemetry instrumentation, traces/metrics/logs correlation, collector configuration, sampling",
+            "Log aggregation, parsing pipelines, retention policies, ELK/Loki stack design, compliance logging"
+          ],
+          "useCases": [
+            "Design an observability strategy with OpenTelemetry instrumentation across microservices",
+            "Create PromQL dashboards and alerting rules for SLO monitoring and error budget tracking",
+            "Set up distributed tracing to identify latency bottlenecks in a request across multiple services"
+          ]
+        },
+        "compliance": {
+          "guide": "These agents help achieve and maintain compliance. Use a SOC 2 Specialist for trust criteria, or a PCI DSS Specialist for payment security. Share your compliance scope, controls, and evidence repository structure.",
+          "example": "@soc2-specialist Prepare SOC 2 Type II evidence collection for the 5 trust services criteria with control narratives",
+          "names": [
+            "SOC 2 Specialist",
+            "GDPR Specialist",
+            "GRC Automation",
+            "PCI DSS Specialist",
+            "HIPAA Specialist",
+            "FedRAMP Specialist",
+            "SOX ITGC Specialist"
+          ],
+          "agents": [
+            "SOC 2 trust criteria, evidence collection, audit readiness",
+            "Data subject rights, consent management, breach notification",
+            "Risk assessment, policy management, vendor risk, evidence collection, compliance calendar",
+            "PCI DSS 4.0 compliance, cardholder data environment scoping, SAQ completion, QSA readiness",
+            "HIPAA Privacy/Security/Breach Rules, BAAs, risk analysis, ePHI safeguards",
+            "FedRAMP authorization, SSP development, control implementation, continuous monitoring",
+            "SOX ITGC auditing, access controls, change management, computer operations, evidence collection"
+          ],
+          "useCases": [
+            "Prepare for a SOC 2 Type II audit by mapping controls, collecting evidence, and identifying gaps",
+            "Conduct a GDPR data mapping exercise identifying personal data flows, processing purposes, and retention periods",
+            "Design a vendor risk management program including questionnaires, assessments, and continuous monitoring"
+          ]
+        },
+        "systems": {
+          "guide": "These agents handle operating system and infrastructure administration. Use a Linux Specialist for server configuration, or a Windows Specialist for enterprise AD environments. Share your OS versions, network topology, and security requirements.",
+          "example": "@linux-specialist Configure a hardened Linux server with CIS benchmarks, auditd, and nftables firewall",
+          "names": [
+            "Bash/Zsh Specialist",
+            "Linux Specialist",
+            "macOS Specialist",
+            "Linux Hardening",
+            "macOS Hardening",
+            "IR Scripting",
+            "Offensive Shell Scripting",
+            "Network Security Engineering",
+            "Windows Specialist",
+            "Container Orchestration",
+            "Storage Engineering"
+          ],
+          "agents": [
+            "Shell scripting: bash, zsh, POSIX sh, strict mode, portability, debugging, patterns",
+            "Linux administration: systemd, filesystems, LVM, networking, performance, security",
+            "macOS administration: launchd, plists, Homebrew, defaults, automation, AppleScript",
+            "CIS benchmarks, SSH/kernel hardening, auditd, nftables, PAM, file integrity",
+            "SIP, FileVault, Gatekeeper, profiles, TCC, firewall, compliance scripting",
+            "IR automation: acquisition scripts, timeline analysis, IOC scanning, orchestration",
+            "Red team scripting: reverse shells, persistence, data exfiltration, C2 bootstrap, anti-forensics",
+            "Firewalls (nft/iptables), VPN (WireGuard/OpenVPN), IDS/IPS (Suricata/Snort), segmentation",
+            "Windows Server, PowerShell, AD, Group Policy, security configuration, performance tuning",
+            "Kubernetes/Nomad cluster management, scheduling, autoscaling, service discovery",
+            "Distributed storage, Ceph/GlusterFS, NFS/SMB, backup strategies, data protection"
+          ],
+          "useCases": [
+            "Write a robust bash deployment script with strict mode, error handling, and idempotency checks",
+            "Harden a Linux server following CIS benchmarks including SSH configuration, kernel parameters, and auditd rules",
+            "Automate incident response with acquisition scripts, timeline analysis, and IOC scanning across endpoints",
+            "Design a network segmentation strategy with nftables firewall rules for a multi-tier application"
+          ]
+        },
+        "privacy-engineering": {
+          "guide": "These agents help implement privacy programs. Use Data Mapping for discovery, or Privacy DSAR/CCPA for handling data subject requests. Share your data inventory, processing activities, and applicable regulations.",
+          "example": "@privacy-dsar-ccpa Process a data subject access request with identity verification, data discovery, and secure delivery",
+          "names": [
+            "Data Mapping",
+            "Consent & Anonymization",
+            "Privacy DSAR/CCPA"
+          ],
+          "agents": [
+            "Data mapping, consent management, anonymization and privacy-by-design implementation",
+            "User consent management, data anonymization, pseudonymization, differential privacy",
+            "DSAR processing, CCPA compliance, data subject requests, deletion workflows, records management"
+          ],
+          "useCases": [
+            "Create a data flow map identifying all personal data collection, processing, and sharing across the organization",
+            "Design a consent management platform with granular opt-in/opt-out controls and preference tracking",
+            "Automate DSAR (Data Subject Access Request) processing including identity verification and data package generation"
+          ]
+        },
+        "blockchain-web3": {
+          "guide": "These agents secure blockchain and Web3 applications. Use a Smart Contract Auditor for Solidity code review, or a DeFi Wallet Bridge for cross-chain assessments. Provide contract source code, ABIs, and threat model context.",
+          "example": "@smart-contract-auditor Audit the DeFi staking contract for reentrancy, oracle manipulation, and access control issues",
+          "names": [
+            "Smart Contract Auditor",
+            "DeFi Wallet Bridge"
+          ],
+          "agents": [
+            "Smart contract auditing, DeFi security analysis, cross-chain bridge assessment",
+            "Cross-chain bridge security, wallet integration, DeFi protocol assessment, MEV analysis"
+          ],
+          "useCases": [
+            "Audit a Solidity smart contract for reentrancy, access control, and arithmetic vulnerabilities",
+            "Assess DeFi protocol security including oracle manipulation, flash loan attacks, and liquidity pool risks",
+            "Review cross-chain bridge architecture for validator set security, message passing integrity, and fund safety"
+          ]
+        },
+        "telecom": {
+          "guide": "This agent specializes in telecommunications security. Use it for SS7/5G infrastructure assessments, VoIP security reviews, and IMSI catcher detection. Share network topology and protocol details.",
+          "example": "@telecom-security Assess the SS7 network for location tracking, intercept, and fraud vulnerabilities",
+          "names": [
+            "Telecom Security"
+          ],
+          "agents": [
+            "Telecommunications infrastructure security: SS7, 5G, VoIP, IMSI catcher detection"
+          ],
+          "useCases": [
+            "Assess SS7 signalling security for SMS interception, location tracking, and fraud vulnerabilities",
+            "Audit 5G core network security including gNB authentication, subscriber privacy, and network slicing isolation",
+            "Test VoIP infrastructure for call interception, toll fraud, and service disruption vulnerabilities"
+          ]
+        },
+        "automotive": {
+          "guide": "This agent specializes in automotive security. Use it for CAN bus analysis, ECU fuzzing, and V2X security assessments. Share vehicle architecture, bus topology, and security requirements.",
+          "example": "@automotive-security Perform CAN bus fuzzing and ECU firmware analysis for the infotainment system",
+          "names": [
+            "Automotive Security"
+          ],
+          "agents": [
+            "Automotive security: CAN bus analysis, ECU fuzzing, telematics and V2X security"
+          ],
+          "useCases": [
+            "Assess CAN bus security for message injection, ECU firmware extraction, and denial of service attacks",
+            "Review telematics unit security including wireless attack surface, OTA update integrity, and data privacy",
+            "Audit V2X communication security for message authenticity, replay protection, and certificate management"
+          ]
+        },
+        "hardware": {
+          "guide": "This agent specializes in hardware security. Use it for side-channel analysis, JTAG/SWD debugging, and secure element evaluation. Share the target hardware specifications and security objectives.",
+          "example": "@hardware-security Perform a side-channel analysis on the secure element using power analysis and EM emission",
+          "names": [
+            "Hardware Security"
+          ],
+          "agents": [
+            "Hardware security: side-channel attacks, JTAG/SWD, fault injection, secure element analysis"
+          ],
+          "useCases": [
+            "Assess hardware security against side-channel attacks including power analysis, electromagnetic emissions, and timing",
+            "Review JTAG/SWD debug interface security and fuse configuration for production devices",
+            "Evaluate secure element implementation for key storage, cryptographic operations, and tamper response"
+          ]
+        },
+        "medical": {
+          "guide": "This agent specializes in medical device security. Use it for FDA premarket guidance, HIPAA compliance, and connected device assessments. Share device classification, data flows, and regulatory context.",
+          "example": "@medical-device-security Assess the connected insulin pump for HIPAA compliance and FDA cybersecurity guidance",
+          "names": [
+            "Medical Device Security"
+          ],
+          "agents": [
+            "Medical device security: FDA premarket guidance, HIPAA security rule, connected device assessment"
+          ],
+          "useCases": [
+            "Conduct a pre-market security assessment following FDA guidance for connected medical devices",
+            "Audit a medical device for HIPAA security rule compliance including access controls and audit trails",
+            "Review connected device ecosystem security for patient data protection, firmware integrity, and network isolation"
+          ]
+        },
+        "aviation-maritime-energy": {
+          "guide": "This agent covers critical infrastructure security across aviation, maritime, and energy sectors. Share your ICS architecture, compliance framework, and threat model for targeted guidance.",
+          "example": "@aviation-security Assess the airport departure system for critical infrastructure protection compliance",
+          "names": [
+            "Aviation Security"
+          ],
+          "agents": [
+            "Aviation, maritime and energy sector security: critical infrastructure, industrial control systems"
+          ],
+          "useCases": [
+            "Assess aviation system security including aircraft networks, ground systems, and passenger-facing interfaces",
+            "Review maritime security for vessel systems, port infrastructure, and satellite communication links",
+            "Audit energy sector industrial control systems for ICS-specific threats and Purdue model compliance"
+          ]
+        },
+        "physical-mainframe": {
+          "guide": "This agent covers physical security and mainframe security. Use it for facility security assessments or z/OS auditing. Share your physical security controls or mainframe access policies.",
+          "example": "@physical-security Assess physical access controls including badge systems, biometrics, and surveillance coverage",
+          "names": [
+            "Physical Security"
+          ],
+          "agents": [
+            "Physical security assessment and mainframe security: RACF, ACF2, Top Secret, z/OS auditing"
+          ],
+          "useCases": [
+            "Conduct a physical security assessment covering access control, surveillance, and security operations",
+            "Audit mainframe security including RACF/ACF2 configurations, z/OS UNIX system services, and SMF logging",
+            "Review mainframe cyber insurance requirements including risk assessments, incident response plans, and eDiscovery readiness"
+          ]
+        }
+      }
+    },
+    "skills": {
+      "desc": "Installable npm packages that inject project-specific context — architecture patterns, naming conventions, and component rules — into OpenCode or Claude Code for tailored AI assistance.",
+      "code": "# Install to OpenCode (~/.config/opencode/skills/devx/)\nnpx @xscriptor/skill-devx\n\n# Install to Claude Code (~/.claude/skills/devx/)\nnpx @xscriptor/skill-devx --anthropic\n\n# Preview what will be installed\nnpx @xscriptor/skill-devx --dry-run",
+      "exploreTitle": "Explore full documentation",
+      "devxName": "DevX",
+      "devxDesc": "Development workflows skill for OpenCode and Claude Code. Code structure, platform mapping, and project conventions.",
+      "samuraiName": "Samurai",
+      "samuraiDesc": "Security platform skill for OpenCode and Claude Code. Security architecture, patterns, and conventions.",
+      "xscriptorName": "Xscriptor",
+      "xscriptorDesc": "Design system skill for OpenCode and Claude Code. Component architecture, styling conventions, and UI development guidelines."
+    },
+    "prompts": {
+      "desc": "A library of carefully crafted system prompts and user prompts designed to elicit high-quality responses from AI models.",
+      "items": [
+        {
+          "title": "System Prompts",
+          "desc": "Base system prompts that define agent behavior, tone, output format, and constraints for different scenarios."
+        },
+        {
+          "title": "Analysis Prompts",
+          "desc": "Prompts designed for code analysis, security auditing, performance profiling, and dependency review tasks."
+        },
+        {
+          "title": "Generation Prompts",
+          "desc": "Templates for code generation, test creation, documentation writing, and migration script generation."
+        },
+        {
+          "title": "Debug Prompts",
+          "desc": "Structured prompts for systematic debugging: error analysis, root cause identification, and fix validation."
+        }
+      ],
+      "code": "# Use an analysis prompt\nopencode --prompt security-audit \"Scan the authentication module\"\n\n# Load a custom prompt file\nopencode --prompt-file ./prompts/code-review.md \"Review the changes\""
+    }
+  },
+  "VscodePage": {
+    "title": "resources/",
+    "titleEm": "vscode",
+    "description": "Xscriptor Themes suite represents the modern and unified visual ecosystem of X, designed specifically for advanced users, terminal enthusiasts, and developers who work long hours and demand absolute consistency in both aesthetics and accessibility."
+  },
+  "OpenCodePage": {
+    "title": "resources/",
+    "titleEm": "opencode",
+    "description": "An interactive CLI agent that helps with software engineering tasks directly from your terminal. OpenCode runs in a persistent shell, understands your codebase, and can autonomously execute multi-step workflows.",
+    "tabNavLabel": "OpenCode sections",
+    "tabs": {
+      "agents": "Agents",
+      "config": "Config",
+      "plugins": "Plugins",
+      "scripts": "Scripts",
+      "themes": "Themes",
+      "labs": "Labs",
+      "ports": "Ports",
+      "tools": "Tools"
+    },
+    "agents": {
+      "desc": "OpenCode provides multiple agent types optimized for different tasks, from fast codebase exploration to complex multi-step engineering work.",
+      "items": [
+        {
+          "title": "Explore Agent",
+          "desc": "Fast, lightweight agent for searching files, grepping code, and answering questions about the codebase with minimal context usage."
+        },
+        {
+          "title": "General Agent",
+          "desc": "Full-featured agent capable of complex multi-step research, code editing, file operations, and autonomous task execution."
+        },
+        {
+          "title": "Custom Agents",
+          "desc": "Define your own agents with specific tool sets, instructions, and behavior patterns through the opencode.json configuration."
+        }
+      ],
+      "code": "# Use a specific agent\nopencode --agent explore \"Find all API route definitions\"\n\n# Use the general agent for complex tasks\nopencode \"Refactor the authentication module to use JWT\""
+    },
+    "config": {
+      "desc": "OpenCode is configured through opencode.json or opencode.jsonc at the project root, giving you full control over agents, permissions, and behavior.",
+      "items": [
+        {
+          "title": "Agent Configuration",
+          "desc": "Define custom agents with tailored tool access, system prompts, and execution modes for different workflows."
+        },
+        {
+          "title": "Permission Rules",
+          "desc": "Set granular permission rules for file access, command execution, and external tool usage to maintain security."
+        },
+        {
+          "title": "MCP Server Setup",
+          "desc": "Configure MCP (Model Context Protocol) servers to extend OpenCode with custom tools, data sources, and integrations."
+        },
+        {
+          "title": "Skill Registration",
+          "desc": "Register custom skills that provide specialized instructions and workflows for domain-specific tasks."
+        }
+      ],
+      "code": "{\n  \"agent\": \"general\",\n  \"custom Agents\": [\n    {\n      \"name\": \"my-builder\",\n      \"mode\": \"plan\",\n      \"systemPrompt\": \"You are a build engineer...\"\n    }\n  ],\n  \"permissions\": {\n    \"commands\": [\"npm\", \"git\", \"docker\"]\n  }\n}"
+    },
+    "plugins": {
+      "desc": "OpenCode supports plugins through MCP (Model Context Protocol), allowing you to connect external tools, APIs, and data sources.",
+      "items": [
+        {
+          "title": "MCP Servers",
+          "desc": "Connect to MCP servers that provide additional tools, data sources, and context to enhance OpenCode capabilities."
+        },
+        {
+          "title": "Custom Integrations",
+          "desc": "Build your own MCP servers to integrate OpenCode with internal APIs, databases, documentation, and CI/CD pipelines."
+        },
+        {
+          "title": "Community Plugins",
+          "desc": "Discover and install community-built MCP servers for popular tools and services through the OpenCode ecosystem."
+        }
+      ],
+      "code": "# Configure an MCP server in opencode.json\n{\n  \"mcpServers\": {\n    \"my-db\": {\n      \"command\": \"node\",\n      \"args\": [\"mcp-server.js\"],\n      \"env\": { \"DB_URL\": \"$DB_URL\" }\n    }\n  }\n}"
+    },
+    "scripts": {
+      "desc": "OpenCode can execute scripts and commands in a persistent shell environment, enabling complex automation workflows.",
+      "items": [
+        {
+          "title": "Shell Execution",
+          "desc": "Run commands, scripts, and multi-step workflows directly in your terminal with full output capture and error handling."
+        },
+        {
+          "title": "Task Automation",
+          "desc": "Combine shell commands with code edits to automate repetitive tasks like refactoring, testing, and deployment."
+        },
+        {
+          "title": "Pipeline Support",
+          "desc": "Chain multiple operations together, using output from one step as input to the next, for complex build and analysis pipelines."
+        }
+      ],
+      "code": "# OpenCode can execute multi-step workflows\nnpm run lint && npm run test\n\n# Run a build and capture output\nopencode \"Build the project and fix any TypeScript errors\""
+    },
+    "themes": {
+      "desc": "OpenCode supports customizable UI themes that adapt to your terminal color scheme and personal preferences.",
+      "items": [
+        {
+          "title": "Theme Switching",
+          "desc": "Toggle between light and dark themes that automatically adapt to your system preference."
+        },
+        {
+          "title": "Custom Theming",
+          "desc": "Define your own color schemes and visual styles through OpenCode configuration for a personalized experience."
+        },
+        {
+          "title": "Terminal Integration",
+          "desc": "OpenCode respects your terminal emulator colors and can integrate with terminal themes for a seamless visual experience."
+        }
+      ],
+      "code": "# Theme configuration in opencode.json\n{\n  \"theme\": \"dark\",\n  \"customStyles\": {\n    \"--primary\": \"#ab865d\",\n    \"--background\": \"#1a1a1a\"\n  }\n}",
+      "installTitle": "Installation",
+      "installDesc": "You can install Xscriptor themes for OpenCode in several ways, depending on your workflow and preferences.",
+      "installRemote": "Remote Install",
+      "installRemoteCmd": "curl -fsSL https://raw.githubusercontent.com/xscriptor/opencode/main/themes/xscriptor-themes/install.sh | bash",
+      "installDownload": "Download & Install",
+      "installDownloadCmd": "git clone https://github.com/opencode/themes/xscriptor-themes.git\ncd xscriptor-themes\nopencode themes install .",
+      "installManual": "Manual Setup",
+      "installManualCmd": "# Copy theme files to your OpenCode config directory\ncp -r ./themes ~/.config/opencode/themes/",
+      "viewSource": "View Source Code"
+    },
+    "labs": {
+      "desc": "Experimental features and cutting-edge capabilities that are being developed and tested for future OpenCode releases.",
+      "items": [
+        {
+          "title": "Experimental Agents",
+          "desc": "Try new agent architectures and execution modes that are not yet stable but offer innovative capabilities."
+        },
+        {
+          "title": "Preview Features",
+          "desc": "Access upcoming features before they are officially released, providing early feedback to shape development."
+        },
+        {
+          "title": "Research Projects",
+          "desc": "Explore ongoing research in AI-assisted software engineering, including novel approaches to code generation and analysis."
+        }
+      ],
+      "code": "# Enable experimental features\nopencode --labs \"Try the new planning agent\"\n\n# Configure in opencode.json\n{\n  \"experimental\": {\n    \"enableNewAgent\": true\n  }\n}"
+    },
+    "ports": {
+      "desc": "OpenCode runs on multiple platforms and integrates with various operating systems, ensuring a consistent experience everywhere.",
+      "items": [
+        {
+          "title": "Cross-Platform",
+          "desc": "Available on Linux, macOS, and Windows with native performance and consistent behavior across all platforms."
+        },
+        {
+          "title": "Package Managers",
+          "desc": "Install via Homebrew, npm, or direct download. OpenCode is also available through popular Linux package managers."
+        },
+        {
+          "title": "CI/CD Integration",
+          "desc": "Use OpenCode in CI/CD pipelines for automated code review, refactoring, and quality assurance tasks."
+        }
+      ],
+      "code": "# Install on macOS\nbrew install opencode\n\n# Install via npm\nnpm install -g @opencode/cli\n\n# Run in CI\nopencode --non-interactive \"Run linter and fix issues\""
+    },
+    "tools": {
+      "desc": "A collection of built-in utility tools that enhance the development workflow, from file operations to code analysis.",
+      "items": [
+        {
+          "title": "File System Tools",
+          "desc": "Read, write, edit, and search files across your project with intelligent pattern matching and glob support."
+        },
+        {
+          "title": "Code Analysis",
+          "desc": "Analyze code structure, find dependencies, detect issues, and generate comprehensive reports about your codebase."
+        },
+        {
+          "title": "Git Integration",
+          "desc": "Review changes, create commits, manage branches, and work with pull requests directly from the OpenCode interface."
+        }
+      ],
+      "code": "# File operations\nopencode \"Find all TODO comments in the project\"\n\n# Code analysis\nopencode \"Analyze the dependency graph and find circular imports\"\n\n# Git workflow\nopencode \"Create a commit with the changes I just made\""
+    }
+  },
+  "JetBrainsPage": {
+    "title": "resources/",
+    "titleEm": "jetbrains",
+    "description": "A collection of 12 city-inspired themes for IntelliJ-based IDEs. Nine dark schemes and three light schemes, all built on the IntelliJ Platform 2025.3+ with Islands UI support.",
+    "featuresTitle": "Features",
+    "feature1": "12 city-inspired color schemes (9 dark, 3 light) across all IntelliJ-based IDEs",
+    "feature2": "Islands UI support for JetBrains IDEs 2025.3+ with full editor scheme integration",
+    "feature3": "Automated theme generation pipeline: edit colors.md, run generate_themes.py, deploy",
+    "feature4": "Comprehensive syntax highlighting for Java, Kotlin, Python, JavaScript, TypeScript, CSS, HTML, XML, Ruby, PHP, Go, Markdown, and RegExp",
+    "feature5": "Gradle-based build with IntelliJ Platform Plugin 2.x, Java 21 toolchain, and CI/CD integration",
+    "themesTitle": "Available Themes",
+    "themesDesc": "All 12 schemes are organized around iconic cities, each with its own distinct color identity.",
+    "dark": "dark",
+    "light": "light",
+    "installTitle": "Installation",
+    "installMarketplace": "JetBrains Marketplace",
+    "installMarketplaceDesc": "Open your IDE, go to Settings > Plugins > Marketplace, search for Xscriptor Theme, and click Install.",
+    "installManual": "Manual Install",
+    "installManualCmd": "Download the plugin ZIP from GitHub releases and install via Settings > Plugins > Install Plugin from Disk.",
+    "installBuild": "Build from Source",
+    "installBuildCmd": "git clone https://github.com/xscriptor/jetbrains\ncd jetbrains/xscriptor-theme\n./gradlew buildPlugin",
+    "scriptsTitle": "Theme Generator",
+    "scriptsDesc": "The repository ships with a Python script that parses colors.md and generates all 12 .theme.json files and .xml editor schemes automatically.",
+    "scriptsExample": "# Generate all themes from colors.md\npython3 scripts/generate_themes.py --output ./output",
+    "viewSourceCode": "View Source Code"
+  },
+  "ColorsPage": {
+    "title": "resources/",
+    "titleEm": "colors",
+    "description": "All Xscriptor color palettes — themes reveal one by one. Hover to preview, click to copy.",
+    "inspiration": "Inspiration"
+  },
+  "TerminalPage": {
+    "title": "resources/",
+    "titleEm": "terminal",
+    "description": "My own collection of terminal themes and color schemes designed for a consistent look and feel across Windows, macOS, and Linux."
+  },
+  "XfetchPage": {
+    "title": "resources/",
+    "titleEm": "xfetch",
+    "description": "A fast, lightweight, and highly customizable system information fetcher for the terminal. Display your system info with style across Linux, macOS, and Windows.",
+    "featuresTitle": "Features",
+    "featuresDesc": "From OS detection to animated ASCII art — xfetch packs a punch in a single binary.",
+    "terminalLabel": "● Live demo",
+    "terminalTitle": "See it in action",
+    "terminalDesc": "Watch xfetch display your system information in real time. This is a simulated terminal session.",
+    "terminalReplay": "Click to replay",
+    "featuresysinfo": "System information",
+    "featuresysinfoDesc": "OS, kernel, CPU, GPU, memory, disk, battery, uptime, packages, shell, terminal, WM/DE and more.",
+    "featurecrossplatform": "Cross-platform",
+    "featurecrossplatformDesc": "Works on Linux, Windows, and macOS. Same tool, same config — everywhere.",
+    "featurelayouts": "Multiple layouts",
+    "featurelayoutsDesc": "Classic side-by-side, Pac-Man, tree, section, side-block, box, lines, dots, and bottom-line.",
+    "featurejsonc": "JSONC config",
+    "featurejsoncDesc": "Full customization via config.jsonc — modules, icons, colors, logos, and layouts.",
+    "featurepalette": "Color palette",
+    "featurepaletteDesc": "Built-in ANSI color palette display with square, circle, triangle, and line styles.",
+    "featureplugins": "Plugin system",
+    "featurepluginsDesc": "Extend with external plugins via JSON over stdin/stdout. Animate logos, fetch GitHub stats, and more.",
+    "featurelogoanim": "Logo animation",
+    "featurelogoanimDesc": "Animate ASCII logos with sweep, wave, rainbow, sparkle, breathing, and frame-by-frame styles.",
+    "featurenerdfont": "NERD Font icons",
+    "featurenerdfontDesc": "Customizable Nerd Font icons per module. Use emojis, text, or any Unicode glyph.",
+    "featurelogos": "ASCII & image logos",
+    "featurelogosDesc": "Display text logos with ANSI colors or image files (png, jpg, svg) via viuer.",
+    "modulesTitle": "Available modules",
+    "modulesDesc": "Every piece of information xfetch can display. Mix, match, and reorder them in your config.",
+    "modOs": "Operating system name, version & architecture",
+    "modKernel": "Kernel version",
+    "modHostname": "Machine hostname",
+    "modUptime": "System uptime",
+    "modPackages": "Package count (pacman, dpkg, scoop, brew, etc.)",
+    "modShell": "Current shell (bash, zsh, powershell)",
+    "modTerminal": "Terminal emulator",
+    "modWm": "Window Manager / Desktop Environment",
+    "modCpu": "CPU model, cores & frequency",
+    "modGpu": "GPU model(s) — integrated & discrete",
+    "modMemory": "RAM used / total with percentage",
+    "modSwap": "Swap usage",
+    "modDisk": "Disk usage",
+    "modBattery": "Battery level & status (charging/discharging)",
+    "modUser": "Current username",
+    "modDatetime": "Current date & time",
+    "modLocalIp": "Local IP address",
+    "modPalette": "ANSI color palette (squares, circles, triangles, lines)",
+    "layoutsTitle": "Fully customizable layouts",
+    "layoutsDesc": "xfetch ships with 9 built-in layouts. Each has a distinct visual style for different preferences.",
+    "layoutClassic": "Default (Classic)",
+    "layoutClassicDesc": "Logo on the left, info on the right. Clean and familiar.",
+    "layoutPacman": "Pac-Man",
+    "layoutPacmanDesc": "Boxed layout with Pac-Man header and footer. Fun and retro.",
+    "layoutSection": "Section",
+    "layoutSectionDesc": "Grouped modules with clear section headers.",
+    "layoutSideBlock": "Side Block",
+    "layoutSideBlockDesc": "Keys and values in separate side-by-side boxes.",
+    "layoutTree": "Tree",
+    "layoutTreeDesc": "Hierarchical tree with nested groups. Great for organizing.",
+    "layoutBox": "Box",
+    "layoutBoxDesc": "All info enclosed in a rounded box.",
+    "viewSourceCode": "View Source Code",
+    "installTitle": "Installation",
+    "installDesc": "Choose your platform. The quick installer handles everything — including Rust setup if needed.",
+    "installLinux": "Linux / macOS",
+    "installWindows": "Windows",
+    "installSource": "Build from source",
+    "installArch": "Arch Linux",
+    "installAfter": "After install, just run:",
+    "configTitle": "Configuration",
+    "configDesc": "Toggle modules and pick a layout to generate a config.jsonc.",
+    "configModulesLabel": "Modules",
+    "configLayoutLabel": "Layout",
+    "configGeneratedLabel": "Generated config.jsonc",
+    "configCustomFlag": "Use a custom config file:",
+    "pluginsTitle": "Plugin system",
+    "pluginsDesc": "xfetch communicates with external plugins via JSON over stdin/stdout. Install, list, and remove plugins with simple CLI commands.",
+    "pluginAnimateLogo": "Animates ASCII logos with multiple color effects via JSON protocol.",
+    "pluginGithubStats": "Fetches GitHub user stats via the public API.",
+    "pluginCustom": "Any executable reading JSON from stdin and writing JSON to stdout works.",
+    "pluginsDiscovery": "Plugin discovery: explicit path → xfetch-plugin-<name> in PATH → ~/.config/xfetch/plugins/ → ./plugins/<name>/target/release",
+    "usageTitle": "Usage",
+    "usageDescription": "Simply run xfetch in your terminal:",
+    "roadmapTitle": "Roadmap",
+    "roadmapDesc": "What's planned for xfetch — from additional package managers to a daemon mode. Contributions welcome!",
+    "phase0Title": "Phase 0-3 — Foundation & modules",
+    "phase0Desc": "Core system, all info modules, 20+ example configs, install scripts, layouts, documentation.",
+    "phase1Title": "Phase 4 — Package manager expansion",
+    "phase1Desc": "RPM, APK (Alpine), Nix, Homebrew, Chocolatey, multi-manager detection.",
+    "phase2Title": "Phase 5 — Network & connectivity",
+    "phase2Desc": "Local/public IP (with privacy toggle), IPv6, network interface display.",
+    "phase3Title": "Phase 6 — Enhanced modules",
+    "phase3Desc": "Music player (MPD), Spotify, weather, timezone, user info, display resolution, theme detection.",
+    "phase4Title": "Phase 7 — Additional layouts",
+    "phase4Desc": "Compact, horizontal, bottom, minimal (text-only).",
+    "phase5Title": "Phase 8 — Performance",
+    "phase5Desc": "Parallel probing, caching, lazy loading, benchmarking, profiling.",
+    "phase6Title": "Phase 9 — CI/CD & distribution",
+    "phase6Desc": "GitHub Actions, macOS/Windows binaries, Homebrew tap, AUR, changelog automation.",
+    "phase7Title": "Phase 10 — Community & ecosystem",
+    "phase7Desc": "Themes registry, plugin system, community contributions, theme preview tool.",
+    "phase8Title": "Phase 11 — Testing & QA",
+    "phase8Desc": "Unit/integration tests, clippy, rustfmt, platform-specific tests, coverage.",
+    "phase9Title": "Phase 12 — Advanced features",
+    "phase9Desc": "Custom scripting, conditional modules, theme variables, daemon mode, hot-reload, telemetry (opt-in).",
+    "phase10Title": "Phase 13 — Marketing",
+    "phase10Desc": "User manual, video tutorials, project website, blog posts, comparison guide, community channel.",
+    "uninstallTitle": "Uninstall",
+    "uninstallQuick": "Quick uninstall",
+    "uninstallManual": "Manual uninstall",
+    "layoutClassicShort": "Default (classic)",
+    "layoutPacmanShort": "Pac-Man",
+    "layoutBoxShort": "Box",
+    "layoutSectionShort": "Section",
+    "layoutTreeShort": "Tree",
+    "layoutSideBlockShort": "Side Block",
+    "layoutLineShort": "Line",
+    "layoutDotsShort": "Dots",
+    "layoutBottomLineShort": "Bottom Line"
+  },
+  "ObsidianPage": {
+    "title": "resources/",
+    "titleEm": "obsidian",
+    "description": "A refined literary-inspired theme for Obsidian, featuring EB Garamond typography and flexible customization for any workspace.",
+    "featuresTitle": "Features",
+    "features": {
+      "ebGaramond": "Elegant EB Garamond typography with full italic and weight support",
+      "lightDark": "Carefully tuned light and dark color palettes",
+      "frostedGlass": "Subtle transparency and frosted-glass (pseudo-mica) effects",
+      "codeBlocks": "Enhanced code block readability with per-language backgrounds",
+      "styleSettings": "Full Style Settings integration for real-time customization"
+    },
+    "mobileTitle": "Mobile Previews",
+    "desktopTitle": "Desktop Previews",
+    "installTitle": "Installation",
+    "installCommunity": "Community Themes",
+    "installCommunityDesc": "From Obsidian: Settings → Appearance → Community Themes → Search for Xscriptor and click Install.",
+    "installManual": "Manual Installation",
+    "installManualCmd": "Copy the theme files into .obsidian/themes/Xscriptor/ and select it in Settings → Appearance",
+    "styleSettingsTitle": "Style Settings",
+    "styleSettingsDesc": "The theme integrates with the Style Settings plugin, giving you full control over transparency, colors, and typography.",
+    "settings": {
+      "transparency": "Background Opacity",
+      "transparencyDesc": "Control the transparency level of the application background.",
+      "mica": "Pseudo-Mica Effect",
+      "micaDesc": "Enable a frosted glass blur effect over the workspace (requires translucent background).",
+      "accent": "Accent Color",
+      "accentDesc": "Customize the main accent color used across the theme.",
+      "typography": "Typography",
+      "typographyDesc": "Adjust base font size and line height for optimal readability."
+    },
+    "viewSourceCode": "View Source Code",
+    "devTitle": "For Developers",
+    "devIntro": "This theme ships with a Python automation toolkit that lets you generate your own custom Obsidian themes programmatically. The pipeline follows a declarative JSON-to-CSS workflow:",
+    "devStep1": "Edit JSON config",
+    "devStep2": "Run Python script",
+    "devStep3": "CSS regenerated",
+    "devQuickPalette": "Quick Palette — 8 colors + 4 backgrounds",
+    "devQuickPaletteDesc": "From just 8 color values and 4 background tones, the quick palette engine auto-derives approximately 150 CSS variables covering surfaces, borders, hovers, focus rings, callouts, tags, code blocks, and syntax tokens for both light and dark modes.",
+    "devAutoDerive": "Auto-derivation logic",
+    "devFastPalette": "Fast Palette — typography only",
+    "devFastPaletteDesc": "Define just 2 emphasis colors and the script computes the full heading hierarchy (h1–h6), italic, muted, and faint tones automatically using configurable strength ratios.",
+    "devCli": "CLI usage",
+    "devViewSource": "View Source Code (labs branch)"
+  },
+  "PortfolioPage": {
+    "title": "Portfolio",
+    "titleEm": "timeline",
+    "subtitle1": "Chronicle of",
+    "subtitle1Em": "professional evolution",
+    "subtitle2": "&",
+    "subtitle2Em": "technical milestones",
+    "metadata": {
+      "title": "Portfolio - xscriptor",
+      "description": "Here you can learn in detail about the knowledge and experience that my portfolio can bring to your project"
+    }
+  },
+  "ReposPage": {
+    "title": "Git",
+    "titleEm": "vault",
+    "subtitle1": "Compendium of",
+    "subtitle1Em": "technical artifacts",
+    "subtitle2": "&",
+    "subtitle2Em": "engineering essentials"
+  },
+  "ReposClient": {
+    "loading": "Loading repositories...",
+    "noDescription": "No description available.",
+    "stars": "Stars:",
+    "forks": "Forks:",
+    "created": "Created:",
+    "updated": "Updated:",
+    "ariaLabel": "Open {name} on GitHub"
+  },
+  "XPage": {
+    "redirecting": "Redirecting to the external laboratory..."
+  },
+  "HeroImageSlider": {
+    "prev": "Previous image",
+    "next": "Next image",
+    "goto": "Go to image {index}"
+  },
+  "SkillNetwork": {
+    "skills": [
+      {
+        "name": "JavaScript",
+        "description": "The heart of modern web development"
+      },
+      {
+        "name": "TypeScript",
+        "description": "JavaScript with syntax for types"
+      },
+      {
+        "name": "Rust",
+        "description": "Systems programming for CLI tools & package managers"
+      },
+      {
+        "name": "React",
+        "description": "Library for web and native user interfaces"
+      },
+      {
+        "name": "Tailwind",
+        "description": "Rapidly build modern websites"
+      },
+      {
+        "name": "Next.js",
+        "description": "The React Framework for the Web"
+      },
+      {
+        "name": "React Native",
+        "description": "Create native apps for Android & iOS"
+      },
+      {
+        "name": "UI/UX",
+        "description": "Designing intuitive user experiences"
+      },
+      {
+        "name": "Glassmorphism",
+        "description": "Frosted glass aesthetic principles"
+      },
+      {
+        "name": "Node.js",
+        "description": "JavaScript runtime built on Chrome's V8"
+      },
+      {
+        "name": "PHP",
+        "description": "Server-side scripting language"
+      },
+      {
+        "name": "NoSQL",
+        "description": "Flexible database schemas"
+      },
+      {
+        "name": "MySQL",
+        "description": "Relational open source database"
+      },
+      {
+        "name": "Linux",
+        "description": "Open source operating system & distro building"
+      },
+      {
+        "name": "Bash",
+        "description": "Shell command language & automation"
+      },
+      {
+        "name": "Git",
+        "description": "Version control system"
+      },
+      {
+        "name": "CyberSec",
+        "description": "Security principles & OSINT analysis"
+      },
+      {
+        "name": "Bilingual",
+        "description": "Fluent in English and Spanish"
+      },
+      {
+        "name": "Remote",
+        "description": "Effective distributed collaboration"
+      },
+      {
+        "name": "Arch/ISO",
+        "description": "Custom Arch Linux spin & mkarchiso builds"
+      },
+      {
+        "name": "Vite",
+        "description": "Fast frontend tooling for web apps"
+      },
+      {
+        "name": "CI/CD",
+        "description": "GitHub Actions, automated workflows"
+      },
+      {
+        "name": "Python",
+        "description": "Scripting, badge generation & automation"
+      },
+      {
+        "name": "TUI/Ratatui",
+        "description": "Terminal UI frameworks for Rust CLI apps"
+      },
+      {
+        "name": "Wayland",
+        "description": "Hyprland compositor & tiling window configs"
+      },
+      {
+        "name": "CSS3",
+        "description": "Theme design for editors, terminals & web"
+      },
+      {
+        "name": "Zsh",
+        "description": "Advanced shell customization & plugins"
+      },
+      {
+        "name": "OSINT",
+        "description": "Web analysis dashboards & security research"
+      },
+      {
+        "name": "A11Y",
+        "description": "Accessibility & usability best practices"
+      },
+      {
+        "name": "Dart/Flutter",
+        "description": "Cross-platform mobile apps & crypto libraries"
+      },
+      {
+        "name": "Kotlin",
+        "description": "JetBrains IDE plugin development"
+      },
+      {
+        "name": "SVG",
+        "description": "Vector graphics for badges, icons & branding"
+      },
+      {
+        "name": "Markdown",
+        "description": "Documentation across all projects"
+      },
+      {
+        "name": "TOML/YAML",
+        "description": "Configuration formats for tools & compositors"
+      },
+      {
+        "name": "X",
+        "description": "Development"
+      },
+      {
+        "name": "Obsidian",
+        "description": "Theme development & Style Settings customization"
+      },
+      {
+        "name": "CSS Modules",
+        "description": "Component-scoped styling with CSS Modules"
+      },
+      {
+        "name": "i18n",
+        "description": "Multi-locale architecture & translation workflows"
+      },
+      {
+        "name": "Framer Motion",
+        "description": "Declarative animation library for React"
+      },
+      {
+        "name": "Figma",
+        "description": "Design system creation & component prototyping"
+      },
+      {
+        "name": "PNPM",
+        "description": "Fast, disk-space-efficient package manager"
+      },
+      {
+        "name": "JSON",
+        "description": "Data interchange & configuration across projects"
+      },
+      {
+        "name": "MDX",
+        "description": "Markdown with JSX for content-driven pages"
+      },
+      {
+        "name": "Prettier",
+        "description": "Opinionated code formatter for consistent style"
+      },
+      {
+        "name": "ESLint",
+        "description": "Static code analysis & linting automation"
+      }
+    ],
+    "constellationView": "X-constellation_view"
+  },
+  "VscodeThemeGallery": {
+    "themeSelected": "{name} theme selected. Interactive preview available below.",
+    "introLoaded": "Theme video preview loaded. Select a theme to open the interactive editor preview.",
+    "a11yNote": "All Xscriptor VSCode themes are tuned to meet WCAG AA contrast targets across the primary editing surface and core syntax states.",
+    "viewSourceCode": "View Source Code",
+    "productIcons": "Product Icons",
+    "backToResources": "Back To Resources"
+  },
+  "XglassShowcase": {
+    "heading": "XGlass for vscode & forks — Make your VS Code look like glass. Xglass brings a translucent layer to the editor so your workspace feels lighter, cleaner and more immersive without leaving the Xscriptor ecosystem.",
+    "viewSourceCode": "View Source Code"
+  },
+  "TerminalResourceSections": {
+    "filters": "Filters",
+    "themesCount": "{filtered} / {total} themes",
+    "terminal": "Terminal",
+    "allTerminals": "All terminals",
+    "themeName": "Theme name",
+    "searchPlaceholder": "Search by theme name...",
+    "all": "All",
+    "preview": "Preview",
+    "previewDescription": "Select a scheme to preview an xfetch run (fastfetch-style output).",
+    "scheme": "Scheme",
+    "quickInstall": "Quick install",
+    "quickInstallDescription": "Select a terminal to see the recommended install command.",
+    "universalInstaller": "Universal installer",
+    "copied": "Copied",
+    "copy": "Copy",
+    "copyJson": "Copy JSON",
+    "manualSteps": "This emulator uses manual steps. Check the repository for details.",
+    "terminalAll": "Terminal: All",
+    "chooseTerminal": "Choose a terminal to show its specific command.",
+    "themes": "Themes",
+    "themesDescription": "16-color ANSI palettes based on your collection.",
+    "loadedTheme": "Loaded theme",
+    "plugins": "plugins:",
+    "hardware": "Hardware",
+    "software": "Software",
+    "session": "Session",
+    "colors": "Colors"
+  },
+  "PreviewsResources": {
+    "vscodeTitle": "Xscriptor Themes for Vscode & Forks",
+    "terminalTitle": "Terminal schemes",
+    "obsidianTitle": "Obsidian Xscriptor Theme",
+    "jetbrainsTitle": "JetBrains Theme",
+    "xglassTitle": "Xglass for vscode & forks - windows and linux",
+    "helixTitle": "Helix X themes",
+    "xfetchTitle": "Xfetch — System Information Fetcher",
+    "aiTitle": "AI — Agents, Skills & Prompts"
+  },
+  "PortfolioTimeline": {
+    "intro": "Here are the key milestones I’ve reached throughout my journey as an analyst and developer.",
+    "2014_title": "IT jr analist — Prever S.A.S.",
+    "2014_servers": "Complete Windows and Linux servers management",
+    "2014_credentials": "Credentials management",
+    "2014_cred_1": "Centralized user and group control (Active Directory, LDAP)",
+    "2014_cred_2": "Role-based access control (RBAC)",
+    "2014_cred_3": "SSH key management and rotation",
+    "2014_cred_4": "Password policy enforcement (complexity, expiration)",
+    "2014_security": "Information security",
+    "2014_sec_1": "Regular OS patching and vulnerability management",
+    "2014_sec_2": "Firewall configuration and port hardening",
+    "2014_sec_3": "Log auditing and centralized monitoring (e.g., Graylog, ELK)",
+    "2014_networking": "Connectivity and networking",
+    "2014_net_1": "Static IP/DNS setup and DHCP reservation",
+    "2014_net_2": "VPN server setup and maintenance (WireGuard, OpenVPN)",
+    "2014_net_3": "Port forwarding and NAT configuration",
+    "2014_net_4": "Remote desktop and SSH access provisioning",
+    "2014_net_5": "Network file sharing (SMB/NFS)",
+    "2014_database": "Database administration and migration to Odoo (formerly OpenERP)",
+    "2014_legacy": "Legacy database administration (PostgreSQL, MySQL, Oracle...)",
+    "2014_leg_1": "Installation, configuration, and user access control",
+    "2014_leg_2": "Backup routines and replication strategies",
+    "2014_leg_3": "Data normalization and structure analysis",
+    "2014_migration": "Migration process toward Odoo",
+    "2014_mig_1": "Assessment of legacy systems and ERP alternatives",
+    "2014_mig_2": "Mapping fields and cleansing inconsistent data",
+    "2014_mig_3": "Exporting and transforming datasets to fit Odoo schemas",
+    "2014_odoo": "Odoo deployment and data integration",
+    "2014_odoo_1": "Setting up Odoo with PostgreSQL as the backend",
+    "2014_odoo_2": "Installing essential and custom business modules",
+    "2014_odoo_3": "Importing data via CSV, XML or direct SQL scripts",
+    "2017_title": "Financial Portfolio Manager (NYSE/NASDAQ) — Liquidity Hub",
+    "2017_bigdata": "Big Data and financial analytics",
+    "2017_bd_1": "Real-time aggregation of market feeds and historical data",
+    "2017_bd_2": "Preprocessing of large-scale datasets using Python (Pandas, NumPy)",
+    "2017_bd_3": "Integration with financial APIs (Bloomberg, Alpha Vantage, Yahoo Finance)",
+    "2017_bd_4": "Machine learning models for risk prediction and asset correlation",
+    "2017_graphical": "Graphical data interpretation",
+    "2017_gr_1": "Technical chart reading (candlesticks, RSI, MACD, Bollinger Bands)",
+    "2017_gr_2": "Development of custom dashboards with D3.js, Plotly or Power BI",
+    "2017_gr_3": "Visualization of price-volume anomalies and trend reversals",
+    "2017_market": "Market perspective & forecasting",
+    "2017_mk_1": "Macro and microeconomic impact analysis on portfolio exposure",
+    "2017_mk_2": "Scenario modeling for volatility shifts and liquidity events",
+    "2017_mk_3": "Sentiment analysis based on financial news and earnings reports",
+    "2017_governance": "Confidential data governance",
+    "2017_gov_1": "Secure storage and encryption of portfolio allocation data",
+    "2017_gov_2": "Access control and role-based audit trails (GDPR/SEC compliant)",
+    "2017_gov_3": "Versioning and traceability of sensitive trading decisions",
+    "2018_title": "Telecommunications Analyst — Telefónica",
+    "2018_troubleshooting": "Troubleshooting and signal diagnostics",
+    "2018_tr_1": "Detection and resolution of incidents on landline and mobile networks",
+    "2018_tr_2": "Real-time analysis of signal degradation and restoration of service",
+    "2018_tr_3": "Remote signal testing and escalation of unresolved issues",
+    "2018_customer": "Customer data and database administration",
+    "2018_cust_1": "Query, update, and validation of customer data in internal systems",
+    "2018_cust_2": "Creation and deletion of service records with consistency checks",
+    "2018_cust_3": "Maintenance of backend telecom databases (SQL-based tools)",
+    "2018_routing": "Signal routing and service provisioning",
+    "2018_rt_1": "Configuration of routing tables and signal paths for new connections",
+    "2018_rt_2": "Activation and monitoring of voice and data plans",
+    "2018_rt_3": "Coordination with infrastructure teams for physical line deployment",
+    "2018_security": "Security and compliance checks",
+    "2018_sec_1": "Routine security audits on customer-accessible systems",
+    "2018_sec_2": "Verification of user permissions and protection of sensitive data",
+    "2018_sec_3": "Compliance with Telefónica’s data handling and privacy protocols",
+    "2018_testing": "Product testing and reporting",
+    "2018_test_1": "Functional validation of new telecom products before public release",
+    "2018_test_2": "Reporting bugs and inconsistencies across different user environments",
+    "2018_test_3": "Feedback to R&D for iterative product improvements",
+    "present_title": "X development",
+    "present_degree_pre": "Completed an ",
+    "present_degree_bold": "Advanced Technical Degree in Web Application Development",
+    "present_degree_post": ", focused on frontend, backend, databases, and cross-platform apps.",
+    "present_uab_pre": "Earned a certification from the ",
+    "present_uab_bold": "Universitat Autónoma de Barcelona",
+    "present_uab_post": " in Digital Humanities.",
+    "present_google_pre": "Earned certifications from ",
+    "present_google_bold": "Google",
+    "present_google_post": " in IT Security and Technical Support Fundamentals.",
+    "present_openwebinars_pre": "Earned multiple certifications on ",
+    "present_openwebinars_bold": "OpenWebinars",
+    "present_openwebinars_post": " in jQuery, web security, Bootstrap Fundamentals, PHP Fundamentals, Tailwind CSS, and JavaScript.",
+    "present_freelance_pre": "Worked as a ",
+    "present_freelance_bold": "freelance web administrator",
+    "present_freelance_post": ", maintaining and optimizing websites for small businesses.",
+    "present_projects_pre": "Ongoing project development: ",
+    "present_projects_bold": "Xscriptor — Xliterato — DevX",
+    "present_projects_post": ", including art, literature, and programming portfolios.",
+    "present_taller_pre": "Currently working as a ",
+    "present_taller_bold": "developer at Taller Agencia, Spain",
+    "present_taller_post": ".",
+    "present_ecosystem_pre": "Growing the ",
+    "present_ecosystem_bold1": "X ecosystem",
+    "present_ecosystem_mid1": " across multiple areas: an Arch Linux spin (",
+    "present_ecosystem_bold2": "X",
+    "present_ecosystem_mid2": "), extensions for code editors (VS Code and forks), web applications for deep analysis (",
+    "present_ecosystem_bold3": "XWA",
+    "present_ecosystem_post": "), complete terminal themes, full ecosystem development for Hyprland, collaboration with Fresh Editor (Rust) in themes and development, and custom package managers in Rust for future distributions."
+  },
+  "Layout": {
+    "title": "Dev - Xscriptor",
+    "description": "Dev from X"
+  },
+  "SimplePages": {
+    "goToPage": "→ go to page",
+    "goUp": "(parent directory)",
+    "devxName": "devx",
+    "devxDesc": "Design tokens, color systems & component patterns",
+    "xscriptorName": "xscriptor",
+    "xscriptorDesc": "Typography, palettes & content architecture",
+    "samuraiSkillName": "samurai",
+    "samuraiSkillDesc": "Security UI — severity, scanning & export patterns"
+  },
+  "XcomponentsPage": {
+    "heroTitle": "Xcomponents",
+    "heroSub": "Reusable React/Next.js UI Component Library",
+    "heroDesc": "A curated collection of interactive components designed for the Xscriptor ecosystem. Each component is built with framer-motion, follows the Xscriptor design tokens, and is fully typed with TypeScript.",
+    "heroNote": "Originally built exclusively for xscriptor.com, these components have since been opened up for broader use — freely available under the MIT license.",
+    "install": "npm install @xscriptor/xcomponents",
+    "importPrefix": "import",
+    "from": "from",
+    "outroTitle": "Explore the Library",
+    "outroDesc": "All components are open source on GitHub. Each is self-contained, fully typed, and follows the Xscriptor design system.",
+    "sourceBtn": "Source Code",
+    "npmBtn": "npm",
+    "xDecryptedText": "Animated text that reveals itself through a scrambling effect — characters cycle through random symbols before settling into the final message.",
+    "xInteractivePhrase": "Turns individual words into interactive elements — clickable, underlinable, or with blur effects.",
+    "xSkillNetwork": "An interactive constellation graph that visualises skill relationships with colour-coded nodes and connecting lines.",
+    "xStaticGallery": "A responsive image gallery grid with configurable columns and scroll-reveal fade-in animations.",
+    "xGlassNavbar": "A frosted-glass navigation bar with backdrop blur, configurable transparency, and theme-aware styling.",
+    "xBookFullDecrypt": "A full-text decryption component where words are randomly assigned interaction types — click to reveal blurred content and toggle underlined words.",
+    "xMicroGalleryText": "A compact gallery that displays up to three images alongside text, with automatic shuffling at configurable intervals.",
+    "xSeparator": "A decorative divider with configurable orientation, variant, and an optional branded X marker in the centre.",
+    "xZigZagLayout": "Alternates child elements left and right in a zigzag pattern with an optional animated connecting line.",
+    "xContactForm": "A fully configurable contact form with toggleable fields, validation, honeypot spam protection, and mailto-based submission.",
+    "xFooter": "A full site footer with navigation links, copyright notice, configurable columns, layout direction, and custom color scheme support.",
+    "xMinimalFooter": "A lightweight footer variant with compact copyright text and optional inline links — ideal for landing pages and minimal layouts.",
+    "xCompleteBook": "A full book-reading interface with parsed sections, image support, index navigation, and interactive poetry rendering."
+  },
+  "ClassicControls": {
+    "light": "Light",
+    "dark": "Dark",
+    "theme": "Theme",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "navigation": "Navigation",
+    "changeLanguage": "Change language",
+    "menuHome": "Home",
+    "menuResources": "Resources",
+    "menuPortfolio": "Portfolio / Timeline",
+    "menuContact": "Contact",
+    "menuXscriptor": "Xscriptor.com",
+    "simpleMode": "Simple mode",
+    "classicMode": "Classic mode"
+  },
+  "Portfolios": {
+    "demoTitle": "Live demos",
+    "openFull": "Open full",
+    "loading": "Loading demo…"
+  },
+  "HomeShowcase": {
+    "hero": {
+      "path": "~/dev/xscriptor",
+      "name": "X-Scriptor-Dev",
+      "role": "Observation · Construction · Ecosystem",
+      "paragraph": "Transmuting intent into perceived reality, transforming abstract principles into tangible forms. Serving as the bridge between the void and utility, crafting enduring systems that resonate with human purpose and perception.",
+      "scrollHint": "scroll"
+    },
+    "chapters": [
+      {
+        "id": "construction",
+        "eyebrow": "Construction",
+        "title": "From the void to form",
+        "description": "Every tangible form is born from pure intent. To build is to give body to the void: transmuting the abstract into a system that breathes, works and endures."
+      },
+      {
+        "id": "method",
+        "eyebrow": "Method",
+        "title": "The order that precedes the work",
+        "description": "No work endures by accident. Behind what is visible lies a silent discipline: every piece is forged, put to the test and discarded if it cannot withstand the passage of time."
+      },
+      {
+        "id": "tools",
+        "eyebrow": "Tools",
+        "title": "Instruments that become gesture",
+        "description": "A good instrument merges with the hand that wields it until it goes unnoticed. Technology does not impose itself: it becomes the natural extension of human intent."
+      },
+      {
+        "id": "privacy",
+        "eyebrow": "Privacy",
+        "title": "What is yours, stays yours",
+        "description": "Security is not a layer added at the end: it is decided at every step of the process. That is why sensitive data is protected by design, not by accident."
+      }
+    ]
+  }
+}

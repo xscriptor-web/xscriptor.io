@@ -1,0 +1,19 @@
+.ascii {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  line-height: 1;
+  letter-spacing: 0;
+  white-space: pre;
+  color: #d6d3d1;
+  background: rgba(10, 10, 12, 0.42);
+  user-select: none;
+  pointer-events: none;
+}
+
+/* Tema claro: versión invertida (píxeles → glifos y sombras negados,
+   fondo claro). El scrim oscuro de texto se mantiene sin invertir. */
+:global(:root.light) .ascii {
+  filter: invert(1);
+}

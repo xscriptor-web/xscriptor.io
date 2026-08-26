@@ -1,0 +1,60 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+
+# trash
+/trash
+
+# source-only assets: fuente para regenerar el ASCII (no se sirven en la web)
+/public/images/home/homevideo.mp4
+/public/images/home/homevideo-fallback.mp4
+
+# build artifacts (generados por next-sitemap en postbuild)
+/public/robots.txt
+/public/sitemap.xml
+/public/sitemap-*.xml
+
+# env: permite commitear .env.example si lo creas
+.env*
+!.env.example
+
+# misc
+*.log
+Thumbs.db

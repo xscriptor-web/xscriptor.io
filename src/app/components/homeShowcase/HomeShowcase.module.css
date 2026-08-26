@@ -1,0 +1,226 @@
+.stack {
+  position: relative;
+}
+
+.videoWrap {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.videoScrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.78) 0%,
+    rgba(0, 0, 0, 0.38) 30%,
+    rgba(0, 0, 0, 0.08) 55%,
+    rgba(0, 0, 0, 0) 68%
+  );
+  pointer-events: none;
+}
+
+.hero {
+  position: relative;
+  z-index: 2;
+  height: 100dvh;
+  overflow: hidden;
+}
+
+.heroBg {
+  position: absolute;
+  inset: 0;
+  background: var(--background);
+  will-change: opacity;
+}
+
+.chapter {
+  position: relative;
+  z-index: 1;
+  height: 100dvh;
+  overflow: hidden;
+}
+
+.chapterInner {
+  position: absolute;
+  inset: 0;
+  will-change: transform;
+}
+
+.copy {
+  position: absolute;
+  left: clamp(1.25rem, 5vw, 4rem);
+  right: clamp(1.25rem, 5vw, 4rem);
+  bottom: clamp(7.5rem, 14vh, 10rem);
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  max-width: 42rem;
+  color: #fff;
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.65);
+  pointer-events: none;
+}
+
+.copyEyebrow {
+  font-family: monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--primary) 55%, #fff);
+  opacity: 0.95;
+}
+
+.copyTitle {
+  font-size: clamp(1.9rem, 5vw, 3.4rem);
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+}
+
+.copyDesc {
+  font-size: clamp(1rem, 2.2vw, 1.2rem);
+  line-height: 1.55;
+  opacity: 0.88;
+  max-width: 34rem;
+}
+
+.heroInner {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  will-change: transform, opacity;
+}
+
+.particles {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  gap: 0.75rem;
+  max-width: 52rem;
+  padding: 0 1.5rem;
+}
+
+.heroPath {
+  margin: 0;
+  width: 100%;
+  font-family: monospace;
+  font-size: 0.9rem;
+  letter-spacing: 0.15em;
+  color: var(--primary);
+}
+
+.heroName {
+  margin: 0;
+  width: 100%;
+  text-align: left;
+  font-size: clamp(2.25rem, 7vw, 4.5rem);
+  font-weight: 400;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: var(--foreground);
+}
+
+.heroRole {
+  margin: 1.5rem 0 0;
+  width: 100%;
+  text-align: right;
+  font-size: clamp(1.1rem, 3vw, 1.6rem);
+  font-weight: 500;
+  color: var(--foreground);
+  opacity: 0.9;
+}
+
+.heroParagraph {
+  margin: 0 0 0 auto;
+  max-width: 40rem;
+  text-align: right;
+  font-size: clamp(0.95rem, 2vw, 1.15rem);
+  line-height: 1.65;
+  color: var(--text-muted);
+}
+
+.heroFooter {
+  position: absolute;
+  bottom: 9rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--text-muted);
+  font-family: monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+
+.heroChevron {
+  animation: heroChevronBounce 1.8s ease-in-out infinite;
+}
+
+@keyframes heroChevronBounce {
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.4;
+  }
+  50% {
+    transform: translateY(6px);
+    opacity: 1;
+  }
+}
+
+.slideMeta {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  z-index: 2;
+  font-family: monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.25em;
+  color: var(--text-muted);
+  background: color-mix(in srgb, var(--background) 55%, transparent);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.3rem 0.75rem;
+  pointer-events: none;
+}
+
+.encrypted {
+  color: var(--text-muted);
+  opacity: 0.7;
+}
+
+@media (max-width: 640px) {
+  .copy {
+    left: 1rem;
+    right: 1rem;
+    bottom: 8rem;
+  }
+
+  .heroFooter {
+    bottom: 8rem;
+  }
+
+  .slideMeta {
+    top: 1rem;
+    right: 1rem;
+  }
+}
