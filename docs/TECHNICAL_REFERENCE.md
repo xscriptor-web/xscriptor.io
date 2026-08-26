@@ -1,61 +1,86 @@
-# Project Technical Reference
+# Architecture & Technical Reference
+
+Deep dive into how xscriptor.io is built and organized.
 
 ## Stack
 
-- **Framework:** Next.js (App Router)
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS v4 + CSS Modules + `custom.css` (CSS variables)
-- **Animation:** framer-motion ^12.19.1
-- **i18n:** Custom provider (`i18n-provider.tsx`) — no external lib
-- **Deployment:** Static export (`next export` → `out/`)
-- **Domain:** xscriptor.io
-
----
+- **Framework:** Next.js 16 (App Router, static export)
+- **Language:** TypeScript (strict)
+- **Styling:** Tailwind CSS v4 + CSS Modules + `custom.css` (design tokens)
+- **Animation:** framer-motion ^12, Lenis (smooth scroll + snap)
+- **i18n:** Custom provider (`src/app/i18n-provider.tsx`) — no external library
+- **Rendering:** Static export (`output: "export"` → `out/`)
+- **Deployment:** Hostinger (see [DEPLOYMENT.md](DEPLOYMENT.md))
 
 ## Routing
 
-| Pattern | File |
-|---------|------|
-| `/[locale]` | `src/app/[locale]/page.tsx` |
-| `/[locale]/resources` | `src/app/[locale]/resources/page.tsx` |
-| `/[locale]/resources/vscode` | `src/app/[locale]/resources/vscode/page.tsx` |
-| `/[locale]/resources/colors` | `src/app/[locale]/resources/colors/page.tsx` |
-| `/[locale]/resources/vscode?mode=classic` | Same page, `ViewModeContext` reads `?mode=` |
+All routes are nested under a `[locale]` dynamic segment. `generateStaticParams` returns the 5 locales and `dynamicParams = false`.
 
-**Locales:** `en`, `es`, `de`, `it`, `fr`
+| Route | File | Notes |
+|-------|------|-------|
+| `/[locale]` | `src/app/[locale]/page.tsx` | Home — always renders `HomeShowcase` |
+| `/[locale]/portfolio` | `src/app/[locale]/portfolio/page.tsx` | Timeline |
+| `/[locale]/contact` | `src/app/[locale]/contact/page.tsx` | Contact + GPG key card |
+| `/[locale]/x` | `src/app/[locale]/x/page.tsx` | Client-side redirect to the x-repo |
+| `/[locale]/resources` | `src/app/[locale]/resources/page.tsx` | Resources hub |
 
----
+**Locales:** `en`, `es`, `de`, `it`, `fr` — message files in `messages/{locale}.json`.
 
 ## Layout Hierarchy
 
 ```
-RootLayout (layout.tsx) — ViewModeProvider + ErrorBoundary
-  └── LocaleLayoutClient ([locale]/LocaleLayoutClient.tsx)
-        ├── mode="so"   → SODesktop > children
-        ├── mode="simple" → SimpleHome (/) | SimplePageView (other)
-        └── default      → SplashScreen + main + Navbar
+RootLayout (src/app/layout.tsx)
+  └── ViewModeProvider + ErrorBoundary
+        └── LocaleLayoutClient ([locale]/LocaleLayoutClient.tsx)
+              ├── mode="simple" → SimpleHome (home) | SimplePageView (other routes)
+              └── mode="classic" → SplashScreen → children → ClassicControls
 ```
 
----
+`LocaleLayoutClient` decides the shell based on the active view mode. The route page content (`children`) only renders in **classic** mode; simple mode replaces it entirely.
 
 ## View Modes
 
-Controlled by `src/app/components/somode/ViewModeContext.tsx`:
+`src/app/components/somode/ViewModeContext.tsx`
 
-| Mode | Behavior |
-|------|----------|
-| `classic` | Standard layout: Splash → `<main>` + `<Navbar>` |
-| `simple` | Minimal layout: Splash → SimpleHome (/) or SimplePageView |
-| `so` | Desktop OS simulation: `SODesktop` with window manager |
+- `ViewMode = "classic" | "simple"`.
+- Resolved from `?mode=` URL param → `localStorage` (`devxscriptor-view-mode`) → default `"simple"`.
+- Changing the mode updates both the URL and localStorage.
+- Consumers: `LocaleLayoutClient`, `ClassicControls`, `SimpleHome`, `SimplePageView`.
 
-- Mode is read from `?mode=` URL param, falls back to localStorage, then `"simple"`
-- Changing mode updates both URL and localStorage
+## Home & the ASCII Showcase
 
----
+`src/app/[locale]/page.tsx` → `HomeShowcase`:
 
-## Theme System
+- **Mobile** (`HomeShowcaseMobile`): loops `public/videos/homemobile-web.mp4` as a background.
+- **Desktop** (`HomeShowcase` → `HomeShowcaseDesktop`): renders `AsciiScrub`, which displays pre-rendered **braille** frames and scrubs them from the scroll position (a `MotionValue` derived from `scrollY`).
 
-Defined in `src/app/custom.css`:
+Full details in [ASCII_RENDERING.md](ASCII_RENDERING.md).
+
+## Resources Hub
+
+`/[locale]/resources` renders a card grid driven by `src/data/resources/resources.data.ts`.
+
+- Each card is a `ResourceRepo` (`name`, `description`, `href`, optional icon).
+- An empty `href` renders the card as a non-clickable placeholder (future subdomains).
+- Filter buttons (colors, xfetch, web, gitnapse, xlinux, xwa, legacy) narrow the grid; `xfetch-cli` maps to the `xfetch` filter.
+- Icons are intentionally omitted for now and will be added later.
+
+## i18n
+
+`src/app/i18n-provider.tsx` provides:
+
+```tsx
+const { locale } = useLocale();
+const t = useT("Namespace");      // (key, params?) => string
+t("title");
+t.raw<SomeType>("typedKey");
+```
+
+Messages are per-locale JSON files under `messages/`. Namespaces mirror page/component names (`HomeShowcase`, `ClassicControls`, `SimpleHome`, `ResourcesPage`, …).
+
+## Theming
+
+Design tokens live in `src/app/custom.css` as CSS variables, with `.dark` / `.light` on `<html>`:
 
 | Variable | Light | Dark |
 |----------|-------|------|
@@ -63,112 +88,61 @@ Defined in `src/app/custom.css`:
 | `--foreground` | `#171717` | `#ededed` |
 | `--primary` | `#4328a8` | `#fbbf24` |
 | `--border` | `#e5e7eb` | `#374151` |
-| `--card-bg` | `#f9fafb` | `#1f2937` |
 | `--text-muted` | `#6b7280` | `#9ca3af` |
 
-- Toggled by `.dark` / `.light` class on `<html>`
-- `useTheme` hook in `src/hooks/useTheme.ts`
-- `useIsDark` pattern used by bg components for canvas/SVG theming
+`useTheme` (`src/hooks/useTheme.ts`) toggles the class and persists the choice.
 
----
+## Backgrounds & Reusable Components
 
-## Background Components (Reusable)
+Reusable visual components in `src/app/components/`:
 
-All follow same pattern: `absolute inset-0 pointer-events-none overflow-hidden`
+| Component | Purpose |
+|-----------|---------|
+| `xcomponents/FloatingPaths` | Animated SVG bezier curves |
+| `xcomponents/FlowFieldBg` | Canvas particle flow field (mouse reactive) |
+| `xcomponents/xbackgrounds/xparticles` | Canvas particle field (used on home) |
+| `ColorRain` | Matrix-style canvas character rain (resources hub) |
+| `xcomponents/icons/*` | Small themed SVG icon set |
 
-| Component | Description | Props |
-|-----------|-------------|-------|
-| `FloatingPaths` | Two layers of 36 animated SVG bezier curves | `className` |
-| `LightLines` | Animated horizontal light beams, dark/light aware | `className`, `lineCount` |
-| `DotGridBg` | Static multicolor dot grid via CSS radial-gradient | `className` |
-| `FlowFieldBg` | Canvas-based particle flow field, mouse interaction | `className`, `particleCount`, `speed`, `trailOpacity` |
-| `ColorRain` | Matrix-style canvas character rain | `className`, `colors`, `speed`, `direction` |
-| `DarkVeil` | Dark overlay | `className` |
-| `TerminalBgPaths` | Terminal-inspired animated paths | `className` |
-
-### Usage pattern
+Each background follows the same usage pattern:
 
 ```tsx
-import { FloatingPaths } from "@/app/components/xcomponents/FloatingPaths";
-// or
-import { LightLines } from "@/app/components/xcomponents/LightLines";
-
-// In page:
 <div className="fixed inset-0 pointer-events-none" style={{ zIndex: 0 }}>
-  <LightLines lineCount={16} />
+  <ColorRain />
 </div>
-<div className="relative z-10">
-  {/* page content */}
-</div>
+<div className="relative z-10">{/* content */}</div>
 ```
 
----
-
-## i18n
-
-Custom provider at `src/app/i18n-provider.tsx`:
-
-```tsx
-const { locale } = useLocale();
-const t = useT("Namespace"); // returns (key, params?) => string
-t("title")    // → "Namespace.title" in current locale
-t.raw("key")  // → typed raw value
-```
-
-Messages are loaded per-locale from `messages/{locale}.json`.
-
----
-
-## Key Dirs
+## Key Directories
 
 ```
 src/
 ├── app/
-│   ├── [locale]/          # Route pages (resources, contact, portfolio, etc.)
+│   ├── [locale]/              # Route pages
 │   ├── components/
-│   │   ├── somode/        # View mode system (SODesktop, ViewModeContext, etc.)
-│   │   ├── navbar/        # Navbar + navLink
-│   │   ├── footer/        # Footer
-│   │   └── xcomponents/   # Reusable components (FloatingPaths, LightLines, etc.)
-│   ├── custom.css          # All CSS variables + global styles
-│   └── i18n-provider.tsx
-├── data/
-│   ├── resources/          # Resource data (vscodeThemes, colors, terminal, etc.)
-│   └── skills/             # Skill data (devx, samurai, xscriptor)
-├── types/
-│   └── resources/          # TypeScript types for resources
-├── hooks/
-│   └── useTheme.ts
-└── xcomponents/            # Extra component library (content, forms, gallery, layout, navigation, social)
+│   │   ├── somode/            # View mode: ViewModeContext, SimpleHome, SimplePageView
+│   │   ├── homeShowcase/      # HomeShowcase, HomeShowcaseMobile, AsciiScrub, config
+│   │   ├── Xtexts/            # XText, XTextDecrypt, XTitle
+│   │   ├── classiccontrols/   # Floating theme/language/menu controls
+│   │   ├── xcomponents/       # Backgrounds, icons, particles
+│   │   ├── footer/  publickey/  socialgrid/  timeline/
+│   │   └── ColorRain.tsx, SplashScreen.tsx, SmoothScrollProvider.tsx, …
+│   ├── data/resources/        # Resources hub data
+│   ├── hooks/                 # usePageMeta, useTheme, useIsMobile
+│   ├── types/                 # Shared TypeScript types
+│   ├── i18n-provider.tsx
+│   └── globals.css, custom.css, layout.tsx, not-found.tsx, icon.svg
+├── data/  hooks/  types/      # Non-app data, hooks, types
+messages/{en,es,de,it,fr}.json  # All translatable strings
+public/                         # Static assets (served as-is)
+scripts/                        # ascii-video.mjs, optimize-images.mjs
+colors/colors.md                # Theme palette source data
 ```
 
----
-
-## Adding a Background to Any Page
-
-1. Import the bg component:
-   ```tsx
-   import { LightLines } from "@/app/components/xcomponents/LightLines";
-   ```
-
-2. Add fixed background div with low z-index:
-   ```tsx
-   <div className="fixed inset-0 pointer-events-none" style={{ zIndex: 0 }}>
-     <LightLines lineCount={16} />
-   </div>
-   <div className="relative z-10">
-     {/* content */}
-   </div>
-   ```
-
-3. Available bg components: `FloatingPaths`, `LightLines`, `DotGridBg`, `FlowFieldBg`, `ColorRain`, `DarkVeil`, `TerminalBgPaths`
-
----
-
-## Build & Deploy
+## Build & Lint
 
 ```bash
-npm run dev      # Next.js dev server
-npm run build    # Static export to out/
+npm run dev      # Development server
+npm run build    # Static export to out/ (+ next-sitemap)
 npm run lint     # ESLint
 ```
