@@ -1,0 +1,18 @@
+.ascii {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  padding: 0;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  line-height: 1;
+  letter-spacing: 0;
+  white-space: pre;
+  color: #d6d3d1;
+  user-select: none;
+  pointer-events: none;
+}
+
+/* Tema claro: versión invertida, igual que el fondo ASCII de escritorio. */
+:global(:root.light) .ascii {
+  filter: invert(1);
+}

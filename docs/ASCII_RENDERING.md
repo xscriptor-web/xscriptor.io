@@ -1,11 +1,18 @@
 # ASCII Rendering
 
-The desktop home (classic mode) replaces a video player with **braille ASCII art** that advances as the user scrolls. Frames are pre-rendered offline into a single JSON asset, so the browser only fetches and displays them.
+The home replaces video players with **braille ASCII art**. Frames are pre-rendered offline into JSON assets, so the browser only fetches and displays them.
+
+- **Desktop (classic mode)** — a scrub: the frame advances as the user scrolls.
+- **Mobile** — a loop: the frames play back in a loop as the background, replacing the previous `<video>` element.
+
+Both use the same braille character set (U+2800+, 2×4 dot grid per character).
 
 ## How it works
 
-1. **Offline** — `scripts/ascii-video.mjs` reads the home video (`public/images/home/homevideo.mp4`, HEVC, 4K, 30 fps) with `ffmpeg` and converts every frame into a grid of **braille characters**.
-2. **Asset** — the result is written to `public/ascii/homevideo.json`:
+1. **Offline** — `scripts/ascii-video.mjs` reads the home videos with `ffmpeg` and converts every frame into a grid of **braille characters**:
+   - Desktop: `public/images/home/homevideo.mp4` (HEVC, 4K, 30 fps) → `public/ascii/homevideo.json`.
+   - Mobile: `public/videos/homemobile-web.mp4` (H.264, 720×1280, 30 fps) → `public/ascii/homemobile.json`.
+2. **Asset** — the result is written as JSON:
    ```json
    {
      "cols": 220,
@@ -15,7 +22,7 @@ The desktop home (classic mode) replaces a video player with **braille ASCII art
    }
    ```
    Each frame is a string of `cols × rows` braille code points. A braille character encodes a **2×4 dot grid** (8 points), giving much finer detail than plain blocks.
-3. **Runtime** — `AsciiScrub` (`src/app/components/homeShowcase/AsciiScrub.tsx`) fetches the JSON, sizes the `<pre>` to fill the viewport, and on every scroll change swaps in the frame whose index matches `scrollY` progress.
+3. **Runtime** — `AsciiScrub` (`src/app/components/homeShowcase/AsciiScrub.tsx`) fetches the desktop JSON, sizes the `<pre>` to fill the viewport, and on every scroll change swaps in the frame whose index matches `scrollY` progress. `AsciiMobile` (`src/app/components/homeShowcase/AsciiMobile.tsx`) does the same sizing but plays the frames on a loop at `fps`.
 
 ## Pipeline detail
 
@@ -31,24 +38,25 @@ Tuning knobs live at the top of `scripts/ascii-video.mjs`:
 
 | Constant | Default | Effect |
 |----------|---------|--------|
-| `D_COLS` / `D_ROWS` | `220` / `70` | Grid resolution (more cells = smaller blocks on screen) |
+| `D_COLS` / `D_ROWS` | `220` / `70` | Desktop grid resolution (more cells = smaller blocks on screen) |
+| `M_COLS` / `M_ROWS` | `99` / `88` | Mobile grid resolution (vertical 9:16) |
 | `THRESH` | `110` | Dot on/off threshold (higher = cleaner/darker, lower = more detail) |
 | `BOOST` | `0.3` | Luminance lift for dark material |
 | `FPS` | `30` | Frame extraction rate |
 
-The on-screen config (`cols`, `rows`, `fps`, `url`) is mirrored in `homeShowcaseConfig.ts` (`ASCII_VIDEO`).
+The on-screen config (`cols`, `rows`, `fps`, `url`) is mirrored in `homeShowcaseConfig.ts` (`ASCII_VIDEO`, `ASCII_MOBILE_VIDEO`).
 
-## Regenerating the asset
+## Regenerating the assets
 
 ```bash
 node scripts/ascii-video.mjs
 ```
 
-Writes `public/ascii/homevideo.json` (≈ 23 MB, 498 frames). Run it whenever the source video changes or you tune the constants.
+Writes `public/ascii/homevideo.json` (≈ 22 MB, 498 frames) and `public/ascii/homemobile.json` (≈ 6.7 MB, 267 frames). Run it whenever a source video changes or you tune the constants.
 
-> The source videos are **git-ignored** (`public/images/home/homevideo*.mp4`) — they are only needed locally to regenerate the JSON. The generated JSON is committed because the site serves it.
+> The desktop source videos are **git-ignored** (`public/images/home/homevideo*.mp4`) — they are only needed locally to regenerate the JSON. The mobile source `public/videos/homemobile-web.mp4` is kept for reference/regeneration; the browser loads only the JSON assets, which are committed because the site serves them.
 
-## Runtime component
+## Runtime components
 
 `AsciiScrub` (`src/app/components/homeShowcase/AsciiScrub.tsx`):
 
@@ -56,4 +64,7 @@ Writes `public/ascii/homevideo.json` (≈ 23 MB, 498 frames). Run it whenever th
 - `fit()` scales the `<pre>` font so the grid fills the viewport (also re-runs on window resize).
 - Subscribes to the scroll `MotionValue` from `HomeShowcase` and only updates the DOM when the frame index actually changes.
 
-Mobile keeps a normal `<video>` loop (`public/videos/homemobile-web.mp4`), rendered by `HomeShowcaseMobile`.
+`AsciiMobile` (`src/app/components/homeShowcase/AsciiMobile.tsx`):
+
+- Fetches `ASCII_MOBILE_VIDEO.url`, reuses the same `fit()` sizing, and advances frames on a `requestAnimationFrame` loop at the asset's `fps`, wrapping around to the first frame.
+- Rendered by `HomeShowcaseMobile` inside the fixed background layer (`HomeShowcaseMobile.module.css` → `.videoBg`), replacing the previous `<video>` background.

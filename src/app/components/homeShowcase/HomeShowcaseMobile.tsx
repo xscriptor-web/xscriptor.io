@@ -6,6 +6,7 @@ import Snap from "lenis/snap";
 import { useT } from "@/app/i18n-provider";
 import { XTextDecrypt } from "../Xtexts/XTextDecrypt";
 import { XParticles } from "../xcomponents/xbackgrounds";
+import AsciiMobile from "./AsciiMobile";
 import { SNAP_TYPE } from "./homeShowcaseConfig";
 import styles from "./HomeShowcaseMobile.module.css";
 
@@ -61,16 +62,7 @@ export default function HomeShowcaseMobile() {
   return (
     <div className={styles.stack}>
       <div className={styles.videoBg}>
-        <video
-          className={styles.video}
-          src="/videos/homemobile-web.mp4"
-          autoPlay
-          muted
-          loop
-          playsInline
-          preload="auto"
-          aria-hidden="true"
-        />
+        <AsciiMobile />
         <div className={styles.videoScrim} />
       </div>
 
