@@ -18,9 +18,10 @@
 //
 //  MÓVIL (max-width: 767px): la home usa un flujo distinto (HomeShowcaseMobile):
 //  - scroll natural en CSS (sin Snap, sin secciones forzadas)
-//  - el vídeo vertical próprio (videos/homemobile-web.mp4) se reproduce en
-//    bucle como fondo, independiente del scroll
-//  - aparece a partir de la segunda sección: la hero cubre el vídeo con fondo opaco
+//  - el vídeo vertical (videos/homemobile-web.mp4) se convierte al mismo tipo de
+//    braille ASCII que el escritorio y se reproduce en bucle como fondo,
+//    independiente del scroll (AsciiMobile)
+//  - aparece a partir de la segunda sección: la hero cubre el fondo con fondo opaco
 //
 //  Para regenerar la animación ASCII de escritorio tras cambiar el vídeo:
 //    1. Sustituye public/images/home/homevideo.mp4
@@ -28,7 +29,8 @@
 //
 //  NOTA: los archivos homevideo.mp4 / homevideo-fallback.mp4 solo se usan
 //  como fuente de la conversión; el navegador carga únicamente el JSON.
-//  Para el vídeo móvil se sirve public/videos/homemobile-web.mp4 (optimizado).
+//  El vídeo móvil public/videos/homemobile-web.mp4 también es solo fuente:
+//  el navegador carga public/ascii/homemobile.json.
 // ============================================================================
 
 export type SnapType = "lock" | "mandatory" | "proximity";
@@ -39,6 +41,13 @@ export const ASCII_VIDEO = {
   url: "/ascii/homevideo.json",
   cols: 220,
   rows: 70,
+  fps: 30,
+};
+
+export const ASCII_MOBILE_VIDEO = {
+  url: "/ascii/homemobile.json",
+  cols: 99,
+  rows: 88,
   fps: 30,
 };
 

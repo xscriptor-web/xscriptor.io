@@ -51,7 +51,7 @@ RootLayout (src/app/layout.tsx)
 
 `src/app/[locale]/page.tsx` → `HomeShowcase`:
 
-- **Mobile** (`HomeShowcaseMobile`): loops `public/videos/homemobile-web.mp4` as a background.
+- **Mobile** (`HomeShowcaseMobile`): renders `AsciiMobile`, a loop of the same pre-rendered **braille** frames derived from the mobile vertical video (`public/videos/homemobile-web.mp4` → `public/ascii/homemobile.json`).
 - **Desktop** (`HomeShowcase` → `HomeShowcaseDesktop`): renders `AsciiScrub`, which displays pre-rendered **braille** frames and scrubs them from the scroll position (a `MotionValue` derived from `scrollY`).
 
 Full details in [ASCII_RENDERING.md](ASCII_RENDERING.md).
