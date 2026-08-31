@@ -2143,5 +2143,89 @@
         "description": "Security is not a layer added at the end: it is decided at every step of the process. That is why sensitive data is protected by design, not by accident."
       }
     ]
+  },
+  "Resources": {
+    "org": {
+      "colors": "Customizations that carry X at their core.",
+      "xfetch-cli": "A fast, lightweight, and highly customizable system information fetcher for the terminal.",
+      "web": "All my web development work concentrated in one place...",
+      "ai": "Artificial intelligence tools, prompts, skills, and agents for the Xscriptor ecosystem.",
+      "gitnapse": "Explore Git from a new perspective, through a different lens, in your terminal.",
+      "xlinux": "System engineering and custom tooling. Home of the X Linux distribution and high-performance Rust utilities.",
+      "xwa": "X Web Analysis — modular web analysis ecosystem.",
+      "legacy": "Widespread developments intended to remain as proof of their existence and my learning journey."
+    },
+    "repo": {
+      "colors": {
+        "hyprland": "A clean, performance-oriented Hyprland configuration featuring a [X] aesthetic.",
+        "web": "Web presence for Xscriptor Colors.",
+        "terminal": "Twelve themes, one vision. The full palette of my perspective, adapted for most terminals.",
+        "fresh": "A collection of custom color themes for Fresh, the terminal text editor.",
+        "nvim": "Elevate your Neovim config's look and feel with X.",
+        "windows": "Taking Windows 11 to perfection.",
+        "vscode": "A complete collection of Xscriptor customizations for VSCode & Forks.",
+        "ide": "Monorepo for editor and IDE X themes/schemes.",
+        "jetbrains": "Essential settings and customizations for JetBrains IDEs using the Xscriptor ecosystem.",
+        "macos": "Custom macOS desktop configurations, themes, and dotfiles featuring AeroSpace and Sketchybar.",
+        "obsidian": "An elegant Obsidian theme for coders and writers with beautiful EB Garamond typography.",
+        "xww": "Web application to create X fresh wallpapers.",
+        "assets": "Shared assets for the Xscriptor Colors ecosystem."
+      },
+      "xfetch-cli": {
+        "web": "Web for the Xfetch project.",
+        "homebrew-tap": "Homebrew tap for Xfetch CLI.",
+        "xfetch": "Xfetch kernel.",
+        "plugins": "Official repository for native and community Xfetch plugins.",
+        "extensions": "Xfetch extensions.",
+        "effects": "Xfetch effects to animate your own fetch.",
+        "api": "Xfetch API, created for developers and plugins.",
+        "logos": "XFetch logos.",
+        "themes": "Xfetch themes.",
+        "configs": "Config collection for xfetch.",
+        "assets": "Shared assets for the Xfetch CLI ecosystem."
+      },
+      "web": {
+        "xscriptor.io": "Source of this site.",
+        "xscriptor.com": "xscriptor.com website.",
+        "art.xscriptor": "Art portfolio site.",
+        "prototype": "Prototypes and experiments.",
+        "web": "All the X for web development."
+      },
+      "ai": {
+        "web": "Web presence for the AI ecosystem.",
+        "research": "AI research and experiments.",
+        "packages": "npm packages for the Xscriptor AI agent ecosystem.",
+        "scripts": "Utility scripts to install, validate, and manage AI agents.",
+        "skills": "Skills and slash commands for OpenCode and Claude Code.",
+        "agents": "Ready-to-use AI agents for OpenCode and Claude Code."
+      },
+      "gitnapse": {
+        "gitnapse": "Explore Git from a new perspective, through a different lens, in your terminal."
+      },
+      "xlinux": {
+        "x-linux": "X Arch Linux spin focused on simplicity, clean X branding, and reproducible builds.",
+        "x-repo": "Website and repo packages for x-linux (arch based).",
+        "xpkg": "X packer for xpm.",
+        "x": "Scripts for X, including the main x.sh entrypoint and modular add-ons.",
+        "xpm": "X Package Manager."
+      },
+      "xwa": {
+        "kensei": "Web technology stack profiler.",
+        "meta": "XWA ecosystem — documentation, roadmap, orchestration.",
+        "musha": "Web content and DOM analysis — structural diffing, third-party inventory.",
+        "azuma": "Web form and authentication flow analyzer.",
+        "xwa-sdk": "Shared data schemas and API contracts for the XWA ecosystem.",
+        "samurai": "Web cybersecurity analysis platform — port scanning, web recon, DAST.",
+        "yari": "API security testing — REST/GraphQL/gRPC discovery, fuzzing, auth testing.",
+        "kabuki": "WAF and CDN analysis — fingerprinting, challenge mechanisms, rate-limit profiling.",
+        "tengu": "Web quality auditor — Core Web Vitals, WCAG, structured data.",
+        "shinobi": "Stealth web scraping with anti-blocking system."
+      },
+      "legacy": {
+        "xwa": "Legacy XW web analysis projects.",
+        "xkyber_crypto": "Post-quantum encryption solutions in Flutter based on the Kyber algorithm.",
+        "xpass": "Xpass — the ideal app to store important information, passwords, and notes."
+      }
+    }
   }
 }

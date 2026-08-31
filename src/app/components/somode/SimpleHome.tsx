@@ -1,17 +1,11 @@
 "use client";
 
-import { useEffect, useState, useRef, useCallback, type ReactNode } from "react";
+import { useEffect, useState, useRef, useCallback } from "react";
 import { useT, useLocale } from "@/app/i18n-provider";
 import { useViewMode } from "./ViewModeContext";
 import { useTheme } from "@/hooks/useTheme";
 import DecryptedText from "../DecryptedText";
-import TerminalIcon from "@/app/components/xcomponents/icons/TerminalIcon";
-import VscodeIcon from "@/app/components/xcomponents/icons/VscodeIcon";
-import ObsidianIcon from "@/app/components/xcomponents/icons/ObsidianIcon";
-import JetBrainsIcon from "@/app/components/xcomponents/icons/JetBrainsIcon";
-import XfetchIcon from "@/app/components/xcomponents/icons/XfetchIcon";
-import AiIcon from "@/app/components/xcomponents/icons/AiIcon";
-import OpenCodeIcon from "@/app/components/xcomponents/icons/OpenCodeIcon";
+import { orgLinks } from "./orgLinks";
 
 type Locale = "en" | "es" | "de" | "it" | "fr";
 
@@ -32,45 +26,13 @@ const internalSectionLinks = [
   { path: "/portfolio", key: "portfolio", descKey: "portfolioDesc" },
 ] as const;
 
-const resourceIcons: Record<string, ReactNode> = {
-  terminal: <TerminalIcon size={14} />,
-  vscode: <VscodeIcon size={14} />,
-  obsidian: <ObsidianIcon size={14} />,
-  jetbrains: <JetBrainsIcon size={14} />,
-  xfetch: <XfetchIcon size={14} />,
-  ai: <AiIcon size={14} />,
-  opencode: <OpenCodeIcon size={14} />,
-};
-
-const resourceLinks = [
-  { path: "/resources/terminal", key: "terminal", descKey: "terminalDesc" },
-  { path: "/resources/vscode", key: "vscode", descKey: "vscodeDesc" },
-  { path: "/resources/obsidian", key: "obsidian", descKey: "obsidianDesc" },
-  { path: "/resources/jetbrains", key: "jetbrains", descKey: "jetbrainsDesc" },
-  { path: "/resources/xfetch", key: "xfetch", descKey: "xfetchDesc" },
-  { path: "/resources/ai", key: "ai", descKey: "aiDesc" },
-  { path: "/resources/colors", key: "colors", descKey: "colorsDesc" },
-  { path: "/resources/opencode", key: "opencode", descKey: "opencodeDesc" },
-  { path: "/resources/web", key: "web", descKey: "webDesc" },
-] as const;
-
-const webSubLinks = [
-  { path: "/resources/web/xcomponents", key: "xcomponents" },
-  { path: "/resources/web/xwa", key: "xwa" },
-] as const;
-
-const xwaSubLinks = [
-  { path: "/resources/web/xwa/samurai", key: "samurai" },
-  { path: "/resources/web/xwa/shinobi", key: "shinobi" },
-] as const;
-
 const externalLinks = [
   { href: "https://www.xscriptor.com", key: "linkXscriptor" },
   { href: "https://art.xscriptor.com", key: "linkArt" },
   { href: "https://github.com/xscriptor", key: "linkGithub" },
   { href: "https://github.com/xfetch-cli/xfetch", key: "linkXfetch" },
-  { href: "https://github.com/xscriptor/xpm", key: "linkXPM" },
-  { href: "https://github.com/xscriptor/terminal", key: "linkTerminal" },
+  { href: "https://github.com/xlnux/xpm", key: "linkXPM" },
+  { href: "https://github.com/xscriptor-colors/terminal", key: "linkTerminal" },
 ] as const;
 
 export default function SimpleHome() {
@@ -165,76 +127,27 @@ export default function SimpleHome() {
           </button>
 
           <div className="tree-children">
-            {resourceLinks.map((link, i) => (
-              <button
-                key={link.key}
-                onClick={() => handleNav(`/${locale}${link.path}`)}
+            {orgLinks.map((org, i) => (
+              <a
+                key={org.path}
+                href={org.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="tree-item tree-item-link tree-child-item"
               >
                 <span className="tree-prefix">
-                  {i < resourceLinks.length - 1 ? "│  ├──" : "│  └──"}
+                  {i < orgLinks.length - 1 ? "│  ├──" : "│  └──"}
                 </span>
                 <span style={{ display: "inline-flex", alignItems: "center", gap: "0.35rem" }}>
-                  {resourceIcons[link.key] && (
-                    <span style={{ display: "inline-flex", opacity: 0.7, flexShrink: 0 }}>{resourceIcons[link.key]}</span>
+                  {org.icon && (
+                    <span style={{ display: "inline-flex", opacity: 0.7, flexShrink: 0 }}>{org.icon}</span>
                   )}
                   <span className="tree-label">
-                    <DecryptedText text={t(link.key)} {...dProps} className="tree-label-text" parentClassName="inline" />
+                    <DecryptedText text={org.label} {...dProps} className="tree-label-text tree-external-label" parentClassName="inline" />
                   </span>
                 </span>
-                <span className="tree-meta">
-                  <DecryptedText text={t(link.descKey)} {...dProps} className="tree-meta-text" parentClassName="inline" />
-                </span>
-              </button>
-            ))}
-          </div>
-
-          <button
-            onClick={() => handleNav(`/${locale}/resources/web`)}
-            className="tree-item tree-item-link"
-          >
-            <span className="tree-prefix">├──</span>
-            <span className="tree-label">
-              <DecryptedText text={t("web")} {...dProps} className="tree-label-text" parentClassName="inline" />
-            </span>
-            <span className="tree-meta">
-              <DecryptedText text={t("webDesc")} {...dProps} className="tree-meta-text" parentClassName="inline" />
-            </span>
-          </button>
-
-          <div className="tree-children">
-            {webSubLinks.map((link, i) => (
-              <div key={link.key}>
-                <button
-                  onClick={() => handleNav(`/${locale}${link.path}`)}
-                  className="tree-item tree-item-link tree-child-item"
-                >
-                  <span className="tree-prefix">
-                    {i < webSubLinks.length - 1 ? "│  ├──" : "│  └──"}
-                  </span>
-                  <span className="tree-label">
-                    <DecryptedText text={t(link.key)} {...dProps} className="tree-label-text" parentClassName="inline" />
-                  </span>
-                </button>
-                {link.key === "xwa" && (
-                  <div style={{ marginLeft: "1.5rem" }}>
-                    {xwaSubLinks.map((sub, j) => (
-                      <button
-                        key={sub.key}
-                        onClick={() => handleNav(`/${locale}${sub.path}`)}
-                        className="tree-item tree-item-link tree-child-item"
-                      >
-                        <span className="tree-prefix">
-                          {j < xwaSubLinks.length - 1 ? "│  ├──" : "│  └──"}
-                        </span>
-                        <span className="tree-label">
-                          <DecryptedText text={t(sub.key)} {...dProps} className="tree-label-text" parentClassName="inline" />
-                        </span>
-                      </button>
-                    ))}
-                  </div>
-                )}
-              </div>
+                <span className="tree-arrow">→</span>
+              </a>
             ))}
           </div>
 

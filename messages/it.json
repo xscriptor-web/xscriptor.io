@@ -2143,5 +2143,89 @@
         "description": "La sicurezza non è uno strato che si aggiunge alla fine: si decide in ogni passo del processo. Per questo i dati sensibili si proteggono per progettazione, non per caso."
       }
     ]
+  },
+  "Resources": {
+    "org": {
+      "colors": "Personalizzazioni che portano X al loro cuore.",
+      "xfetch-cli": "Un fetcher di informazioni di sistema veloce, leggero e altamente personalizzabile per il terminale.",
+      "web": "Tutto il mio lavoro di sviluppo web concentrato in un unico posto...",
+      "ai": "Strumenti di intelligenza artificiale, prompt, skill e agenti per l'ecosistema Xscriptor.",
+      "gitnapse": "Esplora Git da una nuova prospettiva, attraverso una lente diversa, nel tuo terminale.",
+      "xlinux": "Ingegneria di sistema e tooling personalizzato. Casa della distribuzione X Linux e delle utility Rust ad alte prestazioni.",
+      "xwa": "X Web Analysis — ecosistema modulare di analisi web.",
+      "legacy": "Sviluppi eterogenei che restano come prova della loro esistenza e del mio percorso di apprendimento."
+    },
+    "repo": {
+      "colors": {
+        "hyprland": "Una configurazione Hyprland pulita e orientata alle prestazioni con estetica [X].",
+        "web": "Presenza web per Xscriptor Colors.",
+        "terminal": "Dodici temi, una visione. La palette completa della mia prospettiva, adattata alla maggior parte dei terminali.",
+        "fresh": "Una raccolta di temi di colore personalizzati per Fresh, l'editor di testo per terminale.",
+        "nvim": "Eleva l'aspetto della tua configurazione di Neovim con X.",
+        "windows": "Portare Windows 11 alla perfezione.",
+        "vscode": "Una raccolta completa di personalizzazioni Xscriptor per VSCode e i suoi fork.",
+        "ide": "Monorepo per temi/schemi X di editor e IDE.",
+        "jetbrains": "Impostazioni e personalizzazioni essenziali per gli IDE JetBrains usando l'ecosistema Xscriptor.",
+        "macos": "Configurazioni desktop macOS personalizzate, temi e dotfile con AeroSpace e Sketchybar.",
+        "obsidian": "Un tema Obsidian elegante per programmatori e scrittori con la splendida tipografia EB Garamond.",
+        "xww": "Applicazione web per creare wallpaper X fresh.",
+        "assets": "Asset condivisi per l'ecosistema Xscriptor Colors."
+      },
+      "xfetch-cli": {
+        "web": "Web per il progetto Xfetch.",
+        "homebrew-tap": "Tap Homebrew per Xfetch CLI.",
+        "xfetch": "Il kernel di Xfetch.",
+        "plugins": "Repository ufficiale per i plugin Xfetch nativi e della community.",
+        "extensions": "Estensioni di Xfetch.",
+        "effects": "Effetti di Xfetch per animare il tuo fetch.",
+        "api": "API di Xfetch, creata per sviluppatori e plugin.",
+        "logos": "Loghi di XFetch.",
+        "themes": "Temi di Xfetch.",
+        "configs": "Raccolta di configurazioni per xfetch.",
+        "assets": "Asset condivisi per l'ecosistema Xfetch CLI."
+      },
+      "web": {
+        "xscriptor.io": "Il codice sorgente di questo sito.",
+        "xscriptor.com": "Il sito web xscriptor.com.",
+        "art.xscriptor": "Sito del portfolio d'arte.",
+        "prototype": "Prototipi ed esperimenti.",
+        "web": "Tutto il X per lo sviluppo web."
+      },
+      "ai": {
+        "web": "Presenza web per l'ecosistema AI.",
+        "research": "Ricerca ed esperimenti sull'AI.",
+        "packages": "Pacchetti npm per l'ecosistema di agenti AI di Xscriptor.",
+        "scripts": "Script di utilità per installare, validare e gestire gli agenti AI.",
+        "skills": "Skill e comandi slash per OpenCode e Claude Code.",
+        "agents": "Agenti AI pronti all'uso per OpenCode e Claude Code."
+      },
+      "gitnapse": {
+        "gitnapse": "Esplora Git da una nuova prospettiva, attraverso una lente diversa, nel tuo terminale."
+      },
+      "xlinux": {
+        "x-linux": "Spin di X Arch Linux incentrato su semplicità, branding X pulito e build riproducibili.",
+        "x-repo": "Sito web e pacchetti repository per x-linux (basato su Arch).",
+        "xpkg": "Packer X per xpm.",
+        "x": "Script per X, inclusi l'entrypoint principale x.sh e i moduli aggiuntivi.",
+        "xpm": "Gestore di pacchetti X."
+      },
+      "xwa": {
+        "kensei": "Profiler dello stack tecnologico web.",
+        "meta": "Ecosistema XWA — documentazione, roadmap, orchestrazione.",
+        "musha": "Analisi di contenuti web e DOM — diff strutturale, inventario di terze parti.",
+        "azuma": "Analizzatore di moduli web e flussi di autenticazione.",
+        "xwa-sdk": "Schema dati e contratti API condivisi per l'ecosistema XWA.",
+        "samurai": "Piattaforma di analisi di cybersicurezza web — scansione porte, recon web, DAST.",
+        "yari": "Test di sicurezza API — discovery REST/GraphQL/gRPC, fuzzing, test di autenticazione.",
+        "kabuki": "Analisi WAF e CDN — fingerprinting, meccanismi di sfida, profiling dei limiti di frequenza.",
+        "tengu": "Auditor di qualità web — Core Web Vitals, WCAG, dati strutturati.",
+        "shinobi": "Web scraping furtivo con sistema anti-blocco."
+      },
+      "legacy": {
+        "xwa": "Progetti legacy di analisi web XW.",
+        "xkyber_crypto": "Soluzioni di crittografia post-quantistica in Flutter basate sull'algoritmo Kyber.",
+        "xpass": "Xpass — l'app ideale per archiviare informazioni importanti, password e note."
+      }
+    }
   }
 }
