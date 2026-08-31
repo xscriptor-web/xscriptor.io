@@ -1,0 +1,122 @@
+.card {
+  display: flex;
+  align-items: stretch;
+  gap: 1.25rem;
+  height: 100%;
+  padding: 1.25rem;
+  border-radius: 1.25rem;
+  background: color-mix(in srgb, var(--background) 30%, transparent);
+  -webkit-backdrop-filter: blur(24px) saturate(160%);
+  backdrop-filter: blur(24px) saturate(160%);
+  color: var(--foreground);
+  box-shadow: 10px 14px 30px -8px color-mix(in srgb, var(--card-shadow) 45%, transparent);
+  transition:
+    box-shadow 0.25s ease,
+    transform 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 14px 18px 38px -8px color-mix(in srgb, var(--card-shadow) 60%, transparent);
+}
+
+.logoTile {
+  flex: 0 0 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  background: var(--background);
+  overflow: hidden;
+  box-shadow: 8px 10px 22px -8px color-mix(in srgb, var(--card-shadow) 40%, transparent);
+}
+
+.logoTile img {
+  width: 72%;
+  height: 72%;
+  object-fit: contain;
+  transition: filter 0.3s ease;
+}
+
+.logoDark {
+  filter: none;
+}
+
+:global(html.dark) .logoDark {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+.body {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.orgLink,
+.repoLink {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.orgName {
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--foreground);
+  transition: color 0.2s ease;
+}
+
+.repoItem {
+  list-style: none;
+}
+
+.repoName {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: color 0.2s ease;
+}
+
+.arrow {
+  flex-shrink: 0;
+  font-size: 0.9rem;
+  line-height: 1;
+  color: var(--text-muted);
+  opacity: 0.55;
+  transform: translateX(-4px);
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease,
+    color 0.2s ease;
+}
+
+.orgLink:hover .orgName,
+.repoLink:hover .repoName {
+  color: var(--primary);
+}
+
+.orgLink:hover .arrow,
+.repoLink:hover .arrow {
+  opacity: 1;
+  color: var(--primary);
+  transform: translateX(2px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card,
+  .orgName,
+  .repoName,
+  .arrow,
+  .logoTile img {
+    transition: none;
+  }
+}
