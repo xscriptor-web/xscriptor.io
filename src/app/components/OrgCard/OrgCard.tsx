@@ -18,6 +18,12 @@ export default function OrgCard({ repo, index = 0 }: OrgCardProps) {
   const rel = isExternal ? "noopener noreferrer" : undefined;
   const name = repo.displayName ?? repo.name;
   const featuredRepos = repo.repos.slice(0, 3);
+  const lightLogoClass = [
+    repo.logoDark ? styles.logoThemeLight : "",
+    repo.darkInvert ? styles.logoInvertDark : "",
+  ]
+    .filter(Boolean)
+    .join(" ");
 
   return (
     <motion.div
@@ -33,8 +39,17 @@ export default function OrgCard({ repo, index = 0 }: OrgCardProps) {
             alt=""
             width={64}
             height={64}
-            className={repo.darkInvert ? styles.logoDark : undefined}
+            className={lightLogoClass || undefined}
           />
+          {repo.logoDark && (
+            <img
+              src={repo.logoDark}
+              alt=""
+              width={64}
+              height={64}
+              className={styles.logoThemeDark}
+            />
+          )}
         </div>
 
         <div className={styles.body}>

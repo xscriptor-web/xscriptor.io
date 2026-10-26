@@ -38,12 +38,24 @@
   transition: filter 0.3s ease;
 }
 
-.logoDark {
+.logoInvertDark {
   filter: none;
 }
 
-:global(html.dark) .logoDark {
+:global(html.dark) .logoInvertDark {
   filter: invert(1) hue-rotate(180deg);
+}
+
+.logoThemeDark {
+  display: none;
+}
+
+:global(html.dark) .logoThemeLight {
+  display: none;
+}
+
+:global(html.dark) .logoThemeDark {
+  display: block;
 }
 
 .body {

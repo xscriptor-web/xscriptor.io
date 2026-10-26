@@ -3,6 +3,7 @@ export type ResourceRepo = {
   displayName?: string;
   href: string;
   logo: string;
+  logoDark?: string;
   darkInvert?: boolean;
   repos: string[];
 };

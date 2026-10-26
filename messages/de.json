@@ -21,13 +21,13 @@
     "text": "Xscriptor/Dev"
   },
   "XwaProjects": {
-    "pageTitle": "XW",
-    "pageTitleEm": "Web Analysis",
+    "pageTitle": "XWA",
+    "pageTitleEm": "",
     "pageSub": "Die Methoden der Entdeckung",
     "samuraiTitle": "SAMURAI",
     "samuraiSub": "Automatisierte Schwachstellenerkennung und Aufklärungs-Engine",
     "samuraiDesc": "Eine Full-Stack-Cybersicherheitsanalyseplattform mit Angular 21 im Frontend und einem FastAPI-Backend mit Echtzeit-WebSocket-Push — entwickelt für die gleichzeitige Ausführung von nmap-, SQLMap-, Nuclei- und Playwright-Scan-Pipelines gegen Zielinfrastruktur.",
-    "samuraiHomeTitle": "XW Web Analysis",
+    "samuraiHomeTitle": "XWA",
     "samuraiHomeSub": "eine komplette Suite für die Webanalyse",
     "shinobiTitle": "SHINOBI",
     "shinobiSub": "Leiser Web-Scraper — Anti-Blocking-Download-System",
@@ -37,8 +37,8 @@
     "mysterySub": "Was kommt als Nächstes?"
   },
   "WebLab": {
-    "xwaTitle": "XW Web Analysis",
-    "xwaDesc": "XW Web Analysis — ein Cluster von Werkzeugen für Webanalyse, Sicherheitsaudit und Infrastrukturaufklärung.",
+    "xwaTitle": "XWA",
+    "xwaDesc": "XWA — ein Cluster von Werkzeugen für Webanalyse, Sicherheitsaudit und Infrastrukturaufklärung.",
     "xcomponentsTitle": "XComponents",
     "xcomponentsDesc": "Wiederverwendbare React/Next.js UI-Komponentenbibliothek mit interaktiven Demos.",
     "portfoliosTitle": "Portfolios"
@@ -2040,13 +2040,57 @@
     "present_taller_pre": "Derzeit tätig als ",
     "present_taller_bold": "Entwickler bei Taller Agencia, Spanien",
     "present_taller_post": ".",
-    "present_ecosystem_pre": "Das ",
-    "present_ecosystem_bold1": "X-Ökosystem",
-    "present_ecosystem_mid1": " wächst in mehreren Bereichen: ein Arch Linux-Abkömmling (",
-    "present_ecosystem_bold2": "X",
-    "present_ecosystem_mid2": "), Erweiterungen für Code-Editoren (VS Code und Forks), Webanwendungen für Tiefenanalysen (",
-    "present_ecosystem_bold3": "XWA",
-    "present_ecosystem_post": "), komplette Terminal-Designs, vollständige Ökosystementwicklung für Hyprland, Zusammenarbeit mit Fresh Editor (Rust) bei Designs und Entwicklung sowie benutzerdefinierte Paketmanager in Rust für zukünftige Distributionen."
+    "present_ecosystem_intro": "Das X-Ökosystem wird über diese Organisationen ausgebaut:",
+    "present_ecosystem_orgs": [
+      {
+        "name": "Xscriptor Colors",
+        "desc": "Visuelle Themes und Anpassungen für Terminals, Editoren (einschließlich Fresh Editor), IDEs und Betriebssysteme."
+      },
+      {
+        "name": "Xfetch CLI",
+        "desc": "Ein schneller, anpassbarer Systeminformations-Fetcher mit Plugins, Themes und Erweiterungen."
+      },
+      {
+        "name": "Xscriptor Web",
+        "desc": "Webentwicklung für xscriptor.io, xscriptor.com, digitale Kunst und Prototypen."
+      },
+      {
+        "name": "Xscriptor AI",
+        "desc": "KI-Agenten, Skills, Pakete und Werkzeuge für Coding-Assistenten."
+      },
+      {
+        "name": "Gitnapse",
+        "desc": "Ein Git-Explorer für das Terminal, der Repositories und Verlauf aus einer anderen Perspektive zeigt."
+      },
+      {
+        "name": "X Linux",
+        "desc": "Eine Arch-basierte Linux-Distribution mit eigenem Installer, Repository und Rust-Paketwerkzeugen."
+      },
+      {
+        "name": "Equis Dots",
+        "desc": "Ein kompletter Desktop-Stack für X Linux auf Basis von Hyprland, Quickshell, Paletten und Systemwerkzeugen."
+      },
+      {
+        "name": "XWA",
+        "desc": "Ein modulares Ökosystem für Webanalyse und Sicherheit."
+      },
+      {
+        "name": "XTop",
+        "desc": "Ein plattformübergreifender TUI-Systemmonitor in Rust mit Plugins, Widgets und Effekten."
+      },
+      {
+        "name": "X Ports",
+        "desc": "Benutzerdefinierte Systembinaries und -werkzeuge für X, etwa der xwww-Hintergrunddienst."
+      },
+      {
+        "name": "Xscriptor Android",
+        "desc": "Android-Entwicklung, einschließlich xtui, eines terminalbasierten Launchers."
+      },
+      {
+        "name": "Xscriptor Legacy",
+        "desc": "Ein Archiv experimenteller Projekte und früherer Entwicklungen als Lernnachweis."
+      }
+    ]
   },
   "Layout": {
     "title": "Dev - Xscriptor",
@@ -2152,7 +2196,7 @@
       "ai": "KI-Werkzeuge, Prompts, Skills und Agents für das Xscriptor-Ökosystem.",
       "gitnapse": "Entdecke Git aus einer neuen Perspektive, durch eine andere Linse, in deinem Terminal.",
       "xlinux": "Systemtechnik und benutzerdefinierte Tools. Heimat der X-Linux-Distribution und leistungsstarker Rust-Utilities.",
-      "xwa": "X Web Analysis — modulares Ökosystem für Webanalysen.",
+      "xwa": "XWA — modulares Ökosystem für Webanalysen.",
       "legacy": "Breit gefächerte Entwicklungen, die als Beweis ihrer Existenz und meiner Lernreise bestehen bleiben."
     },
     "repo": {
@@ -2222,7 +2266,7 @@
         "shinobi": "Verdecktes Web-Scraping mit Anti-Blocking-System."
       },
       "legacy": {
-        "xwa": "Legacy-XW-Webanalyseprojekte.",
+        "xwa": "Legacy-XWA-Projekte.",
         "xkyber_crypto": "Post-Quanten-Verschlüsselungslösungen in Flutter, basierend auf dem Kyber-Algorithmus.",
         "xpass": "Xpass — die ideale App zum Speichern wichtiger Informationen, Passwörter und Notizen."
       }
