@@ -53,7 +53,6 @@ export const resourceRepos: ResourceRepo[] = [
     displayName: "Xscriptor AI",
     href: "https://github.com/xscriptor-ai",
     logo: "/images/orgs/xscriptor-ai/xscriptor-ai.svg",
-    darkInvert: true,
     repos: ["web", "research", "packages", "scripts", "skills", "agents"],
   },
   {
@@ -66,14 +65,14 @@ export const resourceRepos: ResourceRepo[] = [
   {
     name: "xlinux",
     displayName: "X Linux",
-    href: "https://github.com/xlnux",
-    logo: "/images/orgs/xlnux/xlinux.svg",
-    darkInvert: true,
+    href: "https://github.com/equislinux",
+    logo: "/images/orgs/xlnux/xlinux-light.svg",
+    logoDark: "/images/orgs/xlnux/xlinux-dark.svg",
     repos: ["x-linux", "x-repo", "xpkg", "x", "xpm"],
   },
   {
     name: "xwa",
-    displayName: "XW Web Analysis",
+    displayName: "XWA",
     href: "https://github.com/xwebanalysis",
     logo: "/images/orgs/xwebanalysis/xwebanalysis.svg",
     darkInvert: true,

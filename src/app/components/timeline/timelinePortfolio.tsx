@@ -2,8 +2,15 @@ import { Timeline } from "@/app/components/timeline/timeline";
 import styles from "./timelinePortfolio.module.css";
 import { useT } from "@/app/i18n-provider";
 
+type EcosystemOrg = {
+  name: string;
+  desc: string;
+};
+
 export function PortfolioTimeline() {
   const t = useT("PortfolioTimeline");
+  const ecosystemOrgs =
+    t.raw<EcosystemOrg[]>("present_ecosystem_orgs") ?? [];
   const data = [
     {
       title: "2014",
@@ -200,7 +207,14 @@ export function PortfolioTimeline() {
               {t("present_taller_pre")}<strong>{t("present_taller_bold")}</strong>{t("present_taller_post")}
             </li>
             <li key="present-ecosystem">
-              {t("present_ecosystem_pre")}<strong>{t("present_ecosystem_bold1")}</strong>{t("present_ecosystem_mid1")}<strong>{t("present_ecosystem_bold2")}</strong>{t("present_ecosystem_mid2")}<strong>{t("present_ecosystem_bold3")}</strong>{t("present_ecosystem_post")}
+              <div>{t("present_ecosystem_intro")}</div>
+              <ul className={`${styles.ulStyles} space-y-1`}>
+                {ecosystemOrgs.map((org) => (
+                  <li key={org.name}>
+                    <strong>{org.name}</strong> — {org.desc}
+                  </li>
+                ))}
+              </ul>
             </li>
           </ul>
         </div>
