@@ -71,6 +71,14 @@ export const resourceRepos: ResourceRepo[] = [
     repos: ["x-linux", "x-repo", "xpkg", "x", "xpm"],
   },
   {
+    name: "equisdots",
+    displayName: "Equis Dots",
+    href: "https://github.com/equisdots",
+    logo: "/images/orgs/equisdots/equisdots-light.svg",
+    logoDark: "/images/orgs/equisdots/equisdots-dark.svg",
+    repos: ["dots", "hyprland", "shell", "niri", "palettes", "nyx", "theme-sync", "plugins"],
+  },
+  {
     name: "xwa",
     displayName: "XWA",
     href: "https://github.com/xwebanalysis",
@@ -88,6 +96,14 @@ export const resourceRepos: ResourceRepo[] = [
       "tengu",
       "shinobi",
     ],
+  },
+  {
+    name: "xtop",
+    displayName: "XTop",
+    href: "https://github.com/xtop-cli",
+    logo: "/images/orgs/xtop-cli/xtop-light.png",
+    logoDark: "/images/orgs/xtop-cli/xtop-dark.png",
+    repos: ["xtop", "api", "plugins", "effects", "extensions", "layouts", "widgets", "web"],
   },
   {
     name: "legacy",
