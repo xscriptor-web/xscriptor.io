@@ -82,8 +82,8 @@ export const resourceRepos: ResourceRepo[] = [
     name: "xwa",
     displayName: "XWA",
     href: "https://github.com/xwebanalysis",
-    logo: "/images/orgs/xwebanalysis/xwebanalysis.svg",
-    darkInvert: true,
+    logo: "/images/orgs/xwebanalysis/xwebanalysis-light.svg",
+    logoDark: "/images/orgs/xwebanalysis/xwebanalysis-dark.svg",
     repos: [
       "kensei",
       "meta",
